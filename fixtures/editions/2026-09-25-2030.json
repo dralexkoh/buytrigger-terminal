@@ -1,0 +1,544 @@
+{
+  "as_of": "2026-09-25T19:43:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 20:30",
+  "catalysts": [
+    {
+      "what": "US cash close and the weekly close: does Micron hold above Thursday's $1,080.53, and does the oil bid survive the bell?",
+      "when": "FRI 25 SEP · 21:00"
+    },
+    {
+      "what": "US Treasury publishes Friday's yield curve: did the ten-year hold 5.18%?",
+      "when": "FRI 25 SEP · AFTER 20:30"
+    },
+    {
+      "what": "Iran's own seven-day clock on the Hormuz proposal expires; a US acceptance or refusal is the oil trade",
+      "when": "BY FRI 2 OCT"
+    },
+    {
+      "what": "August PCE inflation and the third estimate of Q2 GDP (bea.gov)",
+      "when": "WED 30 SEP · 13:30"
+    },
+    {
+      "what": "Micron fiscal Q4 results call, company-confirmed",
+      "when": "WED 30 SEP · 21:30"
+    },
+    {
+      "what": "August US construction spending (census.gov)",
+      "when": "THU 1 OCT · 15:00"
+    },
+    {
+      "what": "University of Michigan preliminary October consumer sentiment",
+      "when": "FRI 9 OCT"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T19:43:00Z",
+    "changed": 10,
+    "dropped": 0,
+    "refetched": 10
+  },
+  "edition_id": "2026-09-25-2030",
+  "markets": [
+    {
+      "chg": "+0.39%",
+      "dir": "up",
+      "sym": "SPX",
+      "val": "7,733.82"
+    },
+    {
+      "chg": "+0.80%",
+      "dir": "up",
+      "sym": "DJIA",
+      "val": "51,759.58"
+    },
+    {
+      "chg": "+0.38%",
+      "dir": "up",
+      "sym": "NASDAQ",
+      "val": "27,040.95"
+    },
+    {
+      "chg": "-5.29%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "14.84"
+    },
+    {
+      "chg": "-2.00%",
+      "dir": "dn",
+      "sym": "WTI",
+      "val": "92.72"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 20:30, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "YAHOO · 25 SEP 19:33Z",
+      "callouts": [
+        {
+          "l": "US oil (WTI), today",
+          "v": "-2.00%"
+        },
+        {
+          "l": "Iran's stated timetable",
+          "v": "7 days"
+        },
+        {
+          "l": "S&P 500, today",
+          "v": "+0.39%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "S&P 500 level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,733.82"
+        },
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "S&P 500 change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.39%"
+        },
+        {
+          "asof": "25 SEP 19:32Z",
+          "claim": "Dow Jones level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "51,759.58 / +0.80%"
+        },
+        {
+          "asof": "25 SEP 19:32Z",
+          "claim": "Nasdaq Composite level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "27,040.95 / +0.38%"
+        },
+        {
+          "asof": "25 SEP 19:23Z",
+          "claim": "WTI front-month crude price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.72 / -2.00%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "WTI session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$91.51"
+        },
+        {
+          "asof": "25 SEP 19:23Z",
+          "claim": "Oil recovered from its low, calculated ($92.72 less $91.51)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1.21"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Iran's stated timetable to reopen the Strait of Hormuz, stated by foreign minister Abbas Araghchi at the UN General Assembly",
+          "source": "aljazeera.com",
+          "status": "sec",
+          "value": "7 days"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "US Secretary of State Marco Rubio cautioned against calling the meeting a breakthrough",
+          "source": "aljazeera.com",
+          "status": "sec",
+          "value": "no breakthrough"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "White House said talks with mediators are positive and constructive",
+          "source": "cp24.com",
+          "status": "sec",
+          "value": "positive and constructive"
+        }
+      ],
+      "conf": "VERIFIED · TWO SOURCES",
+      "dek": "Shares are up again and the reason is cheaper oil. Iran's foreign minister Abbas Araghchi told a gathering at the UN in New York that the Strait of Hormuz — the shipping lane that carries the Gulf's oil exports — would reopen on the seventh day if Washington lifts its naval blockade, waives sanctions on Iranian oil and holds a ceasefire. US oil fell to $92.72, down 2.00%. But Secretary of State Marco Rubio declined to call it a breakthrough, and oil has already handed back $1.21 of its fall. Cheaper energy helps almost every company's costs. Watch whether either government puts this in writing.",
+      "headline": "Iran offers to reopen Hormuz in seven days and oil falls",
+      "level": "ok",
+      "rank": "01",
+      "short": "Iran offers Hormuz reopening; oil falls, shares rise",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "aljazeera.com · cp24.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE VIA YAHOO · 25 SEP 19:17Z",
+      "callouts": [
+        {
+          "l": "VIX level, session low",
+          "v": "14.84"
+        },
+        {
+          "l": "VIX change, today",
+          "v": "-5.29%"
+        },
+        {
+          "l": "Points below the 30 buy window",
+          "v": "15.16"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 19:17Z",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.84"
+        },
+        {
+          "asof": "25 SEP 19:17Z",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-5.29%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "VIX session range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.84-15.94"
+        },
+        {
+          "asof": "25 SEP 19:17Z",
+          "claim": "Distance to the 30 buy-window level, calculated (30 less 14.84)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.16"
+        }
+      ],
+      "conf": "VERIFIED · TWO SOURCES",
+      "dek": "The VIX, the market's fear gauge, is at 14.84, down 5.29% on the day and its lowest reading of the session. Anything under 15 counts as calm; 15 to 20 is normal, 20 to 30 nervous, and above 30 is where the BuyTrigger system treats a sell-off as a buying window. At 14.84 the gauge sits 15.16 points below that line. In plain terms, insurance against a fall is the cheapest it has been all day, which is what a quiet market looks like rather than a bargain. Watch for the gauge to rise, not fall, if you are waiting for the window.",
+      "headline": "The fear gauge drops under 15, its calmest level all day",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge at 14.84 — calm, not a buying window",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "YAHOO · 25 SEP 19:33Z",
+      "callouts": [
+        {
+          "l": "Micron share price",
+          "v": "$1,083.48"
+        },
+        {
+          "l": "Above Thursday's session high",
+          "v": "+$2.44"
+        },
+        {
+          "l": "Today's low",
+          "v": "$1,073.00"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Micron share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,083.48 / +0.27%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Micron previous close (Thursday 24 September)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,080.53"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Micron Thursday session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,081.04"
+        },
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Amount above Thursday's session high, calculated ($1,083.48 less $1,081.04)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+$2.44"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Micron session low today",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,073.00"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Micron fiscal Q4 results date, company-confirmed",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "30 SEP 21:30 UK"
+        }
+      ],
+      "conf": "VERIFIED · MARKET DATA",
+      "dek": "Micron ($MU) is at $1,083.48, up 0.27%, and for the first time this week it is above both Thursday's closing price of $1,080.53 and Thursday's intraday high of $1,081.04 — $2.44 above it. Seven times this week the shares have opened higher after hours and failed to hold it by the close; this is the eighth attempt, with half an hour of trading left. Micron makes the memory chips that AI data centres consume, so the pattern matters for the whole chain. The real test is the company's own results, due Wednesday 30 September at 21:30 UK.",
+      "element": "level: members",
+      "headline": "Micron finally trades above where it closed on Thursday",
+      "level": "ok",
+      "rank": "03",
+      "short": "Micron tops Thursday's close after seven failed tries",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "YAHOO · 25 SEP 19:33Z",
+      "callouts": [
+        {
+          "l": "Oracle share price",
+          "v": "$137.50"
+        },
+        {
+          "l": "Oracle change, today",
+          "v": "-1.46%"
+        },
+        {
+          "l": "Today's low",
+          "v": "$137.06"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Oracle share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$137.50 / -1.46%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Oracle session low today",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$137.06"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Oracle previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.54"
+        },
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Bloom Energy change on the same news",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+8.92%"
+        }
+      ],
+      "conf": "VERIFIED · MARKET DATA",
+      "dek": "Oracle ($ORCL) is at $137.50, down 1.46%, and it has slipped a little further with each check through the afternoon, touching a low of $137.06. The cause is a delay to Project Jupiter, the giant data centre Oracle is having built, where a force majeure notice has pushed back the power supply. The contrast with its fuel-cell supplier Bloom Energy, up almost 9% on the same news, is the lesson: when a project slips, the customer wears the delay and the supplier that bridges it gets paid. Watch for a formal filing from either side rather than more statements to reporters.",
+      "element": "level: members",
+      "headline": "Oracle keeps falling as its data centre delay is priced in",
+      "level": "ok",
+      "rank": "04",
+      "short": "Oracle down 1.46% as the power delay keeps biting",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "SEC EDGAR · 25 SEP 19:38Z",
+      "callouts": [
+        {
+          "l": "Bloom Energy, today",
+          "v": "+8.92%"
+        },
+        {
+          "l": "Bloom's newest SEC filing",
+          "v": "18 SEP"
+        },
+        {
+          "l": "Project Jupiter contract size",
+          "v": "2.4GW"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Bloom Energy share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$290.44 / +8.92%"
+        },
+        {
+          "asof": "25 SEP 19:38Z",
+          "claim": "Bloom Energy newest SEC filing date (CIK 1664703), acceptance 2026-09-18T22:50:15Z",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "18 SEP 2026"
+        },
+        {
+          "asof": "25 SEP 19:38Z",
+          "claim": "Oracle newest SEC filing date (CIK 1341439), acceptance 2026-09-23T23:22:27Z",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "23 SEP 2026"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Project Jupiter fuel-cell contract size, as Bloom stated to the press",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2.4GW"
+        }
+      ],
+      "conf": "VERIFIED · REGULATOR FILING INDEX",
+      "dek": "Bloom Energy ($BE) is at $290.44, up 8.92%, a second day of sharp gains after it told reporters that Oracle remains committed to their 2.4 gigawatt fuel-cell contract on the original timeline. What is missing is paperwork. I checked the US regulator's filing index this afternoon: Bloom's most recent filing of any kind is dated 18 September and Oracle's 23 September, so neither company has filed anything about the reaffirmation. A statement to the press is not a contract disclosure. If an 8-K arrives from Bloom, Oracle or their financing partner Blue Owl, the story gets firmer ground under it.",
+      "element": "level: members",
+      "headline": "Bloom Energy's 9% jump still rests on a press statement",
+      "level": "ok",
+      "rank": "05",
+      "short": "Bloom up 8.9% with no filing behind it",
+      "slot": "WHAT CHANGED",
+      "sources": "data.sec.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "YAHOO · 25 SEP 19:33Z",
+      "callouts": [
+        {
+          "l": "Nvidia share price",
+          "v": "$224.06"
+        },
+        {
+          "l": "Nvidia change, today",
+          "v": "-0.23%"
+        },
+        {
+          "l": "Today's trading range",
+          "v": "$3.81"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Nvidia share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.06 / -0.23%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Nvidia session range today",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$223.13-$226.94"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Nvidia trading range width, calculated ($226.94 less $223.13)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$3.81"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Nvidia previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.58"
+        }
+      ],
+      "conf": "VERIFIED · MARKET DATA",
+      "dek": "Nvidia ($NVDA) is at $224.06, down 0.23%, having crossed back and forth over the flat line three times through the session. Nothing has come out of the company; the shares have simply drifted inside a $3.81 trading range. For anyone holding for years this is worth naming precisely because it means nothing — a share that wanders either side of unchanged on no information is not telling you anything about the business. The real signals for the AI chain this week sit elsewhere: Micron's results next Wednesday and the Oracle data centre delay.",
+      "element": "level: members",
+      "headline": "Nvidia changes direction a third time today on no news",
+      "level": "ok",
+      "rank": "06",
+      "short": "Nvidia flips a third time, down 0.23%",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "TREASURY.GOV · 25 SEP 19:33Z",
+      "callouts": [
+        {
+          "l": "10-year Treasury, 24 Sep",
+          "v": "5.18%"
+        },
+        {
+          "l": "30-year Treasury, 24 Sep",
+          "v": "5.47%"
+        },
+        {
+          "l": "2-year Treasury, 24 Sep",
+          "v": "4.87%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "10-year Treasury par yield, most recent published row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "30-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.47%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "2-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.87%"
+        },
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "No 25 September row served in the daily Treasury yield curve table when read this run",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "no 25 SEP row"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Ten-year yield reported near 5.2% intraday by market commentary, not an official level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "~5.2%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The US Treasury had not published Friday's yield figures when I checked at 19:33 UTC, so the most recent official reading for the ten-year government bond is still 5.18%, from Thursday 24 September. That matters because long-term interest rates set the discount on every future profit a company earns, and 5.18% is the highest this figure has been in years. Market commentary through the afternoon put it near 5.2% intraday, but that is a reported estimate, not the official number, so it is not used here. Treasury normally publishes after the New York close.",
+      "headline": "No official US interest rate reading published for today yet",
+      "level": "ok",
+      "rank": "07",
+      "short": "Still no official Treasury figure for Friday",
+      "slot": "WHAT CHANGED",
+      "sources": "treasury.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    }
+  ],
+  "title": "Delta 20:30"
+}

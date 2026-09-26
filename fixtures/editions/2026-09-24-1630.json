@@ -1,0 +1,526 @@
+{
+  "as_of": "2026-09-24T16:04:00Z",
+  "as_of_label": "Thu 24 Sep 2026 · 16:30",
+  "catalysts": [
+    {
+      "what": "Fed Senior Credit Officer Opinion Survey on dealer financing terms (federalreserve.gov)",
+      "when": "THU 24 SEP · 19:00 UK"
+    },
+    {
+      "what": "Costco ($COST) fiscal Q4 results; treasury.gov posts its 24 September yield row",
+      "when": "THU 24 SEP · AFTER US CLOSE"
+    },
+    {
+      "what": "US advance durable goods orders, August (census.gov)",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "Trump-Xi summit continues in Washington",
+      "when": "FRI 25 SEP"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-24T16:04:00Z",
+    "changed": 14,
+    "dropped": 0,
+    "refetched": 14
+  },
+  "edition_id": "2026-09-24-1630",
+  "markets": [
+    {
+      "chg": "-0.45%",
+      "dir": "dn",
+      "sym": "S&P 500",
+      "val": "7,671.46"
+    },
+    {
+      "chg": "-0.65%",
+      "dir": "dn",
+      "sym": "NASDAQ",
+      "val": "26,760.09"
+    },
+    {
+      "chg": "-0.64%",
+      "dir": "dn",
+      "sym": "DOW",
+      "val": "51,180.88"
+    },
+    {
+      "chg": "-0.93%",
+      "dir": "dn",
+      "sym": "RUSSELL 2000",
+      "val": "2,812.24"
+    },
+    {
+      "chg": "+7.39%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "16.30"
+    },
+    {
+      "chg": "+4.33%",
+      "dir": "up",
+      "sym": "WTI OIL",
+      "val": "96.15"
+    },
+    {
+      "chg": "-0.56%",
+      "dir": "dn",
+      "sym": "GOLD",
+      "val": "4,294.10"
+    },
+    {
+      "chg": "+0.29%",
+      "dir": "up",
+      "sym": "BITCOIN",
+      "val": "84,309.87"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 16:30, 24 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "NYSE · 24 SEP 11:53 ET",
+      "callouts": [
+        {
+          "l": "S&P 500 today",
+          "v": "-0.45%"
+        },
+        {
+          "l": "Oil (WTI), $96.15",
+          "v": "+4.33%"
+        },
+        {
+          "l": "Small companies, worst of four",
+          "v": "-0.93%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 11:51 ET",
+          "claim": "S&P 500 level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,671.46, -0.45%"
+        },
+        {
+          "asof": "24 SEP 11:53 ET",
+          "claim": "Nasdaq Composite level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "26,760.09, -0.65%"
+        },
+        {
+          "asof": "24 SEP 11:52 ET",
+          "claim": "Dow level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "51,180.88, -0.64%"
+        },
+        {
+          "asof": "24 SEP 11:48 ET",
+          "claim": "Russell 2000 level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2,812.24, -0.93%"
+        },
+        {
+          "asof": "24 SEP 11:45 ET",
+          "claim": "WTI crude price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$96.15, +4.33%"
+        },
+        {
+          "asof": "24 SEP 11:52 ET",
+          "claim": "Gold futures price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$4,294.10, -0.56%"
+        },
+        {
+          "asof": "24 SEP 11:48 ET",
+          "claim": "10-year note future, new day low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "104.828125, -0.19%, low 104.765625"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "10-year Treasury yield, constant maturity",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.11%"
+        },
+        {
+          "asof": "24 SEP 11:53 ET",
+          "claim": "Nasdaq-to-Dow decline ratio, calculated from the two percentage moves",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "1.0x now vs 5.5x at the open"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Shares fell again, but the shape of the fall changed. The S&P 500 is down 0.45%, the Dow 0.64% and small companies 0.93% — the worst of the four. Two hours ago the tech-heavy Nasdaq was falling five and a half times as fast as the Dow; now they are falling at the same rate, so this is no longer just expensive tech being marked down. Oil is up 4.33% to $96.15, which feeds inflation, and government borrowing costs hit fresh highs for the day. Gold fell too, at $4,294.10 — in a real panic gold rises, so this is the cost of money going up, not fear. Watch the oil price into the US close.",
+      "headline": "Oil jumps over 4% and the sell-off spreads beyond tech shares",
+      "level": "ok",
+      "rank": "01",
+      "short": "Oil up 4%, and now everything is falling together",
+      "slot": "WHY THE MARKET IS DOWN",
+      "sources": "finance.yahoo.com · treasury.gov",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE · 24 SEP 11:39 ET",
+      "callouts": [
+        {
+          "l": "VIX level now",
+          "v": "16.30"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+7.39%"
+        },
+        {
+          "l": "Below the 30 buy window",
+          "v": "13.70"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 11:39 ET",
+          "claim": "VIX level, change and prior close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "16.30, +1.12 (+7.39%) from 15.18"
+        },
+        {
+          "asof": "24 SEP 11:39 ET",
+          "claim": "Distance to the ladder's 30 buy window, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "13.70"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "The VIX, the market's fear gauge, is at 16.30, up 7.39% on the day from Wednesday's 15.18. The BuyTrigger ladder reads under 15 as calm, 15 to 20 as normal, 20 to 30 as nervous and above 30 as the system's buy window. So a gauge that has risen three days running is still only in the normal band, and it sits 13.70 points below the level where the system starts treating a fall as an opportunity. For anyone holding good businesses for years, that is the useful point: a broad down day is not automatically a cheap day. Watch whether 20 gets touched into the close.",
+      "headline": "The fear gauge climbs to 16.3 but stays in its normal range",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge at 16.3 — still normal, not a buy window",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "BLOOMBERG · 24 SEP",
+      "callouts": [
+        {
+          "l": "Oracle shares, $138.52",
+          "v": "-4.18%"
+        },
+        {
+          "l": "Debt tied to the campus",
+          "v": "$18bn"
+        },
+        {
+          "l": "Blue Owl, the lender",
+          "v": "-4.12%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 10:17 ET",
+          "claim": "Force majeure notice sent to Blue Owl over Project Jupiter, New Mexico, allowing delayed payment if the campus misses 2028",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "reported by Bloomberg"
+        },
+        {
+          "asof": "24 SEP 10:17 ET",
+          "claim": "Debt raised against the campus, trading at stressed levels",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$18bn"
+        },
+        {
+          "asof": "24 SEP 10:17 ET",
+          "claim": "Oracle company statement",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "Project Jupiter remains on our planned schedule"
+        },
+        {
+          "asof": "24 SEP 11:56 ET",
+          "claim": "Oracle share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$138.52, -4.18%"
+        },
+        {
+          "asof": "24 SEP 11:56 ET",
+          "claim": "Oracle day low, and fall from prior close, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$133.48, -7.7% from $144.56"
+        },
+        {
+          "asof": "24 SEP 11:57 ET",
+          "claim": "Blue Owl Capital change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-4.12%"
+        }
+      ],
+      "conf": "SECONDARY · WIRE",
+      "dek": "Oracle has sent a force majeure notice to Blue Owl Capital over Project Jupiter, its New Mexico data centre, which would let Oracle delay payments if the site does not open on time in 2028. Publicly the company says \"Project Jupiter remains on our planned schedule.\" About $18bn of debt was raised against the campus and was already trading at distressed prices. Oracle shares fell 4.18% to $138.52, touching $133.48 — 7.7% below Wednesday's close. Blue Owl, the lender, fell 4.12%, almost exactly as much. For long-term holders this is the AI build-out question made concrete: not whether the data centres get built, but who carries the cost if they are late. Watch for an Oracle filing.",
+      "element": "level: members",
+      "headline": "Oracle moves to delay data centre payments it says are on schedule",
+      "level": "mid",
+      "rank": "03",
+      "short": "Oracle sends legal notice on data centre, shares drop 4%",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · schwab.com",
+      "state": "WIRE REPORTED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 11:58 ET",
+      "callouts": [
+        {
+          "l": "Robinhood, $120.45",
+          "v": "-1.83%"
+        },
+        {
+          "l": "Bitcoin, $84,309.87",
+          "v": "+0.29%"
+        },
+        {
+          "l": "Robinhood since the open",
+          "v": "-1.40%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 11:58 ET",
+          "claim": "Robinhood share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$120.45, -1.83%"
+        },
+        {
+          "asof": "24 SEP 11:58 ET",
+          "claim": "Robinhood fall since the 14:34 UK opening read of $122.16, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.40%"
+        },
+        {
+          "asof": "24 SEP 16:01 UTC",
+          "claim": "Bitcoin price, exchange ticker with its own timestamp",
+          "source": "api.exchange.coinbase.com",
+          "status": "ok",
+          "value": "$84,309.87"
+        },
+        {
+          "asof": "24 SEP 16:01 UTC",
+          "claim": "Bitcoin rise since the 14:34 UK read of $84,066.85, calculated",
+          "source": "api.exchange.coinbase.com",
+          "status": "ok",
+          "value": "+0.29%"
+        }
+      ],
+      "conf": "VERIFIED · EXCHANGE DATA",
+      "dek": "Robinhood is down 1.83% at $120.45, having fallen a further 1.40% since the US market opened — while Bitcoin went the other way, up 0.29% to $84,309.87. That matters because for the past two days Robinhood had moved almost step for step with Bitcoin, up and down, and that explanation has now stopped working. When a reliable relationship breaks, the honest position is that today's fall needs a different reason, and no company news has surfaced to supply one. For a long-term holder it is a reminder that a share can be sold for reasons that have nothing to do with the business. Watch whether the Bitcoin link resumes by the close.",
+      "element": "level: members",
+      "headline": "Robinhood falls while Bitcoin rises, breaking its usual pattern",
+      "level": "ok",
+      "rank": "04",
+      "short": "Robinhood down 1.8% even as Bitcoin ticks up",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · api.exchange.coinbase.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "CENSUS · 24 SEP",
+      "callouts": [
+        {
+          "l": "Annual sales pace, August",
+          "v": "684,000"
+        },
+        {
+          "l": "Error margin on a 6.4% move",
+          "v": "±19.5%"
+        },
+        {
+          "l": "Months of unsold supply",
+          "v": "8.5"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "AUG 2026",
+          "claim": "New single-family home sales, seasonally adjusted annual rate, August 2026",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "684,000"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "Change from July, with margin of error as printed",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "+6.4% (±19.5%) from 643,000"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "Change from a year earlier, with margin of error as printed",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "-2.0% (±15.7%) from 698,000"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "Months' supply of unsold new homes",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "8.5 months"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "Median sales price and year-on-year change",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "$393,700, -5.8%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "10-year Treasury yield, constant maturity",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.11%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The Census Bureau reported August sales of new homes running at 684,000 a year, described as 6.4% above July. In the same sentence it prints a margin of error of plus or minus 19.5% — three times the size of the move — so statistically the direction is not established. Two figures are solid: there are 8.5 months of unsold homes at the current sales pace, and the typical new home sold for $393,700, down 5.8% on a year ago. That is what a 5.11% government borrowing rate does to the most rate-sensitive corner of the economy, and it sits awkwardly against Wednesday's survey showing the fastest business growth in five years.",
+      "headline": "New home sales look up 6%, but the error margin is larger",
+      "level": "ok",
+      "rank": "05",
+      "short": "New home sales: the 6% rise proves nothing",
+      "slot": "WHAT CHANGED",
+      "sources": "census.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 12:00 ET",
+      "callouts": [
+        {
+          "l": "Nvidia, $222.22",
+          "v": "-1.46%"
+        },
+        {
+          "l": "Nvidia price now",
+          "v": "$222.22"
+        },
+        {
+          "l": "Export rules unchanged",
+          "v": "Desk view: no change"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 11:35 ET",
+          "claim": "Trump quote on AI policy ahead of the Xi meeting",
+          "source": "thestreet.com",
+          "status": "sec",
+          "value": "leave it exactly where it is"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Same quote confirmed at a second independent outlet",
+          "source": "usnews.com",
+          "status": "sec",
+          "value": "leave it exactly where it is"
+        },
+        {
+          "asof": "24 SEP 12:00 ET",
+          "claim": "Nvidia share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$222.22, -1.46%"
+        }
+      ],
+      "conf": "SECONDARY · WIRE",
+      "dek": "Asked about artificial intelligence ahead of his meeting with China's Xi Jinping, President Trump said he wants to \"leave it exactly where it is\" — meaning no loosening of the rules that limit which advanced chips can be sold to China. Nvidia shares are down 1.46% at $222.22. Investors had treated an easing of those restrictions as a possible upside surprise from this week's summit, so its absence removes a hoped-for catalyst rather than creating a new problem. For a long-term holder the business case for Nvidia rests on Western data centre demand, which this does not touch. The summit continues on Friday.",
+      "element": "level: members",
+      "headline": "Trump says chip export rules stay put, giving Nvidia nothing new",
+      "level": "mid",
+      "rank": "06",
+      "short": "Trump on AI rules: leave it exactly where it is",
+      "slot": "WHAT CHANGED",
+      "sources": "thestreet.com · usnews.com",
+      "state": "WIRE REPORTED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 11:59 ET",
+      "callouts": [
+        {
+          "l": "Micron, $1,057.71",
+          "v": "-1.32%"
+        },
+        {
+          "l": "Recovery since the open",
+          "v": "+0.98%"
+        },
+        {
+          "l": "Fiscal Q4 results",
+          "v": "30 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 11:59 ET",
+          "claim": "Micron share price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,057.71, -1.32%"
+        },
+        {
+          "asof": "24 SEP 11:59 ET",
+          "claim": "Recovery from the 14:34 UK opening read of $1,047.43, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.98%"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Fiscal fourth-quarter results date",
+          "source": "micron.com",
+          "status": "ok",
+          "value": "30 September 2026"
+        }
+      ],
+      "conf": "VERIFIED · EXCHANGE DATA",
+      "dek": "Micron, the memory-chip maker, is down 1.32% at $1,057.71 — but that is a recovery of 0.98% from where it stood when the US market opened, and it is no longer the weakest name in the AI supply chain. It had been the worst of the group for three straight editions as rising interest rates hit the most expensive shares hardest. The company reports its fourth-quarter results on 30 September, confirmed on Micron's own investor site, and will do so with that discount already applied to the share price. For a long-term holder the question is whether the results justify the multiple, not whether the shares bounced this afternoon.",
+      "element": "level: members",
+      "headline": "Micron recovers off the day's low with results due next week",
+      "level": "ok",
+      "rank": "07",
+      "short": "Micron claws back, no longer the worst in the chain",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · micron.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    }
+  ],
+  "title": "Delta 16:30"
+}

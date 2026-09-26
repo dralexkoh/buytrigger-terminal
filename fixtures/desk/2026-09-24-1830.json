@@ -1,0 +1,18 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-24T18:05:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k1",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#1",
+      "story": 3,
+      "title": "When the lender is marked down as hard as the borrower, the market has stopped believing the queue",
+      "why": "Blue Owl fell 3.7% against Oracle's 4.17% on the same data-centre notice — 0.47pp apart — which is the clearest one-day picture yet of how private credit is being priced in the AI build-out.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-24-1830"
+}

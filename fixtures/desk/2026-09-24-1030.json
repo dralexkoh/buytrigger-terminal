@@ -1,0 +1,18 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-24T09:55:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k1",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#1",
+      "story": 0,
+      "title": "How to tell a rates sell-off from a fear sell-off: check what isn't falling",
+      "why": "Gold fell 0.52% alongside shares while oil rose - a clean, fully sourced, teachable tell that costs a family investor nothing to check and settles the question headlines can't.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-24-1030"
+}

@@ -1,0 +1,19 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# editor / os
+.DS_Store
+.vscode/
+*.swp
+
+# never commit these
+*.env
+.env*
+*token*
+*secret*
+
+# scratch output (the committed example output is in charts/examples/output/)
+/output/
+/tmp/

@@ -1,0 +1,18 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-25T17:47:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k1",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#1",
+      "story": 3,
+      "title": "One piece of news, two opposite moves: Oracle -1.15%, Bloom Energy +8.77%",
+      "why": "A clean, family-readable lesson in how AI-infrastructure money actually moves — the customer pays for the delay, the supplier that bridges it gets paid — and every number is sourced.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-25-1830"
+}

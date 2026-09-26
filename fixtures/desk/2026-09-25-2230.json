@@ -1,0 +1,30 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-25T21:45:00Z",
+      "formats": "SUBSTACK · YOUTUBE · LIVE SEGMENT",
+      "id": "k1",
+      "klass": "EVERGREEN PACK",
+      "life_s": 172800,
+      "rank": "#1",
+      "story": 3,
+      "title": "The week the index went up and most companies didn't",
+      "why": "Nasdaq +2.06% against the Russell 2000's -0.80% over the same five days is a breadth gap a family investor can see in one chart, and it lands on a weekend with markets shut.",
+      "window": "48 H WINDOW"
+    },
+    {
+      "created_at": "2026-09-25T21:45:00Z",
+      "formats": "SUBSTACK · YOUTUBE · LIVE SEGMENT",
+      "id": "k2",
+      "klass": "EVERGREEN PACK",
+      "life_s": 172800,
+      "rank": "#2",
+      "story": 6,
+      "title": "Everyone reported a bond selloff; the Treasury's own figures show the short end easing",
+      "why": "Fully primary on treasury.gov: the 2-year fell 6bp and the 10-year 1bp while only the 30-year rose, against two days of vendor headlines calling the 10-year the highest since the financial crisis.",
+      "window": "48 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-25-2230"
+}

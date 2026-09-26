@@ -1,0 +1,16 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-25-1030",
+  "rejected": {
+    "k1": {
+      "at": "2026-09-25T15:26:00Z",
+      "reason": "class filter: INTRADAY EXPLAINER",
+      "run": "2026-09-25T15:26:00Z"
+    },
+    "k2": {
+      "at": "2026-09-25T15:26:00Z",
+      "reason": "class filter: INTRADAY EXPLAINER",
+      "run": "2026-09-25T15:26:00Z"
+    }
+  }
+}

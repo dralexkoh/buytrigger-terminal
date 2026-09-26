@@ -1,0 +1,11 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-24-1230",
+  "rejected": {
+    "k1": {
+      "at": "2026-09-24T19:46:54Z",
+      "reason": "dedupe: folded into 2026-09-24-1430/k1 (Thu 24 Sep reaction); the 'check what isn't falling' test is inside that story's claims",
+      "run": "shakedown-by-hand"
+    }
+  }
+}

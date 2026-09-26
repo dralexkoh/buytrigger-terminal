@@ -1,0 +1,20 @@
+{
+  "drafted": {
+    "k1": {
+      "at": "2026-09-24T19:46:15Z",
+      "layer": 1,
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "published_at": "2026-09-24T22:38:40Z",
+      "published_by": "Claude on Alex's instruction",
+      "run": "shakedown-by-hand",
+      "threads_url": "https://www.threads.com/@dralexkoh/post/Ddr-fRygZGP",
+      "typefully_draft_id": 10913771,
+      "x_url": "https://x.com/alexkoh/status/2103252754022138035"
+    }
+  },
+  "edition_id": "2026-09-23-2030",
+  "rejected": {}
+}

@@ -1,0 +1,559 @@
+{
+  "as_of": "2026-09-24T21:55:00Z",
+  "as_of_label": "Thu 24 Sep 2026 · 22:30",
+  "catalysts": [
+    {
+      "what": "Advance durable goods orders, August (census.gov)",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "PCE prices and personal income, August, plus the third estimate of Q2 GDP (bea.gov)",
+      "when": "WED 30 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results expected; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-24T21:52:00Z",
+    "changed": 6,
+    "dropped": 1,
+    "refetched": 15
+  },
+  "edition_id": "2026-09-24-2230",
+  "markets": [
+    {
+      "chg": "-0.02%",
+      "dir": "dn",
+      "sym": "S&P 500",
+      "val": "7,704.13"
+    },
+    {
+      "chg": "+0.01%",
+      "dir": "up",
+      "sym": "NASDAQ",
+      "val": "26,939.37"
+    },
+    {
+      "chg": "-0.31%",
+      "dir": "dn",
+      "sym": "DOW",
+      "val": "51,349.98"
+    },
+    {
+      "chg": "-0.11%",
+      "dir": "dn",
+      "sym": "RUSSELL 2000",
+      "val": "2,835.57"
+    },
+    {
+      "chg": "+3.23%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.67"
+    },
+    {
+      "chg": "+7bp",
+      "dir": "up",
+      "sym": "US 10Y",
+      "val": "5.18%"
+    },
+    {
+      "chg": "+2.82%",
+      "dir": "up",
+      "sym": "WTI OIL",
+      "val": "$94.76"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 22:30, 24 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "US CLOSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "7-year auction yield, highest since 1993",
+          "v": "5.085%"
+        },
+        {
+          "l": "10-year Treasury yield, 24 Sep",
+          "v": "5.18%"
+        },
+        {
+          "l": "S&P 500 on the day",
+          "v": "-0.02%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "S&P 500 close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,704.13 (-0.02%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Nasdaq Composite close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "26,939.37 (+0.01%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Dow Jones Industrial Average close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "51,349.98 (-0.31%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Russell 2000 close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2,835.57 (-0.11%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "7-year note auction high yield, highest since April 1993",
+          "source": "marketscreener.com",
+          "status": "sec",
+          "value": "5.085% vs 5.078% market yield"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "10-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%, from 5.11%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "30-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.47%, from 5.40%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "2-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.87%, from 4.85%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "2s10s spread, calculated from the treasury.gov rows",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "31bp, from 26bp"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "WTI crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$94.76 (+2.82%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "S&P 500 gain off its 7,662.57 day low, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.54%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY & WIRE",
+      "dek": "The US government borrowed for seven years today at 5.085%, the highest rate it has paid on that loan since 1993, and had to go slightly above the price the market was quoting to get the sale away. Longer-term interest rates followed: the ten-year rose to 5.18% from 5.11% and the thirty-year to 5.47%, while the two-year barely moved, so this is about the cost of lending money for a long time rather than about what the Federal Reserve does next. Oil added 2.82%. Yet the S&P 500 closed at 7,704.13, down 0.02%. Higher long rates quietly raise the bar every company has to clear; watch the ten-year into next week.",
+      "headline": "Borrowing costs hit a 33-year high and shares barely moved",
+      "level": "ok",
+      "rank": "01",
+      "short": "Borrowing costs at a 33-year high; shares flat",
+      "slot": "WHY THE MARKET IS FLAT",
+      "sources": "treasury.gov · marketscreener.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "US CLOSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "VIX close, +0.49 on the day",
+          "v": "15.67"
+        },
+        {
+          "l": "Day's high on the fear gauge",
+          "v": "16.57"
+        },
+        {
+          "l": "Desk view: points below the 30 buy window",
+          "v": "14.33"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "VIX close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.67, +0.49 (+3.23%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "VIX day range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.34-16.57"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Distance below the 30 buy window, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.33"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Distance above the 15 calm line, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.67"
+        }
+      ],
+      "conf": "VERIFIED · WIRE",
+      "dek": "The VIX, the market's fear gauge, closed at 15.67, up 0.49 points on the day. It traded as high as 16.57 during the session and handed nearly all of that back, which is the options market saying it does not regard today's jump in borrowing costs as dangerous. On the BuyTrigger ladder, under 15 is calm, 15 to 20 normal, 20 to 30 nervous, and above 30 is the system's buy window. At 15.67 the gauge sits 0.67 above the calm line and 14.33 below that window. Nothing here is a signal; it is the quiet backdrop against which the next shock gets measured.",
+      "headline": "The fear gauge nudges up but stays in its normal range",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge up slightly, still normal",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "COMPANY RELEASE · 24 SEP",
+      "callouts": [
+        {
+          "l": "Q4 net sales, up 11.2%",
+          "v": "$93.9bn"
+        },
+        {
+          "l": "Q4 EPS excluding the tariff refund",
+          "v": "$6.60"
+        },
+        {
+          "l": "Comparable sales ex-fuel and currency",
+          "v": "6.7%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Q4 net sales",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "$93.9bn, +11.2%"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Q4 total revenue",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "$95.723bn vs $86.156bn"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Q4 diluted EPS",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "$6.75 vs $5.87"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Non-recurring IEEPA tariff refund benefit",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "$0.15 per diluted share"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Q4 EPS excluding the tariff refund, calculated",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "$6.60, +12.4%"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Total comparable sales, reported",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "9.4%"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Total comparable sales excluding gasoline prices and foreign exchange",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "6.7%"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Digitally-enabled comparable sales",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "19.5%"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Membership fee income",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "$1.850bn vs $1.724bn, +7.3% calculated"
+        },
+        {
+          "asof": "Q4 FY2026",
+          "claim": "Quarter length, this year and last",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "16 weeks vs 16 weeks"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Costco close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$896.48 (-0.91%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Costco after-hours price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$896.75 (+0.03%)"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Costco sold $93.9 billion of goods in its fourth quarter, 11.2% more than a year earlier, and earned $6.75 a share against $5.87. Read the footnote: 15 cents of that came from a one-off refund of IEEPA tariffs, so the underlying figure is $6.60. Strip out petrol prices and currency swings and sales at established warehouses grew 6.7%, not the 9.4% headline, which is still good but a different number. The quarter was 16 weeks against 16 weeks last year, so nothing is flattered by the calendar. The shares closed down 0.91% and did not move after hours, which says this was already expected.",
+      "element": "level: members",
+      "headline": "Costco sells 11% more but the shares go nowhere",
+      "level": "ok",
+      "rank": "03",
+      "short": "Costco sales up 11%, shares flat",
+      "slot": "WHAT CHANGED",
+      "sources": "globenewswire.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCKS"
+    },
+    {
+      "asof": "AUCTION · 24 SEP",
+      "callouts": [
+        {
+          "l": "Indirect bidders, from about 61%",
+          "v": "57.2%"
+        },
+        {
+          "l": "Bid-to-cover, from 2.50",
+          "v": "2.42"
+        },
+        {
+          "l": "Cleared above the market yield",
+          "v": "0.7bp"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Indirect bidder share at the 7-year auction",
+          "source": "marketscreener.com",
+          "status": "sec",
+          "value": "57.2%, from about 61%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Bid-to-cover ratio",
+          "source": "marketscreener.com",
+          "status": "sec",
+          "value": "2.42, from 2.50"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "High yield against the market yield",
+          "source": "marketscreener.com",
+          "status": "sec",
+          "value": "5.085% vs 5.078%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Tail above the market yield, calculated",
+          "source": "marketscreener.com",
+          "status": "sec",
+          "value": "0.7bp"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Auction size",
+          "source": "marketscreener.com",
+          "status": "sec",
+          "value": "about $44 billion"
+        },
+        {
+          "asof": "SEP 2026 SCOOS",
+          "claim": "Fed Senior Credit Officer Opinion Survey on financing terms",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "basically unchanged"
+        }
+      ],
+      "conf": "VERIFIED · WIRE & PRIMARY",
+      "dek": "When the US government sells debt, foreign central banks and other indirect buyers usually absorb most of it. Today they took 57.2% of a roughly $44 billion seven-year sale, down from about 61% last month, and the notes had to clear 0.7 of a basis point above the yield the market was quoting. Cover fell to 2.42 times the amount offered from 2.50. This is not a failed auction; it is buyers asking for a better price to hold the same paper. It matters because on the same afternoon the Federal Reserve's own survey of large dealers described financing conditions as basically unchanged.",
+      "headline": "Foreign buyers step back from a big US government debt sale",
+      "level": "ok",
+      "rank": "04",
+      "short": "Foreign buyers retreat from US debt sale",
+      "slot": "WHAT CHANGED",
+      "sources": "marketscreener.com · federalreserve.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "US CLOSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "Oracle on the day",
+          "v": "-3.47%"
+        },
+        {
+          "l": "Blue Owl on the day",
+          "v": "-3.65%"
+        },
+        {
+          "l": "Newest Oracle filing on EDGAR",
+          "v": "23 Sep"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Oracle close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.54 (-3.47%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Blue Owl Capital close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$9.25 (-3.65%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Gap between the two at the close, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.18pp, from 0.76pp at 20:30 UK"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Oracle recovery from its $133.48 day low, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "55% of the fall"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Newest Oracle filing on EDGAR, re-proved this run; no 24 September row",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "23 Sep 2026, six accepted 23:06-23:22 UTC"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY & WIRE",
+      "dek": "Oracle closed down 3.47% and Blue Owl, which lends to Oracle's New Mexico data centre project, closed down 3.65%. Two hours before the bell the lender was being marked 0.76 percentage points harder than Oracle itself; by the close that gap was 0.18 points, so most of the fear about the financier drained away. Oracle clawed back 55% of its fall from $133.48. What still has not happened is a filing: Oracle's newest document on the SEC's EDGAR system is dated 23 September, checked again this evening, so two full sessions have passed with no official word on the force majeure notice.",
+      "element": "level: members",
+      "headline": "Oracle and its lender end the day almost equally bruised",
+      "level": "ok",
+      "rank": "05",
+      "short": "Oracle and Blue Owl end the day level",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · sec.gov",
+      "state": "VERIFIED",
+      "tag": "STOCKS"
+    },
+    {
+      "asof": "US CLOSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "Micron close, up 0.81%",
+          "v": "$1,080.53"
+        },
+        {
+          "l": "Robinhood on the day",
+          "v": "-1.53%"
+        },
+        {
+          "l": "Oil, up 2.82%",
+          "v": "$94.76"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Micron close and session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,080.53 (+0.81%), high $1,081.04"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Nvidia close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.58 (-0.41%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Robinhood close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$120.82 (-1.53%)"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "WTI crude",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$94.76 (+2.82%), day high $96.78"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Oil below its day high, calculated",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2.09%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Bitcoin spot, response stamped 21:37:42Z",
+          "source": "coinbase.com",
+          "status": "ok",
+          "value": "$84,434.23"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY & WIRE",
+      "dek": "Micron closed at $1,080.53, up 0.81%, after touching $1,081.04. Memory chips led the AI hardware names again on a day when little else did much. Nvidia slipped 0.41% and Robinhood fell 1.53%, the worst of the watchlist, with no company news to explain it. Oil finished at $94.76, up 2.82% on the day but 2.09% below the $96.78 it touched earlier. Bitcoin was $84,434.23 this evening. Micron reports its full-year results next Wednesday, which is the next real test of whether the memory story is already in the price or still running.",
+      "element": "level: members",
+      "headline": "Micron leads the chip names higher into next week's results",
+      "level": "ok",
+      "rank": "06",
+      "short": "Micron leads chips into next week's results",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · coinbase.com",
+      "state": "VERIFIED",
+      "tag": "STOCKS"
+    }
+  ],
+  "title": "Delta 22:30"
+}

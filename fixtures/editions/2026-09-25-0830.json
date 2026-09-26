@@ -1,0 +1,552 @@
+{
+  "as_of": "2026-09-25T07:36:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 08:30",
+  "catalysts": [
+    {
+      "what": "August advance durable goods orders (census.gov). Core capital goods is the AI-capex line; the page still serves July, $339.3bn, +1.1%.",
+      "when": "FRI 25 SEP · 13:30"
+    },
+    {
+      "what": "treasury.gov posts the 25 September yield row: does the 10-year hold 5.18%?",
+      "when": "FRI 25 SEP · EVENING"
+    },
+    {
+      "what": "August PCE prices and personal income, plus the Q2 GDP third estimate (bea.gov).",
+      "when": "WED 30 SEP · 13:30"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results expected, not confirmed at a company source. Quarter-end.",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T07:35:40Z",
+    "changed": 10,
+    "dropped": 3,
+    "refetched": 10
+  },
+  "edition_id": "2026-09-25-0830",
+  "markets": [
+    {
+      "chg": "+0.14%",
+      "dir": "up",
+      "sym": "S&P FUT",
+      "val": "7,777.75"
+    },
+    {
+      "chg": "-0.45%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.60"
+    },
+    {
+      "chg": "+1.30%",
+      "dir": "up",
+      "sym": "NIKKEI",
+      "val": "66,364.20"
+    },
+    {
+      "chg": "-1.19%",
+      "dir": "dn",
+      "sym": "HANG SENG",
+      "val": "24,466.04"
+    },
+    {
+      "chg": "+0.52%",
+      "dir": "up",
+      "sym": "DAX",
+      "val": "25,398.49"
+    },
+    {
+      "chg": "+0.47%",
+      "dir": "up",
+      "sym": "FTSE 100",
+      "val": "10,729.81"
+    },
+    {
+      "chg": "+0.24%",
+      "dir": "up",
+      "sym": "CAC 40",
+      "val": "8,101.22"
+    },
+    {
+      "chg": "-1.27%",
+      "dir": "dn",
+      "sym": "OIL",
+      "val": "$93.41"
+    },
+    {
+      "chg": "-0.42%",
+      "dir": "dn",
+      "sym": "USD/JPY",
+      "val": "158.11"
+    },
+    {
+      "chg": "-0.48% vs 06:30",
+      "dir": "dn",
+      "sym": "BTC",
+      "val": "$83,831.70"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 08:30, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "LIVE · 25 SEP 07:24 UTC",
+      "callouts": [
+        {
+          "l": "S&P 500 futures",
+          "v": "+0.14%"
+        },
+        {
+          "l": "Nikkei 225, at the close",
+          "v": "+1.30%"
+        },
+        {
+          "l": "Tokyo Electron, at the close",
+          "v": "+4.82%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 07:24 UTC",
+          "claim": "S&P 500 futures (Dec 26)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,777.75 / +0.14%"
+        },
+        {
+          "asof": "25 SEP CLOSE 06:45 UTC",
+          "claim": "Nikkei 225, close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "66,364.20 / +1.30%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Nikkei 225 session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "66,410.27"
+        },
+        {
+          "asof": "25 SEP CLOSE 06:30 UTC",
+          "claim": "Tokyo Electron (8035.T), close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "JPY 56,520 / +4.82%"
+        },
+        {
+          "asof": "25 SEP 05:46 UTC",
+          "claim": "Tokyo Electron at the 06:30 UK edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+4.08%"
+        },
+        {
+          "asof": "25 SEP 07:20 UTC",
+          "claim": "Hang Seng",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "24,466.04 / -1.19%"
+        },
+        {
+          "asof": "25 SEP 07:19 UTC",
+          "claim": "DAX",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "25,398.49 / +0.52%"
+        },
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "FTSE 100",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "10,729.81 / +0.47%"
+        },
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "CAC 40",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "8,101.22 / +0.24%"
+        },
+        {
+          "asof": "25 SEP 07:25 UTC",
+          "claim": "Crude oil (Nov 26)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$93.41 / -1.27%"
+        },
+        {
+          "asof": "25 SEP 07:35 UTC",
+          "claim": "USD/JPY",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "158.1120 / -0.42%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "ifo business climate index, September, released 24 September",
+          "source": "ifo.de",
+          "status": "sec",
+          "value": "89.9"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "Overnight the market pulled two ways and it has now settled upward. Japan closed 1.30% higher at 66,364.20, led by the firms that build chip-making machines rather than the chipmakers themselves: Tokyo Electron finished up 4.82%. Hong Kong cut its loss from 1.58% to 1.19%, Europe opened higher, and US S&P 500 futures turned from slightly down to 0.14% up. For someone holding for years this is a tone, not an event: no company release or official figure this morning explains the machine makers' jump, and Germany's better business survey landed yesterday, not today. The real test is the US factory orders report at 13:30 UK.",
+      "headline": "Chip machine makers lift Asia and Europe before the US opens",
+      "level": "ok",
+      "rank": "01",
+      "short": "Chip toolmakers lift Asia and Europe pre-US open",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "finance.yahoo.com · ifo.de",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "LIVE · 25 SEP 07:18 UTC",
+      "callouts": [
+        {
+          "l": "Fear gauge (VIX)",
+          "v": "15.60"
+        },
+        {
+          "l": "Change on the day",
+          "v": "-0.45%"
+        },
+        {
+          "l": "Desk view: ladder band",
+          "v": "NORMAL"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.60"
+        },
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.07 / -0.45%"
+        },
+        {
+          "asof": "24 SEP CLOSE",
+          "claim": "VIX previous close (Thursday)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.67"
+        },
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "VIX range so far today",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.60-15.61"
+        },
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "Distance above the 15 calm line (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.60"
+        },
+        {
+          "asof": "25 SEP 07:18 UTC",
+          "claim": "Distance below the 30 buy-window line (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.40"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "BuyTrigger ladder band at this level - desk reading",
+          "source": "buytrigger (desk)",
+          "status": "sec",
+          "value": "NORMAL"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "The VIX, the market's fear gauge, is 15.60, down 0.07 from Thursday's close of 15.67. It has traded in a range of just 15.60 to 15.61 so far, which says the options market has no strong view this morning rather than that it is calm by conviction. On the BuyTrigger ladder that is the normal band, 15 to 20: it sits 0.60 above the calm line and 14.40 below the 30 mark where the system reads a buy window as open. Nothing on that ladder changes today. Watch whether the US factory orders figure at 13:30 UK moves it.",
+      "headline": "The fear gauge barely moves and stays in its normal band",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge 15.60, normal band, barely moving",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "LIVE · 25 SEP 07:34 UTC",
+      "callouts": [
+        {
+          "l": "Overnight price",
+          "v": "$1,089.54"
+        },
+        {
+          "l": "On Thursday's close",
+          "v": "+0.83%"
+        },
+        {
+          "l": "Above Thursday's session high",
+          "v": "$8.50"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 07:34 UTC",
+          "claim": "$MU overnight price (Blue Ocean ATS)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,089.54 / +0.83%"
+        },
+        {
+          "asof": "24 SEP CLOSE",
+          "claim": "$MU Thursday regular-session close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,080.53 / +0.81%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "$MU Thursday session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,081.04"
+        },
+        {
+          "asof": "25 SEP 07:34 UTC",
+          "claim": "Overnight price above Thursday's session high (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$8.50"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "$MU fiscal Q4 results date - not confirmed at a company source",
+          "source": "finance.yahoo.com",
+          "status": "single",
+          "value": "30 SEP 2026"
+        }
+      ],
+      "conf": "VENDOR DATA · EARNINGS DATE SINGLE SOURCE",
+      "dek": "Micron traded at $1,089.54 in the overnight session, up 0.83%, which is $8.50 above the highest price it reached during Thursday's regular session. That is the third edition in a row in which the stock has set a new mark while New York slept, and it is the same memory-chip chain that carried Tokyo's machine makers higher. For a long-term holder the question is whether the price is running ahead of the earnings: Micron's fiscal fourth-quarter results are expected on 30 September, though I cannot confirm that date at a company source. The run does not hold the trigger levels, so the element is words only.",
+      "element": "level: members",
+      "headline": "Micron sets another overnight high ahead of next week's results",
+      "level": "mid",
+      "rank": "03",
+      "short": "Micron sets another overnight high",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "ONE DATE UNCONFIRMED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "EDGAR · 25 SEP 07:37 UTC",
+      "callouts": [
+        {
+          "l": "Since Blue Owl's last filing",
+          "v": "11 days"
+        },
+        {
+          "l": "$OWL, Thursday close",
+          "v": "-3.65%"
+        },
+        {
+          "l": "$ORCL, overnight",
+          "v": "+0.52%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 07:37 UTC",
+          "claim": "$OWL newest SEC filing date (CIK 0001823945), accepted 2026-09-15T00:30:04Z",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "14 SEP 2026"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Days since Blue Owl's last filing (calculated)",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "11 days"
+        },
+        {
+          "asof": "25 SEP 07:36 UTC",
+          "claim": "$ORCL newest SEC filing date (CIK 0001341439), six acceptances 23:06:56Z-23:22:27Z, no 24 or 25 September row",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "23 SEP 2026"
+        },
+        {
+          "asof": "24 SEP CLOSE",
+          "claim": "$ORCL Thursday regular-session close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.54 / -3.47%"
+        },
+        {
+          "asof": "24 SEP CLOSE",
+          "claim": "$OWL Thursday regular-session close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$9.25 / -3.65%"
+        },
+        {
+          "asof": "25 SEP 07:33 UTC",
+          "claim": "$ORCL overnight price (Blue Ocean ATS)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$140.27 / +0.52%"
+        }
+      ],
+      "conf": "VERIFIED · REGULATOR RECORD",
+      "dek": "On Thursday Oracle fell 3.47% and Blue Owl, a large private-credit lender to data-centre projects, fell 3.65% on the same day. I checked Blue Owl's own SEC record for the first time this morning: its newest filing is dated 14 September, eleven days ago. Oracle's newest is 23 September, six documents accepted between 23:06 and 23:22 UTC, with nothing on 24 or 25 September. So two companies whose shares moved together have both said nothing. Both edged up overnight, Oracle to $140.27. Until one of them files, the fall has no document behind it, which is a reason to wait rather than to conclude.",
+      "element": "level: members",
+      "headline": "Oracle and Blue Owl both fell, and neither has filed anything",
+      "level": "ok",
+      "rank": "04",
+      "short": "Oracle and Blue Owl fell; neither has filed",
+      "slot": "WHAT CHANGED",
+      "sources": "data.sec.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 25 SEP 07:25 UTC",
+      "callouts": [
+        {
+          "l": "Oil now",
+          "v": "$93.41"
+        },
+        {
+          "l": "Overnight low",
+          "v": "$92.39"
+        },
+        {
+          "l": "On Thursday's close",
+          "v": "-1.27%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 07:25 UTC",
+          "claim": "Crude oil (Nov 26) price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$93.41 / -1.27%"
+        },
+        {
+          "asof": "25 SEP 07:25 UTC",
+          "claim": "Crude oil session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.39"
+        },
+        {
+          "asof": "24 SEP CLOSE",
+          "claim": "Crude oil Thursday close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$94.61"
+        },
+        {
+          "asof": "25 SEP 07:25 UTC",
+          "claim": "Recovery off the session low (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.1%"
+        },
+        {
+          "asof": "25 SEP 05:46 UTC",
+          "claim": "Crude oil low reported in the 06:30 UK edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.69"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "Oil fell to $92.39 overnight, below the $92.69 low I reported at 06:30, then took most of it back and now trades at $93.41, down 1.27% on the day against Thursday's $94.61 close. That is a round trip of about 1.1% off the bottom in a few hours. Cheaper oil is a small help to company profit margins and to inflation figures, which is part of why European shares opened firmer. But a barrel that swings a dollar either way before London is properly awake is telling you about thin trading, not about supply. Watch whether it holds above $93 into the US open.",
+      "headline": "Oil dips under $93 overnight then wins most of it back",
+      "level": "ok",
+      "rank": "05",
+      "short": "Oil dips under $93, wins most of it back",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "COMMODITY"
+    },
+    {
+      "asof": "TREASURY.GOV · 24 SEP",
+      "callouts": [
+        {
+          "l": "10-year yield, 24 Sep",
+          "v": "5.18%"
+        },
+        {
+          "l": "30-year yield, 24 Sep",
+          "v": "5.47%"
+        },
+        {
+          "l": "2-year yield, 24 Sep",
+          "v": "4.87%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "10-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "30-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.47%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "2-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.87%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "7-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.10%"
+        },
+        {
+          "asof": "25 SEP 07:38 UTC",
+          "claim": "No 09/25/2026 row published; page states last updated Thursday 24 September",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "24 SEP 2026"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The US Treasury's official yield page still shows Thursday's figures: the 10-year government bond yields 5.18%, the 30-year 5.47% and the 2-year 4.87%. There is no row for today yet, which is normal before the US market opens, because the page updates after the close. Thursday was the third day running in which long-dated yields rose faster than short ones, and that makes borrowing more expensive for the companies funding data centres. For someone holding shares for years, that is slow pressure worth tracking rather than a day's news. Today's figures arrive this evening; the question is whether 5.18% holds.",
+      "headline": "US government borrowing costs unchanged with today's figures still to come",
+      "level": "ok",
+      "rank": "06",
+      "short": "Borrowing costs unchanged, today's row still due",
+      "slot": "WHAT CHANGED",
+      "sources": "home.treasury.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    }
+  ],
+  "title": "Delta 08:30"
+}

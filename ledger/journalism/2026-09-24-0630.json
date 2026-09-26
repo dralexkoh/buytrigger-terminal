@@ -1,0 +1,21 @@
+{
+  "drafted": {
+    "k1": {
+      "at": "2026-09-24T19:46:28Z",
+      "layer": 1,
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "published_at": "2026-09-24T22:38:32Z",
+      "published_by": "Claude on Alex's instruction",
+      "run": "shakedown-by-hand",
+      "threads_error": "Typefully status error, no reason given; not retried",
+      "threads_url": null,
+      "typefully_draft_id": 10913772,
+      "x_url": "https://x.com/alexkoh/status/2103252724636959081"
+    }
+  },
+  "edition_id": "2026-09-24-0630",
+  "rejected": {}
+}

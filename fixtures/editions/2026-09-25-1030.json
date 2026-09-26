@@ -1,0 +1,665 @@
+{
+  "as_of": "2026-09-25T09:30:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 10:30",
+  "catalysts": [
+    {
+      "what": "August advance durable goods orders; census.gov's own calendar confirms 8:30am ET. Core capital goods is the AI-capex line.",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "August new residential sales (census.gov) — rate-sensitive with the long end still rising.",
+      "when": "FRI 25 SEP · 15:00 UK"
+    },
+    {
+      "what": "treasury.gov's 25 September row: does the 10-year hold 5.18%?",
+      "when": "FRI 25 SEP · AFTER THE US CLOSE"
+    },
+    {
+      "what": "August PCE prices and the Q2 GDP third estimate (bea.gov).",
+      "when": "WED 30 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 expected on a vendor calendar, unconfirmed by the company; quarter-end.",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T09:40:00Z",
+    "changed": 10,
+    "dropped": 2,
+    "refetched": 13
+  },
+  "edition_id": "2026-09-25-1030",
+  "markets": [
+    {
+      "chg": "-2.11%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.34"
+    },
+    {
+      "chg": "+0.29%",
+      "dir": "up",
+      "sym": "S&P 500 FUT",
+      "val": "7,789.25"
+    },
+    {
+      "chg": "+0.89%",
+      "dir": "up",
+      "sym": "DAX",
+      "val": "25,491.99"
+    },
+    {
+      "chg": "+0.52%",
+      "dir": "up",
+      "sym": "FTSE 100",
+      "val": "10,735.47"
+    },
+    {
+      "chg": "+0.38%",
+      "dir": "up",
+      "sym": "CAC 40",
+      "val": "8,112.44"
+    },
+    {
+      "chg": "+1.30% CLOSE",
+      "dir": "up",
+      "sym": "NIKKEI 225",
+      "val": "66,364.20"
+    },
+    {
+      "chg": "-1.01% CLOSE",
+      "dir": "dn",
+      "sym": "HANG SENG",
+      "val": "24,510.09"
+    },
+    {
+      "chg": "-1.85%",
+      "dir": "dn",
+      "sym": "US CRUDE",
+      "val": "$92.86"
+    },
+    {
+      "chg": "-0.51%",
+      "dir": "dn",
+      "sym": "USD/JPY",
+      "val": "157.9680"
+    },
+    {
+      "chg": "+1.02% vs 08:30",
+      "dir": "up",
+      "sym": "BITCOIN",
+      "val": "$84,690"
+    },
+    {
+      "chg": "+1.48% pre-mkt",
+      "dir": "up",
+      "sym": "MU",
+      "val": "$1,096.55"
+    },
+    {
+      "chg": "+0.80% pre-mkt",
+      "dir": "up",
+      "sym": "NVDA",
+      "val": "$226.38"
+    },
+    {
+      "chg": "+1.14% pre-mkt",
+      "dir": "up",
+      "sym": "HOOD",
+      "val": "$122.20"
+    },
+    {
+      "chg": "+0.30% pre-mkt",
+      "dir": "up",
+      "sym": "ORCL",
+      "val": "$139.94"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 10:30, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "REUTERS · 25 SEP 09:19Z",
+      "callouts": [
+        {
+          "l": "US crude, −1.85%",
+          "v": "$92.86"
+        },
+        {
+          "l": "S&P 500 futures",
+          "v": "+0.29%"
+        },
+        {
+          "l": "Germany's DAX",
+          "v": "+0.89%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 09:24Z",
+          "claim": "US crude (WTI, Nov contract)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.86, −1.85%"
+        },
+        {
+          "asof": "25 SEP 09:24Z",
+          "claim": "US crude day's low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.14"
+        },
+        {
+          "asof": "25 SEP 09:24Z",
+          "claim": "S&P 500 futures (ES=F)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,789.25, +0.29%"
+        },
+        {
+          "asof": "25 SEP 09:24Z",
+          "claim": "S&P 500 futures change vs 08:30 edition (+0.14%)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.29%"
+        },
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "STOXX 600",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "640.43, +0.6%"
+        },
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "STOXX 600 heading for first weekly gain in four",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "first in 4 weeks"
+        },
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "Ryanair and Lufthansa, each",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "more than +2%"
+        },
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "Travel and leisure sector",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.2%"
+        },
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "Energy, worst sector",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "−0.7%"
+        },
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "Cause: US-Iran talks in New York moving toward a phased deal",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "stated driver"
+        },
+        {
+          "asof": "25 SEP 09:20Z",
+          "claim": "Germany's DAX",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "25,491.99, +0.89%"
+        },
+        {
+          "asof": "25 SEP 09:20Z",
+          "claim": "FTSE 100",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "10,735.47, +0.52%"
+        },
+        {
+          "asof": "25 SEP 09:17Z",
+          "claim": "CAC 40",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "8,112.44, +0.38%"
+        }
+      ],
+      "conf": "VERIFIED · WIRE + EXCHANGE DATA",
+      "dek": "Oil fell for a second day and that is what is carrying shares this morning. US crude is $92.86, down 1.85%, after talks between the United States and Iran in New York moved towards a phased deal — and cheaper fuel is worth more to airlines than it costs oil producers. Reuters has Ryanair and Lufthansa each up more than 2% and the travel sector up 1.2%, while energy shares are the day's worst at −0.7%. For someone holding for years the point is plainer: this is a rally in input costs coming down, not in earnings going up. Watch today's US factory orders at 13:30 UK.",
+      "headline": "Cheaper oil lifts Europe's airlines and pushes US futures higher",
+      "level": "ok",
+      "rank": "01",
+      "short": "Cheaper oil lifts Europe; US futures follow",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "reuters via finance.yahoo.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE VIA YAHOO · 25 SEP 09:20Z",
+      "callouts": [
+        {
+          "l": "VIX level",
+          "v": "15.34"
+        },
+        {
+          "l": "Change on the day",
+          "v": "−2.11%"
+        },
+        {
+          "l": "Desk view: ladder band 15-20",
+          "v": "NORMAL"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 09:20:01Z",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.34"
+        },
+        {
+          "asof": "25 SEP 09:20:01Z",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "−0.33, −2.11%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Thursday's VIX close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.67"
+        },
+        {
+          "asof": "25 SEP 09:20:01Z",
+          "claim": "VIX day's range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.29–15.64"
+        },
+        {
+          "asof": "25 SEP 09:20:01Z",
+          "claim": "Distance above the calm line at 15 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.34"
+        },
+        {
+          "asof": "25 SEP 09:20:01Z",
+          "claim": "Distance below the 30 buy window (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.66"
+        }
+      ],
+      "conf": "VERIFIED · LIVE STAMP ADVANCED",
+      "dek": "The VIX — the market's fear gauge — is 15.34, down 0.33 from Thursday's close of 15.67, a fall of 2.11%. At 08:30 it was stuck between 15.60 and 15.61, so this is the first real move it has made today. That keeps it in the normal band: under 15 is calm, 15 to 20 normal, 20 to 30 nervous, above 30 is where the BuyTrigger ladder opens its buy window. It sits 0.34 above the calm line and 14.66 below that window. The system reads a market that is not frightened and is not paying much for protection.",
+      "headline": "The market's fear gauge eases to 15.34, still in its normal band",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge eases to 15.34 — normal band holds",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "PRE-MARKET · 25 SEP 09:35Z",
+      "callouts": [
+        {
+          "l": "Micron, pre-market",
+          "v": "$1,096.55"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+1.48%"
+        },
+        {
+          "l": "Above Thursday's high (calculated)",
+          "v": "$15.51"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 09:35:16Z",
+          "claim": "Micron pre-market price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,096.55, +$16.02, +1.48%"
+        },
+        {
+          "asof": "24 SEP 20:00Z",
+          "claim": "Micron Thursday regular close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,080.53, +0.81%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Micron Thursday session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,081.04"
+        },
+        {
+          "asof": "25 SEP 09:35:16Z",
+          "claim": "Premium to Thursday's session high (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$15.51"
+        },
+        {
+          "asof": "25 SEP 09:35:16Z",
+          "claim": "Gain on the mark filed at 08:30, $1,089.54 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+$7.01, +0.64%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Fiscal Q4 report date, vendor calendar only, unconfirmed by the company",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "30 September 2026"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR QUOTE",
+      "dek": "Micron is $1,096.55 in pre-market trading, up 1.48%, which is $15.51 above the highest price it touched in Thursday's full session. That is the fourth edition of this brief in a row in which the memory maker has set a new mark while New York was shut, and the same memory-and-toolmaker chain led Tokyo's close this morning. The unresolved part is that not one of those marks has yet survived a full US session, and pre-market books are thin. Memory is the narrow part of the AI build-out, which is why one name keeps leading. Micron reports its fiscal fourth quarter on 30 September — a date Yahoo carries but the company's own site does not confirm.",
+      "element": "level: members",
+      "headline": "Micron ($MU) sets a fourth straight high before Wall Street opens",
+      "level": "ok",
+      "rank": "03",
+      "short": "Micron sets a fourth straight overnight high",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "EDGAR · 25 SEP 09:38Z",
+      "callouts": [
+        {
+          "l": "Oracle's newest SEC filing",
+          "v": "23 SEP 2026"
+        },
+        {
+          "l": "Blue Owl's newest SEC filing",
+          "v": "14 SEP 2026"
+        },
+        {
+          "l": "Oracle, pre-market +0.30%",
+          "v": "$139.94"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 09:38Z",
+          "claim": "Oracle newest SEC filing date, no 24 or 25 September row",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "23 SEP 2026, accepted 23:22:27Z"
+        },
+        {
+          "asof": "25 SEP 09:38Z",
+          "claim": "Blue Owl newest SEC filing date, Form 4",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "14 SEP 2026, accepted 2026-09-15T00:30:04Z"
+        },
+        {
+          "asof": "25 SEP 09:38Z",
+          "claim": "EDGAR freshness proof this run: Robinhood newest acceptance from the same host",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "2026-09-24T20:33:07Z"
+        },
+        {
+          "asof": "24 SEP 20:04Z",
+          "claim": "Oracle Thursday move",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "−$5.02, −3.47%, close $139.54"
+        },
+        {
+          "asof": "24 SEP 20:00Z",
+          "claim": "Blue Owl Thursday move",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "−$0.35, −3.65%, close $9.25"
+        },
+        {
+          "asof": "25 SEP 09:32:59Z",
+          "claim": "Oracle pre-market",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.94, +0.30%"
+        },
+        {
+          "asof": "25 SEP 09:36Z",
+          "claim": "Blue Owl pre-market quote timestamp did not advance across two fetches 23 minutes apart",
+          "source": "finance.yahoo.com",
+          "status": "stale",
+          "value": "frozen at 09:10:10Z"
+        }
+      ],
+      "conf": "MID · ABSENCE CLAIM + STALE QUOTE",
+      "dek": "Oracle fell 3.47% on Thursday and Blue Owl, which finances data-centre projects, fell 3.65% the same day. Three editions later neither company has filed a single document about it. I checked both SEC pages again this morning with fresh requests: Oracle's newest filing is still dated 23 September, two days ago, and Blue Owl's is still 14 September, eleven days ago. Oracle is $139.94 in pre-market, up 0.30%, below the $140.27 it showed at 08:30 — it is handing the overnight bid back. Blue Owl's pre-market print has not moved in 26 minutes, so only one side of this pair is actually trading. The honest position is to wait for a document.",
+      "element": "level: members",
+      "headline": "Oracle and Blue Owl have still filed nothing about their two-day slide",
+      "level": "mid",
+      "rank": "04",
+      "short": "Oracle and Blue Owl: still no filing",
+      "slot": "WHAT CHANGED",
+      "sources": "data.sec.gov · finance.yahoo.com",
+      "state": "ONE FEED FROZEN",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "THE NATIONAL · 25 SEP 03:48Z",
+      "callouts": [
+        {
+          "l": "Brent–WTI gap, widest since May",
+          "v": "$12.68"
+        },
+        {
+          "l": "US crude, on the week",
+          "v": "−7%"
+        },
+        {
+          "l": "US crude, −1.85%",
+          "v": "$92.86"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 09:24Z",
+          "claim": "US crude (WTI, Nov contract)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.86, −1.85%"
+        },
+        {
+          "asof": "25 SEP 03:48Z",
+          "claim": "Brent–WTI spread, widest since May",
+          "source": "thenationalnews.com",
+          "status": "single",
+          "value": "$12.68"
+        },
+        {
+          "asof": "25 SEP 03:48Z",
+          "claim": "US crude, week to date",
+          "source": "thenationalnews.com",
+          "status": "single",
+          "value": "about −7%"
+        },
+        {
+          "asof": "25 SEP 03:48Z",
+          "claim": "Brent, week to date and level",
+          "source": "thenationalnews.com",
+          "status": "single",
+          "value": "about +2%, near $105"
+        },
+        {
+          "asof": "25 SEP 03:48Z",
+          "claim": "Possible US diesel export ban pressuring WTI",
+          "source": "thenationalnews.com",
+          "status": "single",
+          "value": "reported factor"
+        },
+        {
+          "asof": "25 SEP 03:48Z",
+          "claim": "Saudi East-West pipeline shut since 10 September, reopening under discussion",
+          "source": "thenationalnews.com",
+          "status": "single",
+          "value": "shut 10 SEP"
+        }
+      ],
+      "conf": "MID · SINGLE OUTLET",
+      "dek": "The gap between the two main oil prices has widened to $12.68 a barrel, the widest since May. US crude is $92.86, down 1.85% today and about 7% on the week, while Brent — the global benchmark — is near $105 and up about 2% on the week. The split is an American one: a possible US ban on diesel exports would leave more crude at home, and Saudi Arabia is discussing reopening the East-West pipeline that has been shut since 10 September. For anyone holding shares, the cheaper barrel is the disinflation story Europe traded this morning — but it is a US-specific discount, not a global one. One outlet carries the spread figure, so treat it as indicative.",
+      "headline": "US oil falls 7% this week while Brent rises, a rare split",
+      "level": "mid",
+      "rank": "05",
+      "short": "US oil down 7% on the week, Brent up",
+      "slot": "WHAT CHANGED",
+      "sources": "thenationalnews.com · finance.yahoo.com",
+      "state": "SINGLE SOURCE",
+      "tag": "COMMODITY"
+    },
+    {
+      "asof": "EXCHANGE CLOSES · 25 SEP",
+      "callouts": [
+        {
+          "l": "Hang Seng, close",
+          "v": "−1.01%"
+        },
+        {
+          "l": "Nikkei 225, close",
+          "v": "+1.30%"
+        },
+        {
+          "l": "Hang Seng level",
+          "v": "24,510.09"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 08:08Z",
+          "claim": "Hang Seng close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "24,510.09, −1.01%"
+        },
+        {
+          "asof": "25 SEP 07:20Z",
+          "claim": "Hang Seng loss at the 08:30 edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "−1.19%"
+        },
+        {
+          "asof": "25 SEP 06:45Z",
+          "claim": "Nikkei 225 close, re-confirmed this run",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "66,364.20, +850.21, +1.30%"
+        },
+        {
+          "asof": "25 SEP 08:08Z",
+          "claim": "Hang Seng previous-close field irreconcilable with printed change; implied prior close (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "stale",
+          "value": "24,761.13 vs a printed 24,834.10"
+        }
+      ],
+      "conf": "MID · ONE STALE FIELD",
+      "dek": "Hong Kong's Hang Seng finished down 1.01% at 24,510.09, a smaller fall than the 1.19% it was carrying at 08:30 — it pared the loss into the close. Tokyo closed up 1.30% at 66,364.20. So Asia ended the week pointing in two directions, and Europe chose Tokyo's side. That split matters because it separates the technology cycle, which Tokyo trades, from China-specific worries, which Hong Kong trades, and only one of them was under pressure today. Yahoo's previous-close figure for the Hang Seng is still broken, so I am giving the percentage and claiming no point change. Watch whether Europe keeps following Tokyo once New York opens at 14:30 UK.",
+      "headline": "Asia ends the week split: Tokyo closes up, Hong Kong closes down",
+      "level": "mid",
+      "rank": "06",
+      "short": "Asia splits: Tokyo up, Hong Kong down",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "PRIOR-CLOSE FIELD BROKEN",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "TREASURY.GOV · 24 SEP ROW",
+      "callouts": [
+        {
+          "l": "US 10-year, 24 Sep",
+          "v": "5.18%"
+        },
+        {
+          "l": "US 30-year, 24 Sep",
+          "v": "5.47%"
+        },
+        {
+          "l": "Eurozone yields rising",
+          "v": "7 WEEKS"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 09:19Z",
+          "claim": "Eurozone government yields on course for a seventh consecutive weekly rise",
+          "source": "reuters via finance.yahoo.com",
+          "status": "sec",
+          "value": "7 WEEKS (seventh consecutive weekly rise)"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "US 10-year Treasury yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "US 30-year Treasury yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.47%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "US 2-year Treasury yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.87%"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "Previous session, 10-year and 30-year",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.11% and 5.40%"
+        },
+        {
+          "asof": "25 SEP 09:35Z",
+          "claim": "No 25 September row published; page states last updated Thursday 24 September",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "24 SEP is the latest row"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + WIRE",
+      "dek": "Reuters reports eurozone government bond yields are on course for a seventh consecutive weekly rise. That is the quiet counterweight to this morning's share rally: shares are up because fuel is cheaper, and borrowing is getting dearer at the same time. In the US the shape is the same — Thursday's Treasury curve had the 10-year at 5.18% and the 30-year at 5.47%, against 5.11% and 5.40% the day before, a third session of the long end rising faster than the short. Treasury has not published Friday's row yet. For a long-term holder, the level of yields is what eventually decides what a share is worth, so this matters more than one day's bounce.",
+      "headline": "Borrowing costs keep rising even as share prices go up",
+      "level": "ok",
+      "rank": "07",
+      "short": "Europe's borrowing costs up a seventh straight week",
+      "slot": "WHAT CHANGED",
+      "sources": "treasury.gov · reuters via finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "RATES"
+    }
+  ],
+  "title": "Delta 10:30"
+}

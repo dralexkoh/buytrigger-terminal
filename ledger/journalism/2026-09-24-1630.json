@@ -1,0 +1,26 @@
+{
+  "drafted": {
+    "k2": {
+      "at": "2026-09-24T19:47:08Z",
+      "layer": 1,
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "published_at": "2026-09-24T22:38:12Z",
+      "published_by": "Claude on Alex's instruction 'anything layer 1 start shooting them out'",
+      "run": "shakedown-by-hand",
+      "threads_url": "https://www.threads.com/@dralexkoh/post/Ddr-b9cD6AK",
+      "typefully_draft_id": 10913777,
+      "x_url": "https://x.com/alexkoh/status/2103252640314626192"
+    }
+  },
+  "edition_id": "2026-09-24-1630",
+  "rejected": {
+    "k1": {
+      "at": "2026-09-24T19:47:08Z",
+      "reason": "class filter: INTRADAY EXPLAINER not in scope for surface 2",
+      "run": "shakedown-by-hand"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-24-0830",
+  "rejected": {
+    "k1": {
+      "at": "2026-09-24T19:46:28Z",
+      "reason": "dedupe: same story as 2026-09-24-0630/k1 (Wed 23 Sep Treasury move); 2-year angle kept, belly-of-curve angle dropped as more technical",
+      "run": "shakedown-by-hand"
+    }
+  }
+}

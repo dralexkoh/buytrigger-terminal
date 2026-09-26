@@ -1,0 +1,21 @@
+{
+  "drafted": {
+    "at": "2026-09-25T11:17:48Z",
+    "charts": [
+      "l2_curve_three_days.png",
+      "l2_wednesday_change.png"
+    ],
+    "charts_attached": false,
+    "charts_note": "upload host typefully-user-uploads.s3.amazonaws.com not on Claude's allowed domains; files delivered in chat and in Claude outputs/newsroom-layer2-2026-09-25/",
+    "editions": [
+      "2026-09-24-0630",
+      "2026-09-24-0830",
+      "2026-09-24-2230"
+    ],
+    "layer": 2,
+    "reviewer": "marketing",
+    "run": "shakedown-by-hand",
+    "story": "The cost of money reset this week (rates, 22-24 Sep)",
+    "typefully_draft_id": 10922651
+  }
+}

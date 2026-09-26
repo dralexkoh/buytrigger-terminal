@@ -1,0 +1,461 @@
+{
+  "as_of": "2026-09-23T05:47:00Z",
+  "as_of_label": "Wed 23 Sep 2026 · 06:30",
+  "catalysts": [
+    {
+      "what": "EIA Weekly Petroleum Status Report",
+      "when": "WED 23 SEP"
+    },
+    {
+      "what": "Meta Connect, day-one keynote",
+      "when": "WED 23 SEP"
+    },
+    {
+      "what": "Trump-Xi summit, Washington",
+      "when": "THU 24 SEP"
+    },
+    {
+      "what": "Tokyo reopens after three sessions shut",
+      "when": "THU 24 SEP"
+    },
+    {
+      "what": "Costco fiscal Q4, after the close",
+      "when": "THU 24 SEP"
+    },
+    {
+      "what": "S&P Global flash US PMIs and new home sales",
+      "when": "FRI 25 SEP"
+    },
+    {
+      "what": "$MU fiscal Q4; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-23T05:46:00Z",
+    "changed": 7,
+    "dropped": 5,
+    "refetched": 12
+  },
+  "edition_id": "2026-09-23-0630",
+  "markets": [
+    {
+      "chg": "-4.44%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "14.21"
+    },
+    {
+      "chg": "-0.00%",
+      "dir": "nt",
+      "sym": "S&P 500",
+      "val": "7,764.64"
+    },
+    {
+      "chg": "+0.07%",
+      "dir": "up",
+      "sym": "ES fut",
+      "val": "7,837.25"
+    },
+    {
+      "chg": "-0.02%",
+      "dir": "dn",
+      "sym": "NQ fut",
+      "val": "31,022.50"
+    },
+    {
+      "chg": "-0.96%",
+      "dir": "dn",
+      "sym": "HANG SENG",
+      "val": "24,846"
+    },
+    {
+      "chg": "+0.43%",
+      "dir": "up",
+      "sym": "KOSPI",
+      "val": "7,048.21"
+    },
+    {
+      "chg": "n/a",
+      "dir": "nt",
+      "sym": "WTI",
+      "val": "89.22"
+    },
+    {
+      "chg": "+0.5%",
+      "dir": "up",
+      "sym": "BTC",
+      "val": "86,719"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Morning baseline, 23 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "PRE-MARKET · 23 SEP 01:24 ET",
+      "callouts": [
+        {
+          "l": "S&P 500 futures",
+          "v": "+0.07%"
+        },
+        {
+          "l": "Hang Seng",
+          "v": "-0.96%"
+        },
+        {
+          "l": "Sessions Tokyo has been closed",
+          "v": "3"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 01:24 ET",
+          "claim": "E-mini S&P 500 futures",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,837.25 (+0.07%)"
+        },
+        {
+          "asof": "23 SEP 01:24 ET",
+          "claim": "E-mini Nasdaq 100 futures",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "31,022.50 (-0.02%)"
+        },
+        {
+          "asof": "22 SEP 16:14:59 ET",
+          "claim": "S&P 500 prior close",
+          "source": "cboe.com",
+          "status": "ok",
+          "value": "7,764.64"
+        },
+        {
+          "asof": "21-23 SEP 2026",
+          "claim": "Tokyo exchange holidays, consecutive sessions closed",
+          "source": "jpx.co.jp",
+          "status": "ok",
+          "value": "3"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "Hang Seng Index",
+          "source": "tradingeconomics.com",
+          "status": "sec",
+          "value": "24,846 (-0.96%)"
+        },
+        {
+          "asof": "23 SEP 14:14 KST",
+          "claim": "KOSPI",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,048.21 (+0.43%)"
+        },
+        {
+          "asof": "23 SEP 15:14 AEST",
+          "claim": "S&P/ASX 200",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.22%"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Trump-Xi summit, Washington",
+          "source": "weforum.org",
+          "status": "sec",
+          "value": "24 SEP"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "S&P 500 futures are 7,837.25, +0.07%, and Nasdaq futures 31,022.50, -0.02%, after the cash index closed 7,764.64 dead flat. Tokyo has not traded since Friday - JPX lists 21, 22 and 23 September as holidays - and reopens Thursday straight into the Trump-Xi summit in Washington on 24 September. Hong Kong is the only Asian market with a view, the Hang Seng down 0.96% on profit-taking in tech ahead of that meeting, while Korea (+0.43%) and Australia (+0.22%) shrugged. Nothing carried the tape: a Nasdaq sitting on a record with this little overnight participation has no second opinion on it.",
+      "headline": "Tokyo is shut a third day and Hong Kong is selling tech into the summit, so futures have nothing to follow",
+      "level": "ok",
+      "rank": "LEAD",
+      "short": "Thin overnight tape: Tokyo shut, HK sells tech",
+      "slot": "WHY THE MARKET IS FLAT",
+      "sources": "jpx.co.jp · cboe.com · weforum.org · finance.yahoo.com · tradingeconomics.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE · 22 SEP 16:15 ET",
+      "callouts": [
+        {
+          "l": "VIX, 22 Sep close",
+          "v": "14.21"
+        },
+        {
+          "l": "Change on the day",
+          "v": "-4.44%"
+        },
+        {
+          "l": "Last trade, no print since",
+          "v": "16:15 ET"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "22 SEP 16:15 ET",
+          "claim": "VIX level",
+          "source": "cboe.com",
+          "status": "ok",
+          "value": "14.21"
+        },
+        {
+          "asof": "22 SEP",
+          "claim": "VIX change on the day",
+          "source": "cboe.com",
+          "status": "ok",
+          "value": "-0.66 (-4.44%)"
+        },
+        {
+          "asof": "22 SEP",
+          "claim": "Last VIX trade time in the feed",
+          "source": "cboe.com",
+          "status": "ok",
+          "value": "16:15 ET"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Volatility closed at 14.21 on Tuesday, down 0.66 or 4.44%, and Cboe's feed shows no trade since 16:15 ET - re-proved twice this run. That is the calm band: under 15 calm, 15-20 normal, 20-30 nervous, over 30 the system's buy window. The ladder is untriggered and there is no buy window. A 14-handle going into a summit and a quarter-end is the market pricing roughly zero chance of being surprised by either.",
+      "headline": "VIX closed at 14.21 and has not printed since, so the calm band carries into the summit unchanged",
+      "level": "ok",
+      "rank": "01",
+      "short": "VIX 14.21, calm band, no overnight print",
+      "slot": "VIX UPDATE",
+      "sources": "cboe.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "EDGAR · RE-PROVED 23 SEP 05:37 UTC",
+      "callouts": [
+        {
+          "l": "$SCHW close, 22 Sep",
+          "v": "$100.35"
+        },
+        {
+          "l": "Move on the day",
+          "v": "-6.11%"
+        },
+        {
+          "l": "Most recent SEC filing",
+          "v": "2 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "22 SEP 16:00 ET",
+          "claim": "$SCHW closing price",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "$100.35"
+        },
+        {
+          "asof": "22 SEP",
+          "claim": "$SCHW change on the day",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "-$6.53 (-6.11%)"
+        },
+        {
+          "asof": "RE-PROVED 23 SEP 05:37 UTC",
+          "claim": "Most recent Schwab EDGAR filing date, any form",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "2 SEP"
+        },
+        {
+          "asof": "22 SEP",
+          "claim": "$SCHW 52-week high",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "$114.53"
+        },
+        {
+          "asof": "22 SEP",
+          "claim": "Distance below 52-week high (calculated)",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "12.4%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Charles Schwab closed $100.35, down $6.53 or 6.11%, and its most recent EDGAR filing of any kind is dated 2 September - re-proved on two fetches this run, not carried forward. A 6% day with no company disclosure behind it is either a rates read the market made unaided, or something not yet filed. It sits 12.4% under its 52-week high of $114.53 (calculated).",
+      "element": "level: members",
+      "headline": "$SCHW fell 6.11% with the company having filed nothing at the SEC since 2 September",
+      "level": "ok",
+      "rank": "02",
+      "short": "$SCHW -6.11%, no SEC filing since 2 Sep",
+      "slot": "WHAT CHANGED",
+      "sources": "sec.gov · stockanalysis.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "CLOSE · 22 SEP",
+      "callouts": [
+        {
+          "l": "$MU close, 22 Sep",
+          "v": "$1,096.16"
+        },
+        {
+          "l": "Move on the day",
+          "v": "+5.00%"
+        },
+        {
+          "l": "Fiscal Q4 results",
+          "v": "30 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "22 SEP 16:00 ET",
+          "claim": "$MU closing price",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "$1,096.16"
+        },
+        {
+          "asof": "22 SEP",
+          "claim": "$MU change on the day",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "+$52.20 (+5.00%)"
+        },
+        {
+          "asof": "22 SEP 19:59 ET",
+          "claim": "$MU after-hours price",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "$1,097.63 (+0.13%)"
+        },
+        {
+          "asof": "ANNOUNCED 26 AUG",
+          "claim": "Micron fiscal Q4 results date",
+          "source": "investors.micron.com",
+          "status": "sec",
+          "value": "30 SEP"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR + COMPANY",
+      "dek": "Micron closed $1,096.16, up 5.00%, and added $1.47 (+0.13%) after hours. Fiscal Q4 lands 30 September. Two sessions running the price has moved with no company release behind it, so the print must now clear a level the market set without it. In BuyTrigger terms the name is far from trigger; this is a story about what a print has to justify, not an entry.",
+      "element": "far from trigger",
+      "headline": "$MU closed up 5.00% on no company news, a second straight session of paying ahead of the print",
+      "level": "ok",
+      "rank": "03",
+      "short": "$MU +5.00%, reports 30 September",
+      "slot": "WHAT CHANGED",
+      "sources": "stockanalysis.com · investors.micron.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "FEDERAL RESERVE · 22 SEP",
+      "callouts": [
+        {
+          "l": "Loan requests via the DWD portal",
+          "v": "60%+"
+        },
+        {
+          "l": "Speech date",
+          "v": "22 SEP"
+        },
+        {
+          "l": "Board speeches listed 23-25 Sep",
+          "v": "0"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Share of discount window loan requests via the DWD portal",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "60%+"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Jefferson speech, NY Fed Treasury Market Conference",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "22 SEP"
+        },
+        {
+          "asof": "CHECKED 23 SEP 05:37 UTC",
+          "claim": "Fed Board speeches listed for 23-25 September",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "0"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Vice Chair Philip Jefferson told the New York Fed's Treasury Market Conference on 22 September that the Discount Window Direct portal now handles over 60% of discount window loan requests, and that September's process changes cut enrolment and pledging friction. He tied it explicitly to quarter-end funding pressure and to banks not being forced to sell Treasuries. This is plumbing, and nobody prices it until it is the only thing priced. The Board's own calendar lists no speeches at all for 23-25 September.",
+      "headline": "The Fed talked up its emergency lending plumbing one week before quarter-end",
+      "level": "ok",
+      "rank": "04",
+      "short": "Jefferson: 60%+ of discount window via DWD",
+      "slot": "WHAT CHANGED",
+      "sources": "federalreserve.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "23 SEP 01:24 ET",
+      "callouts": [
+        {
+          "l": "WTI November",
+          "v": "$89.22"
+        },
+        {
+          "l": "Overnight low",
+          "v": "$88.71"
+        },
+        {
+          "l": "EIA weekly report due",
+          "v": "23 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 01:24 ET",
+          "claim": "WTI November futures price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$89.22"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "WTI overnight range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$88.71-$90.38"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "WTI day-change versus the 22 September settlement",
+          "source": "finance.yahoo.com",
+          "status": "unconf",
+          "value": "unresolved"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "EIA Weekly Petroleum Status Report, next release",
+          "source": "eia.gov",
+          "status": "ok",
+          "value": "23 SEP"
+        }
+      ],
+      "conf": "MID · DAY-CHANGE UNCONFIRMED",
+      "dek": "WTI November is $89.22, in an $88.71-$90.38 overnight range. I am shipping the level and not the percentage: the vendor's reference close of $90.52 will not reconcile with the $89.85 this desk filed at 22:30 UK, and no primary settlement settled it. EIA's Weekly Petroleum Status Report is out today, which is the next hard number on the crude story.",
+      "headline": "WTI is holding under $90 overnight, but I could not reconcile its day-change at a primary source",
+      "level": "mid",
+      "rank": "05",
+      "short": "WTI $89.22, day-change unresolved",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · eia.gov",
+      "state": "ONE FIGURE UNRESOLVED",
+      "tag": "ENERGY"
+    }
+  ],
+  "title": "Morning Baseline"
+}

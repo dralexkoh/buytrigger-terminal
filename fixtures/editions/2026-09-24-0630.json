@@ -1,0 +1,476 @@
+{
+  "as_of": "2026-09-24T05:30:00Z",
+  "as_of_label": "Thu 24 Sep 2026 · 06:30",
+  "catalysts": [
+    {
+      "what": "US weekly jobless claims (196K forecast) and housing starts",
+      "when": "THU 24 SEP · 13:30 UK"
+    },
+    {
+      "what": "Trump-Xi bilateral at the White House: trade, AI, rare earths, Iran",
+      "when": "THU 24 SEP · WASHINGTON"
+    },
+    {
+      "what": "Costco ($COST) fiscal Q4; consensus $6.55 adjusted EPS on $94.85bn revenue",
+      "when": "THU 24 SEP · AFTER US CLOSE"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results; quarter-end",
+      "when": "WED 30 SEP · AFTER US CLOSE"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-24T06:04:00Z",
+    "changed": 6,
+    "dropped": 2,
+    "refetched": 8
+  },
+  "edition_id": "2026-09-24-0630",
+  "markets": [
+    {
+      "chg": "+6.83%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.18"
+    },
+    {
+      "chg": "-0.25%",
+      "dir": "dn",
+      "sym": "S&P 500 FUT",
+      "val": "7,753.00"
+    },
+    {
+      "chg": "-0.25%",
+      "dir": "dn",
+      "sym": "NASDAQ 100 FUT",
+      "val": "30,688.00"
+    },
+    {
+      "chg": "+1.29%",
+      "dir": "up",
+      "sym": "NIKKEI 225",
+      "val": "65,859.45"
+    },
+    {
+      "chg": "-0.55%",
+      "dir": "dn",
+      "sym": "HANG SENG",
+      "val": "24,697.19"
+    },
+    {
+      "chg": "+15bp",
+      "dir": "up",
+      "sym": "US 10Y",
+      "val": "5.11%"
+    },
+    {
+      "chg": "+14bp",
+      "dir": "up",
+      "sym": "US 2Y",
+      "val": "4.85%"
+    },
+    {
+      "chg": "-0.58%",
+      "dir": "dn",
+      "sym": "WTI",
+      "val": "91.63"
+    },
+    {
+      "chg": "-0.54%",
+      "dir": "dn",
+      "sym": "BRENT",
+      "val": "97.59"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Morning baseline, 24 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "US TREASURY · 23 SEP",
+      "callouts": [
+        {
+          "l": "S&P 500 futures, 06:23 UK",
+          "v": "-0.25%"
+        },
+        {
+          "l": "US 10-year yield, 23 Sep",
+          "v": "5.11%"
+        },
+        {
+          "l": "US 2-year yield, 23 Sep",
+          "v": "4.85%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "S&P 500 December futures level, 06:23 UK",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,753.00"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "S&P 500 December futures change on the session",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.25%"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "Nasdaq 100 December futures level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "30,688.00 / -0.25%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 10-year par yield",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "5.11%"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "US 10-year par yield, prior day",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.96%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 2-year par yield",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.85%"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "US 2-year par yield, prior day",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.71%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 2-year one-day move (calculated, 4.85 - 4.71)",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "14bp"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + EXCHANGE DATA",
+      "dek": "US stock futures are lower before the open: the S&P 500 December contract at 7,753.00, down 0.25%, with the Nasdaq 100 contract down the same. No fresh cause arrived overnight. Wednesday's is still doing the work: the US Treasury's own table shows the 10-year government borrowing rate at 5.11%, up from 4.96%, and the 2-year at 4.85% from 4.71% — a 14 basis point jump at the short end, which is the part of the curve that prices interest-rate policy rather than growth. For someone holding good businesses for years, that matters through what companies pay to borrow, not through one day's tape. Watch the US jobless claims figure at 13:30 UK.",
+      "headline": "Higher borrowing costs still weigh as US futures slip before the open",
+      "level": "ok",
+      "rank": "LEAD",
+      "short": "Borrowing costs still weigh; US futures slip",
+      "slot": "WHY THE MARKET IS DOWN",
+      "sources": "home.treasury.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE VIA VENDOR · 23 SEP CLOSE",
+      "callouts": [
+        {
+          "l": "VIX, Wed 23 Sep close",
+          "v": "15.18"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+6.83%"
+        },
+        {
+          "l": "Desk view: ladder band at this level",
+          "v": "NORMAL"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 2026 15:15 CDT",
+          "claim": "VIX closing level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.18"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.97 / +6.83%"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "VIX prior close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.21"
+        },
+        {
+          "asof": "FETCHED 24 SEP",
+          "claim": "Cboe delayed-quote feed own timestamp, showing it is stale",
+          "source": "cdn.cboe.com",
+          "status": "stale",
+          "value": "2026-09-23 03:43"
+        }
+      ],
+      "conf": "SECONDARY · CBOE FEED STUCK",
+      "dek": "The VIX, the market's fear gauge, has not printed yet this morning. Its last reading is Wednesday's close at 15.18, up 0.97 on the day, a rise of 6.83%. That was its first close this week above 15, which moves it out of the BuyTrigger ladder's calm band and into normal, where 15 to 20 sits. Normal is normal: the ladder's buy window does not open until 30, and 15.18 is nowhere near it. Cboe's own delayed-quote feed is stuck for a third day, its timestamp reading 23 September 03:43, so this level comes from a data vendor rather than the exchange. Watch for a live print when the US session opens.",
+      "headline": "The fear gauge has moved out of calm and into its normal band",
+      "level": "mid",
+      "rank": "01",
+      "short": "Fear gauge leaves calm, enters normal band",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com · cdn.cboe.com",
+      "state": "STALE FEEDS",
+      "tag": "VIX"
+    },
+    {
+      "asof": "TOKYO CLOSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "$MU, Wed 23 Sep close",
+          "v": "-2.22%"
+        },
+        {
+          "l": "SoftBank, Tokyo session",
+          "v": "+6.24%"
+        },
+        {
+          "l": "$MU overnight, 01:32 ET",
+          "v": "$1,065.60"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 06:18 UK",
+          "claim": "Nikkei 225 level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "65,859.45 / +1.29%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "SoftBank Group share move, Tokyo",
+          "source": "tradingkey.com",
+          "status": "single",
+          "value": "+6.24% to 6,709 yen"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Kioxia share move, Tokyo",
+          "source": "tradingkey.com",
+          "status": "single",
+          "value": "+3.76% to 56,620 yen"
+        },
+        {
+          "asof": "23 SEP 2026 16:00 ET",
+          "claim": "$MU regular-session close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,071.88 / -2.22%"
+        },
+        {
+          "asof": "24 SEP 01:32 ET",
+          "claim": "$MU overnight price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,065.60 / -0.59%"
+        },
+        {
+          "asof": "24 SEP 01:32 ET",
+          "claim": "$NVDA overnight price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$225.05 / -0.20%"
+        },
+        {
+          "asof": "COMPANY RELEASE",
+          "claim": "Micron fiscal Q4 results date",
+          "source": "investors.micron.com",
+          "status": "ok",
+          "value": "30 September 2026"
+        }
+      ],
+      "conf": "SINGLE SOURCE · TOKYO STOCK MOVES",
+      "dek": "Japan's market reopened after a three-day holiday and bought chip and AI shares hard: the Nikkei 225 rose 1.29% to 65,859.45, with SoftBank up 6.24% and the memory maker Kioxia up 3.76%. That came the session after Micron ($MU) fell 2.22% to $1,071.88 in New York. Overnight, Micron is $1,065.60, down a further 0.59%, and Nvidia ($NVDA) is $225.05, down 0.20% — so Tokyo's enthusiasm for the same AI supply chain is not crossing the dateline. The AI-infrastructure chain is one story told in two currencies, and right now the two halves disagree. Micron reports its fiscal fourth quarter on 30 September.",
+      "element": "level: members",
+      "headline": "Tokyo bids up chip shares while Micron falls in New York",
+      "level": "mid",
+      "rank": "02",
+      "short": "Tokyo bids chips, Micron falls in New York",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · tradingkey.com · investors.micron.com",
+      "state": "SINGLE SOURCE",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "WHITE HOUSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "Trump-Xi bilateral, White House",
+          "v": "24 SEP"
+        },
+        {
+          "l": "Agenda areas named",
+          "v": "4"
+        },
+        {
+          "l": "Desk view: futures show no summit premium",
+          "v": "UNPRICED"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Trump-Xi bilateral meeting date and venue",
+          "source": "thenationalnews.com",
+          "status": "sec",
+          "value": "Thursday 24 September, White House"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Agenda areas named for the summit",
+          "source": "thenationalnews.com",
+          "status": "sec",
+          "value": "trade, AI, critical minerals and rare earths, Iran"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "S&P 500 December futures change, showing no summit premium",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.25%"
+        }
+      ],
+      "conf": "VERIFIED · WIRE REPORTING",
+      "dek": "President Trump and China's Xi Jinping hold their bilateral meeting at the White House today, the centrepiece of a three-day state visit that began on 23 September. Four things are named on the agenda: trade, artificial intelligence, critical minerals and rare earths, and the war with Iran. Nothing has been announced on tariffs or a trade truce so far. For a long-term holder the rare-earth question is the one with teeth, because those minerals sit inside the magnets, motors and chips that a large slice of the market now depends on. Futures are showing no summit premium either way, which means any outcome is unpriced. Watch for a joint statement later today.",
+      "headline": "Trump and Xi meet today over rare earths, AI and Iran",
+      "level": "ok",
+      "rank": "03",
+      "short": "Trump-Xi summit today: rare earths, AI, Iran",
+      "slot": "WHAT CHANGED",
+      "sources": "thenationalnews.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "GEOPOL"
+    },
+    {
+      "asof": "NYMEX · 24 SEP 06:23 UK",
+      "callouts": [
+        {
+          "l": "US crude, November contract",
+          "v": "$91.63"
+        },
+        {
+          "l": "Brent crude",
+          "v": "$97.59"
+        },
+        {
+          "l": "Brent-WTI gap (calculated)",
+          "v": "$5.96"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "WTI crude front-month (November) price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$91.63 / -0.58%"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "WTI day range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$91.23 - $92.79"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "Brent crude price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$97.59 / -0.54%"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "Brent-WTI gap (calculated, 97.59 - 91.63)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$5.96"
+        }
+      ],
+      "conf": "VERIFIED · EXCHANGE DATA",
+      "dek": "Oil has given a little back this morning after three sessions of gains. US crude is $91.63 a barrel, down 0.58%, and Brent, the international grade, is $97.59, down 0.54%. Brent has still not printed $100. The gap between the two grades works out at $5.96 on these prices, wider than the $5.65 I reported on Wednesday's closes — but the US contract has rolled forward to November, so that comparison is not like-for-like and I am reading no trend into it. Oil matters to a long-term holder mainly through the inflation figure and therefore through interest rates. Watch whether today's Trump-Xi talks touch Iran.",
+      "headline": "Oil eases after three days higher as both grades slip back",
+      "level": "ok",
+      "rank": "04",
+      "short": "Oil eases after three days higher",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "COMMOD"
+    },
+    {
+      "asof": "SEC EDGAR · 23 SEP",
+      "callouts": [
+        {
+          "l": "$HOOD overnight, 01:30 ET",
+          "v": "$122.27"
+        },
+        {
+          "l": "$HOOD, Wed 23 Sep close",
+          "v": "-1.25%"
+        },
+        {
+          "l": "Newest EDGAR filing date",
+          "v": "23 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 2026 16:00 ET",
+          "claim": "$HOOD regular-session close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.70 / -1.25%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "$HOOD day low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.28"
+        },
+        {
+          "asof": "24 SEP 01:30 ET",
+          "claim": "$HOOD overnight price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.27 / -0.35%"
+        },
+        {
+          "asof": "FETCHED 24 SEP",
+          "claim": "Newest Robinhood EDGAR filing date and acceptance time; feed carries no freshness stamp",
+          "source": "data.sec.gov",
+          "status": "unconf",
+          "value": "2026-09-23, accepted 12:08:43Z"
+        }
+      ],
+      "conf": "PARTLY UNCONFIRMED",
+      "dek": "Robinhood ($HOOD) closed Wednesday at $122.70, down 1.25%, and it closed on its low of the day at $122.28 after having been down only 0.24% two hours earlier. I still have no cause for that fade. The newest Robinhood filing on the SEC's EDGAR system is Wednesday's, accepted at 12:08 UTC, on two separate fetches this morning — but that feed carries no freshness stamp of its own, so I am holding it loosely rather than telling you nothing has been filed since. Overnight the shares are $122.27, down 0.35%, so nothing has changed while New York slept. A fade with no news behind it is usually just selling, not information.",
+      "element": "level: members",
+      "headline": "Robinhood fell into the close and I found no reason why",
+      "level": "mid",
+      "rank": "05",
+      "short": "Robinhood's close-on-the-low still unexplained",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · data.sec.gov",
+      "state": "UNCONFIRMED ABSENCE",
+      "tag": "STOCK"
+    }
+  ],
+  "title": "Morning Baseline"
+}

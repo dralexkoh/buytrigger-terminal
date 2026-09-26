@@ -1,0 +1,484 @@
+{
+  "as_of": "2026-09-24T07:35:00Z",
+  "as_of_label": "Thu 24 Sep 2026 · 08:30",
+  "catalysts": [
+    {
+      "what": "US weekly jobless claims",
+      "when": "THU 24 SEP · 13:30 UK"
+    },
+    {
+      "what": "US new home sales, August (census.gov)",
+      "when": "THU 24 SEP · 15:00 UK"
+    },
+    {
+      "what": "Costco ($COST) fiscal fourth-quarter results",
+      "when": "THU 24 SEP · AFTER US CLOSE"
+    },
+    {
+      "what": "Trump-Xi talks continue; Xi in the US to 25 September",
+      "when": "THU 24-FRI 25 SEP"
+    },
+    {
+      "what": "US durable goods orders, August (census.gov)",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron ($MU) fiscal fourth-quarter results; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-24T07:47:00Z",
+    "changed": 10,
+    "dropped": 2,
+    "refetched": 10
+  },
+  "edition_id": "2026-09-24-0830",
+  "markets": [
+    {
+      "chg": "+4.41%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.85"
+    },
+    {
+      "chg": "-0.38%",
+      "dir": "dn",
+      "sym": "S&P 500 FUT",
+      "val": "7,742.75"
+    },
+    {
+      "chg": "-0.57%",
+      "dir": "dn",
+      "sym": "NASDAQ 100 FUT",
+      "val": "30,588.50"
+    },
+    {
+      "chg": "+0.76%",
+      "dir": "up",
+      "sym": "NIKKEI 225",
+      "val": "65,513.99"
+    },
+    {
+      "chg": "-0.20%",
+      "dir": "dn",
+      "sym": "DAX",
+      "val": "25,359.46"
+    },
+    {
+      "chg": "-0.29%",
+      "dir": "dn",
+      "sym": "HANG SENG",
+      "val": "24,762.53"
+    },
+    {
+      "chg": "+0.15%",
+      "dir": "up",
+      "sym": "WTI CRUDE",
+      "val": "$92.30"
+    },
+    {
+      "chg": "-0.02%",
+      "dir": "dn",
+      "sym": "GOLD",
+      "val": "$4,317.50"
+    },
+    {
+      "chg": "+15bp",
+      "dir": "up",
+      "sym": "US 10Y",
+      "val": "5.11%"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 08:30, 24 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "YAHOO + STOCKANALYSIS · 23 SEP",
+      "callouts": [
+        {
+          "l": "Robinhood close, Wed 23 Sep",
+          "v": "$122.70"
+        },
+        {
+          "l": "Wednesday's intraday high",
+          "v": "$126.74"
+        },
+        {
+          "l": "Round trip given back (calc)",
+          "v": "3.19%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Robinhood closing price, 23 September 2026",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "$122.70"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Robinhood change on the day",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "-1.25%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Robinhood day range, 23 September",
+          "source": "stockanalysis.com",
+          "status": "sec",
+          "value": "$122.24-$126.74"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Robinhood opening price, 23 September",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.78"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Move given back from the high, calculated ($126.74 - $122.70 = $4.04; $4.04/$126.74)",
+          "source": "calculated",
+          "status": "sec",
+          "value": "3.19%"
+        },
+        {
+          "asof": "24 SEP 08:32 UK",
+          "claim": "Robinhood overnight price, Blue Ocean ATS",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.53"
+        }
+      ],
+      "conf": "CORRECTED · TWO VENDORS AGREE",
+      "dek": "Our 06:30 edition gave Robinhood's Wednesday close as $122.28. That was wrong: two independent data providers show the shares closed at $122.70, down 1.25% on the day, and that $122.28 was not even the low, which was $122.24. The shape of the day is the part worth keeping. Robinhood opened at $122.78, climbed to $126.74 and then gave the whole move back, finishing within 46 cents of its low. A rally that is sold all the way back down usually says more about who is willing to own the shares at a higher price than any single closing number does. Watch whether the shares hold above Wednesday's low when New York opens at 14:30 UK.",
+      "element": "level: members",
+      "headline": "Correction: Robinhood's Wednesday close was $122.70, not what we said",
+      "level": "ok",
+      "rank": "01",
+      "short": "Correction: Robinhood closed at $122.70 on Wednesday",
+      "slot": "CORRECTION",
+      "sources": "stockanalysis.com · finance.yahoo.com",
+      "state": "CORRECTED",
+      "tag": "CORRECTION"
+    },
+    {
+      "asof": "US TREASURY · 23 SEP",
+      "callouts": [
+        {
+          "l": "Five-year yield jump, Wed",
+          "v": "16bp"
+        },
+        {
+          "l": "S&P 500 futures, 08:24 UK",
+          "v": "-0.38%"
+        },
+        {
+          "l": "Nasdaq 100 futures, 08:24 UK",
+          "v": "-0.57%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 08:24 UK",
+          "claim": "S&P 500 December futures",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,742.75 / -0.38%"
+        },
+        {
+          "asof": "24 SEP 08:24 UK",
+          "claim": "Nasdaq 100 December futures",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "30,588.50 / -0.57%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 5-year Treasury yield, rose from 4.83 (calculated: 4.99 - 4.83 = 0.16)",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.99% / +16bp"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 3-year and 7-year Treasury yields, each +16bp (calculated)",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.97% and 5.05%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 2-year Treasury yield, rose from 4.71 (calculated: +14bp)",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.85%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "US 30-year Treasury yield, rose from 5.29 (calculated: +11bp)",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "5.40%"
+        },
+        {
+          "asof": "24 SEP 08:18 UK",
+          "claim": "German DAX",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "25,359.46 / -0.20%"
+        },
+        {
+          "asof": "24 SEP 08:19 UK",
+          "claim": "Hang Seng",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "24,762.53 / -0.29%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + VENDOR",
+      "dek": "US markets are shut, but the futures that trade overnight have slipped further: the S&P 500 contract is down 0.38% and the Nasdaq 100 down 0.57%, both wider than two hours ago. The cause is Wednesday's jump in government borrowing costs, and the US Treasury's own table shows where it bit hardest: three, five and seven year yields each rose 16 basis points, more than either end of the curve. That middle stretch is where the market prices how many interest rate cuts are coming over the next few years, so what got repriced is cheaper money, not a recession fear. Europe agrees: utilities, property and telecoms are falling while energy rises. Watch the US open at 14:30 UK.",
+      "headline": "Higher borrowing costs push stock futures lower before the US open",
+      "level": "ok",
+      "rank": "02",
+      "short": "Borrowing costs drag futures lower before US open",
+      "slot": "WHY THE MARKET IS DOWN",
+      "sources": "home.treasury.gov · finance.yahoo.com · newsquawk.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE GLOBAL SESSION · 08:19 UK",
+      "callouts": [
+        {
+          "l": "VIX level, 08:19 UK",
+          "v": "15.85"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+4.41%"
+        },
+        {
+          "l": "Desk view: buy window opens at 30",
+          "v": "30"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 08:19 UK",
+          "claim": "VIX level, Cboe global session",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.85"
+        },
+        {
+          "asof": "24 SEP 08:19 UK",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.67 / +4.41%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "VIX previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.18"
+        },
+        {
+          "asof": "24 SEP 08:23 UK",
+          "claim": "Gold futures, December contract",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$4,317.50 / -0.02%"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR (CBOE FEED STALE)",
+      "dek": "The VIX, the market's fear gauge, has printed in the overnight global session at 15.85, up 4.41% from Wednesday's close of 15.18. On the BuyTrigger ladder, under 15 is calm, 15 to 20 is normal, 20 to 30 is nervous and above 30 is where the system's buy window opens. So the normal band has held, and the gauge has edged further into it rather than dropping back to calm. Gold, which usually rises when people are genuinely frightened, is flat at $4,317.50. Taken together that reads as investors repricing the cost of money rather than running for cover. At 15.85 the ladder is nowhere near its buy window; the level to watch is 20.",
+      "headline": "The fear gauge rises again but stays inside its normal band",
+      "level": "ok",
+      "rank": "03",
+      "short": "Fear gauge 15.85, still in the normal band",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "US TREASURY SECRETARY · 24 SEP",
+      "callouts": [
+        {
+          "l": "New truce deadline",
+          "v": "10 Jan 2027"
+        },
+        {
+          "l": "Length of the extension",
+          "v": "2 months"
+        },
+        {
+          "l": "S&P 500 futures, even so",
+          "v": "-0.38%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "US-China trade truce extended through 10 January, per Treasury Secretary Bessent",
+          "source": "nbcnews.com",
+          "status": "sec",
+          "value": "10 Jan 2027"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Length of the truce extension",
+          "source": "newsquawk.com",
+          "status": "sec",
+          "value": "2 months"
+        },
+        {
+          "asof": "24 SEP 08:24 UK",
+          "claim": "S&P 500 December futures after the announcement",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.38%"
+        }
+      ],
+      "conf": "VERIFIED · MULTIPLE WIRES",
+      "dek": "The United States and China have extended their Busan trade truce by two months, to 10 January, announced by Treasury Secretary Scott Bessent as President Xi began a state visit to Washington. A truce extension means the tariff increases both sides had threatened stay parked for now, which removes a cost that would have landed on companies importing and exporting between the two. What makes it worth noting is the reaction: futures were lower before the news and are lower still, down 0.38% on the S&P 500 contract. When a genuinely good headline cannot lift prices, something larger is setting them, and this week that something is borrowing costs. Talks continue while Xi is in the US to 25 September.",
+      "headline": "America and China extend their trade truce to 10 January",
+      "level": "ok",
+      "rank": "04",
+      "short": "US-China trade truce extended to 10 January",
+      "slot": "WHAT CHANGED",
+      "sources": "nbcnews.com · cnbc.com · newsquawk.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "TOKYO CLOSE · 24 SEP",
+      "callouts": [
+        {
+          "l": "Nikkei 225 close, from +1.29%",
+          "v": "+0.76%"
+        },
+        {
+          "l": "Points given back into close (calc)",
+          "v": "345.46"
+        },
+        {
+          "l": "Micron, overnight session",
+          "v": "-0.89%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP TOKYO CLOSE",
+          "claim": "Nikkei 225 closing level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "65,513.99 / +0.76%"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Nikkei 225 previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "65,018.95"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Points given back from the 06:30 level, calculated (65,859.45 - 65,513.99)",
+          "source": "calculated",
+          "status": "sec",
+          "value": "345.46"
+        },
+        {
+          "asof": "24 SEP 08:34 UK",
+          "claim": "Micron overnight price, Blue Ocean ATS",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,062.33 / -0.89%"
+        },
+        {
+          "asof": "24 SEP 08:34 UK",
+          "claim": "Nvidia overnight price, Blue Ocean ATS",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.37 / -0.51%"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Micron fiscal fourth-quarter results date",
+          "source": "investors.micron.com",
+          "status": "ok",
+          "value": "30 Sep 2026"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR + WIRE",
+      "dek": "Japan's Nikkei 225 finished up 0.76% at 65,513.99, well below the 1.29% gain it was showing when we wrote at 06:30. It gave back 345 points into the close, and the wire Newsquawk puts the day's strength down to Japanese investors returning after a public holiday rather than fresh enthusiasm for chip shares. That matters because our earlier read treated Tokyo's bid for semiconductors as a signal the AI trade was alive somewhere. It was mostly catch-up. In the overnight US session Micron is down 0.89% and Nvidia down 0.51%, so the AI supply chain is still leaking rather than recovering. Micron reports its full-year results on 30 September, which is the next real test.",
+      "element": "level: members",
+      "headline": "Tokyo's chip rally was holiday catch-up and it faded into the close",
+      "level": "ok",
+      "rank": "05",
+      "short": "Tokyo chip rally faded into the close",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · newsquawk.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "NYMEX · 08:24 UK",
+      "callouts": [
+        {
+          "l": "US crude, November contract",
+          "v": "$92.30"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+0.15%"
+        },
+        {
+          "l": "Where it stood at 06:30 UK",
+          "v": "-0.58%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 08:24 UK",
+          "claim": "WTI crude, November contract",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.30 / +0.15%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "WTI previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.16"
+        },
+        {
+          "asof": "24 SEP 06:23 UK",
+          "claim": "WTI level at the 06:30 UK edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$91.63 / -0.58%"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "US crude for November delivery has turned positive at $92.30 a barrel, up 0.15%, after being down 0.58% when we wrote at 06:30. It is the only major market we track that is higher this morning, and it lines up with what Europe's sector tape is doing, where energy shares are rising while everything sensitive to interest rates falls. For anyone holding shares for years rather than days, a firm oil price is a double-edged thing: it helps the energy companies in a portfolio and it makes the inflation problem that is pushing borrowing costs up harder to shift. Watch whether crude holds above $92 through the US session.",
+      "headline": "Oil turns higher and is the one corner of the market gaining today",
+      "level": "ok",
+      "rank": "06",
+      "short": "Oil turns higher, the morning's one gainer",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · newsquawk.com",
+      "state": "VERIFIED",
+      "tag": "COMMODITY"
+    }
+  ],
+  "title": "Delta 08:30"
+}

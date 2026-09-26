@@ -1,0 +1,634 @@
+{
+  "as_of": "2026-09-25T05:52:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 06:30",
+  "catalysts": [
+    {
+      "what": "August advance durable goods orders, US Census Bureau - core capital goods is the capex read",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "treasury.gov posts its 25 September yield row: does the 10-year hold 5.18%?",
+      "when": "FRI 25 SEP · AFTER THE CLOSE"
+    },
+    {
+      "what": "August PCE prices and personal income, plus the third estimate of Q2 GDP (bea.gov)",
+      "when": "WED 30 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron fiscal Q4 expected (date unconfirmed at a primary source); quarter-end",
+      "when": "WED 30 SEP"
+    },
+    {
+      "what": "Full August M3 manufacturers' report, US Census Bureau",
+      "when": "FRI 2 OCT"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T05:46:00Z",
+    "changed": 9,
+    "dropped": 4,
+    "refetched": 10
+  },
+  "edition_id": "2026-09-25-0630",
+  "markets": [
+    {
+      "chg": "-0.05%",
+      "dir": "dn",
+      "sym": "S&P 500 FUT",
+      "val": "7,763.00"
+    },
+    {
+      "chg": "+3.23%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.67"
+    },
+    {
+      "chg": "+1.18%",
+      "dir": "up",
+      "sym": "NIKKEI",
+      "val": "66,286.04"
+    },
+    {
+      "chg": "-1.58%",
+      "dir": "dn",
+      "sym": "HANG SENG",
+      "val": "24,370.72"
+    },
+    {
+      "chg": "-2.02%",
+      "dir": "dn",
+      "sym": "WTI",
+      "val": "92.70"
+    },
+    {
+      "chg": "-0.35%",
+      "dir": "dn",
+      "sym": "USD/JPY",
+      "val": "158.2160"
+    },
+    {
+      "chg": "-0.23%",
+      "dir": "dn",
+      "sym": "BTC",
+      "val": "84,237.90"
+    },
+    {
+      "chg": "+0.66%",
+      "dir": "up",
+      "sym": "MU",
+      "val": "1,087.64"
+    },
+    {
+      "chg": "+0.08%",
+      "dir": "up",
+      "sym": "NVDA",
+      "val": "224.75"
+    },
+    {
+      "chg": "+0.57%",
+      "dir": "up",
+      "sym": "HOOD",
+      "val": "121.51"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Morning baseline, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "OVERNIGHT · 25 SEP 06:30 UK",
+      "callouts": [
+        {
+          "l": "S&P 500 futures",
+          "v": "7,763.00"
+        },
+        {
+          "l": "Nikkei 225",
+          "v": "+1.18%"
+        },
+        {
+          "l": "Oil, overnight",
+          "v": "-2.02%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 05:27Z",
+          "claim": "S&P 500 December futures level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,763.00"
+        },
+        {
+          "asof": "25 SEP 05:27Z",
+          "claim": "S&P 500 futures change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.05%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "S&P 500 cash close, Thursday",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,704.13"
+        },
+        {
+          "asof": "25 SEP 05:24Z",
+          "claim": "Nikkei 225 level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "66,286.04"
+        },
+        {
+          "asof": "25 SEP 05:24Z",
+          "claim": "Nikkei 225 change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.18%"
+        },
+        {
+          "asof": "25 SEP 05:25Z",
+          "claim": "Hang Seng level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "24,370.72"
+        },
+        {
+          "asof": "25 SEP 05:25Z",
+          "claim": "Hang Seng change (page's own percentage; its prior-close field does not reconcile)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.58%"
+        },
+        {
+          "asof": "25 SEP 05:32Z",
+          "claim": "WTI crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "92.70"
+        },
+        {
+          "asof": "25 SEP 05:32Z",
+          "claim": "WTI change against settlement",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-2.02%"
+        },
+        {
+          "asof": "25 SEP 05:43Z",
+          "claim": "USD/JPY rate, yen stronger",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "158.2160"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "10-year Treasury par yield, latest published row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "30-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.47%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "2-year Treasury par yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.87%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + VENDOR",
+      "dek": "American share futures are almost exactly where they closed: the S&P 500 contract is 7,763.00, down 0.05%, after Thursday's flat finish at 7,704.13. Overnight the world pulled in two directions. Japan's Nikkei 225 rose 1.18% to 66,286.04, carried by the firms that build chip-making machines, while Hong Kong's Hang Seng fell 1.58% to 24,370.72 and oil dropped 2.02% to $92.70, handing back Thursday's jump. Nothing in that tips the US either way, and that is the point: long-term borrowing costs repriced three days running this week, and share prices still have not argued with it. August factory orders land at 13:30 UK.",
+      "headline": "US futures sit still as Asia splits and oil drops 2%",
+      "level": "ok",
+      "rank": "LEAD",
+      "short": "Asia splits, oil down 2%, US futures flat",
+      "slot": "WHY THE MARKET IS FLAT",
+      "sources": "finance.yahoo.com · treasury.gov",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE VIA VENDOR · 24 SEP CLOSE",
+      "callouts": [
+        {
+          "l": "Fear gauge, Thu close",
+          "v": "15.67"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+3.23%"
+        },
+        {
+          "l": "Points below the 30 buy window",
+          "v": "14.33"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 20:15Z",
+          "claim": "VIX level, last print",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.67"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.49"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "VIX percentage change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+3.23%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "VIX day range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.34-16.57"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Points from 15.67 to the 30 buy window (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.33"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Points above the calm line at 15 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.67"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "The VIX, the market's fear gauge, last printed 15.67 on Thursday afternoon, up 0.49 or 3.23% on the day. It does not trade overnight, so that is the number standing into Friday. On the BuyTrigger ladder 15 to 20 is the normal band: 0.67 above the calm line, and 14.33 points below 30, the level at which the system reads a buy window rather than a warning. The detail worth keeping is that it rose on a day the S&P 500 finished flat - nerves went up while prices did not go down. Thursday's range was 15.34 to 16.57.",
+      "headline": "The fear gauge closed at 15.67, still in its normal range",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge 15.67 - normal band",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "SEC FORM 4 · 24 SEP 20:33Z",
+      "callouts": [
+        {
+          "l": "Class A shares sold",
+          "v": "240,834"
+        },
+        {
+          "l": "Weighted average price",
+          "v": "$125.33"
+        },
+        {
+          "l": "Class B shares retained",
+          "v": "47,794,572"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Class B shares converted to Class A (Code C)",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "240,834"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Shares sold at weighted average price",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "$125.33"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Second sale, weighted average price",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "$126.14"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Direct Class A shares held following the sales",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "0"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Class B shares held following the conversion",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "47,794,572"
+        },
+        {
+          "asof": "FILING TEXT",
+          "claim": "Rule 10b5-1 plan adoption date stated in the filing",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "5 SEP 2025"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Total proceeds across both sales (calculated)",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "$30.2m"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "Shares sold as a share of Class B holding (calculated)",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "0.50%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Filing acceptance time",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "20:33:07Z"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "HOOD regular-session close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$120.82"
+        },
+        {
+          "asof": "25 SEP 05:42Z",
+          "claim": "HOOD overnight price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$121.51"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY FILING",
+      "dek": "A Form 4 reached the SEC at 21:33 UK on Thursday, 33 minutes after the closing bell. Vlad Tenev, Robinhood's chief executive, converted 240,834 shares on 22 September and sold every one, at $125.33 and $126.14 - about $30.2m, and roughly 3.7% above Thursday's $120.82 close. His direct holding of those shares is now zero, which sounds worse than it is: he still holds 47,794,572 of the other share class, so the sale was 0.50% of his stake, made under a pre-set plan he adopted on 5 September 2025. For a long-term holder that is a calendar, not a verdict. The shares are $121.51 overnight.",
+      "element": "level: members",
+      "headline": "Robinhood's boss sold $30m of shares under a year-old plan",
+      "level": "ok",
+      "rank": "03",
+      "short": "Robinhood CEO sold $30m, kept 47.8m shares",
+      "slot": "WHAT CHANGED",
+      "sources": "sec.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "BLUE OCEAN ATS · 25 SEP 05:42Z",
+      "callouts": [
+        {
+          "l": "$MU overnight",
+          "v": "$1,087.64"
+        },
+        {
+          "l": "Tokyo Electron",
+          "v": "+4.08%"
+        },
+        {
+          "l": "Above Thursday's high",
+          "v": "$6.60"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 05:42Z",
+          "claim": "MU overnight price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,087.64"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "MU regular-session close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,080.53"
+        },
+        {
+          "asof": "25 SEP 05:42Z",
+          "claim": "MU overnight change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.66%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Amount above Thursday's session high of $1,081.04 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$6.60"
+        },
+        {
+          "asof": "25 SEP 05:20Z",
+          "claim": "Tokyo Electron (8035.T) change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+4.08%"
+        },
+        {
+          "asof": "25 SEP 05:18Z",
+          "claim": "Advantest (6857.T) change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+2.36%"
+        },
+        {
+          "asof": "25 SEP 05:34Z",
+          "claim": "NVDA overnight price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.75"
+        },
+        {
+          "asof": "EXPECTED",
+          "claim": "Micron fiscal Q4 reporting date",
+          "source": "investors.micron.com",
+          "status": "unconf",
+          "value": "30 SEP 2026"
+        }
+      ],
+      "conf": "VERIFIED PRICES · UNCONFIRMED DATE",
+      "dek": "Micron traded $1,087.64 in the overnight session, 0.66% above Thursday's $1,080.53 close and $6.60 above the highest price it reached during Thursday's trading - a new high set while New York was shut. The same part of the chain led Japan: Tokyo Electron rose 4.08% and Advantest 2.36%, the two firms that sell the machines memory factories buy. That matters because memory is the piece of the AI build-out with real pricing power at the moment. Micron's fourth-quarter results are expected on 30 September, a date I still cannot confirm at a primary source. Nvidia is $224.75 overnight.",
+      "element": "level: members",
+      "headline": "Micron hits a new high overnight before next week's results",
+      "level": "mid",
+      "rank": "04",
+      "short": "Micron makes a new high overnight",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "ONE DATE UNCONFIRMED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "EDGAR · RE-READ 25 SEP 05:34Z",
+      "callouts": [
+        {
+          "l": "Newest Oracle filing",
+          "v": "23 SEP"
+        },
+        {
+          "l": "$ORCL, Thursday",
+          "v": "-3.47%"
+        },
+        {
+          "l": "Gap to $OWL",
+          "v": "0.18pp"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "RE-READ 25 SEP",
+          "claim": "Newest filing date in Oracle's EDGAR submissions record",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "23 SEP"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "Acceptance stamps of those filings",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "23:06-23:22 UTC"
+        },
+        {
+          "asof": "RE-READ 25 SEP",
+          "claim": "Oracle filings dated 24 or 25 September",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "0"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "ORCL close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.47%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "ORCL closing price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.54"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "OWL close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.65%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "OWL closing price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$9.25"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Difference between the two daily moves (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.18pp"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY FILING INDEX",
+      "dek": "I re-read Oracle's filing record at the SEC this morning with a fresh request, because an absence is exactly the claim a stale copy fakes. The newest document is still dated 23 SEP, six of them accepted between 23:06 and 23:22 UTC, and there is no entry for 24 September. That is two full sessions in which the company has disclosed nothing, after the report that knocked its shares and pulled the private-credit lender Blue Owl down with it. Oracle closed 3.47% lower at $139.54 and Blue Owl 3.65% lower at $9.25, a gap of 0.18 percentage points. Watch for an 8-K from either side.",
+      "element": "level: members",
+      "headline": "Oracle has told the SEC nothing for two full trading days",
+      "level": "ok",
+      "rank": "05",
+      "short": "Oracle silent at the SEC for two days",
+      "slot": "WHAT CHANGED",
+      "sources": "data.sec.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "CENSUS · SCHEDULE READ 25 SEP",
+      "callouts": [
+        {
+          "l": "July orders, latest published",
+          "v": "$339.3bn"
+        },
+        {
+          "l": "July change",
+          "v": "+1.1%"
+        },
+        {
+          "l": "August release time",
+          "v": "13:30 UK"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "JULY 2026",
+          "claim": "July 2026 new orders for manufactured durable goods",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "$339.3bn"
+        },
+        {
+          "asof": "JULY 2026",
+          "claim": "July change on the month",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "+1.1%"
+        },
+        {
+          "asof": "READ 25 SEP",
+          "claim": "Reference month still shown on the advance report page",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "JULY 2026"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Scheduled release of the August advance report",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "13:30 UK"
+        },
+        {
+          "asof": "M3 SCHEDULE",
+          "claim": "Scheduled release of the August full report",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "2 OCT 2026"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Today's one scheduled American release is the advance report on orders for long-lasting manufactured goods - machinery, aircraft, computers, the things companies buy when they are confident. The Census Bureau's own schedule puts the August report at 8:30 a.m. New York time, 13:30 UK, and its report page still carries July, so it genuinely has not published yet. July's orders were $339.3bn, up 1.1%. The line to watch is business spending on equipment, because that is where the money going into data centres and AI hardware eventually shows up in the national figures. The fuller August report follows on 2 October.",
+      "headline": "America's factory orders report for August lands at 13:30 UK",
+      "level": "ok",
+      "rank": "06",
+      "short": "US factory orders due 13:30 UK",
+      "slot": "WHAT CHANGED",
+      "sources": "census.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    }
+  ],
+  "title": "Morning Baseline"
+}

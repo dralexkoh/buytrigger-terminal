@@ -1,0 +1,30 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-24T11:45:00Z",
+      "formats": "SUBSTACK · YOUTUBE · LIVE SEGMENT",
+      "id": "k1",
+      "klass": "EVERGREEN PACK",
+      "life_s": 172800,
+      "rank": "#1",
+      "story": 0,
+      "title": "How to tell a rates sell-off from a fear sell-off: check what ISN'T falling",
+      "why": "Today gave a clean, fully sourced worked example — shares, gold and Bitcoin all down together while oil rose, then the whole thing reversed when one bond quote ticked up 0.07%. Teaches a repeatable test a family investor can run in four prices.",
+      "window": "48 H WINDOW"
+    },
+    {
+      "created_at": "2026-09-24T11:45:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k2",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#2",
+      "story": 5,
+      "title": "'The market' gave three different answers in the same minute",
+      "why": "London +0.09%, Frankfurt -0.24%, Nasdaq futures -0.88% at one timestamp, with oil up 1.38% as the whole explanation — a concrete way to show that index composition, not sentiment, drove the split.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-24-1230"
+}

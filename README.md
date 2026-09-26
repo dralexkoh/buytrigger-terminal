@@ -1,0 +1,49 @@
+# buytrigger-swarm
+
+The swarm is the Newsroom's journalism layer: the bees that turn the verified BuyTrigger Newsroom feed into post drafts for X, Threads and Substack. Same source as the Newsroom, different output, and nothing in here touches the dashboard, the members' app or the Research Department.
+
+**Two rules that make it safe**
+
+1. Everything reads the feed. Nothing re-researches. Every number in every draft traces to a claim row at status `ok` or `sec` on a verified story. No web search, no price fetch, no memory.
+2. Bees draft. Marketing sends. The bees create Typefully drafts and stop. A person on the marketing team reviews and presses send. Nothing in this repo publishes.
+
+## What is in here
+
+| Folder | What |
+|---|---|
+| `bees/` | The three bee prompts, exactly as they run as scheduled tasks, plus the schedule. **This is the source of truth for the prompts.** Change a prompt here first, then paste it into the scheduled task (bees/SCHEDULE.md says how). |
+| `rules/` | The gates (which stories qualify), the platform rules (what X, Threads and Substack accept), voice and compliance, and who owns what. |
+| `tools/` | Three checks the bees run and a reviewer can re-run: `verify_numbers.py` (every number traces to a claim row), `check_lengths.py` (platform rules), `score_stories.py` (the Layer 2 "which story tonight" arithmetic, in the open). |
+| `charts/` | The branded chart library the bees draw with, and worked examples with their output. |
+| `schema/` | The shape of the Newsroom collections the bees read, the ledger they write, and a proposal for moving both into the Research Supabase project later. |
+| `ledger/` | Snapshots of the bees' ledger (`journalism` collection) — what was drafted, what was rejected and why. |
+| `fixtures/` | Real edition, desk and draft exports for testing the tools. Data, not instructions. |
+| `docs/` | The dated log of what happened and the naming convention for jobs, chats and branches. |
+
+## The three layers
+
+| Layer | Bee | Runs | Output | Where |
+|---|---|---|---|---|
+| 1 FAST | `bees/L1-fast.md` | weekdays 07:25 and 16:25 UK | 3–5 post X thread + one Threads post per qualifying desk card, up to 3 a day | Typefully draft, tags `newsroom` `layer-1` |
+| 2 STORY | `bees/L2-story.md` | weekdays 23:10 UK | one 8–12 post storytelling thread with 1–2 charts; X + Threads + Substack note | Typefully draft, tags `newsroom` `layer-2`; charts as files until the upload host is allowed |
+| 3 ARTICLE | `bees/L3-article.md` | Sunday 08:40 UK | 800–1,100 word article draft on the week's recurring subject + 2–3 charts | Markdown file (and a Claude Doc when available); Alex edits and publishes on Substack himself |
+
+## Where the data lives
+
+- The Newsroom feed: the private Newsroom page's database (collections `editions`, `desk`). The bees read it with the ArtifactData tool. `schema/artifact-collections.md` has the shape.
+- The bees' ledger: collection `journalism` in the same database. `schema/ledger.md` has the shape. `ledger/` holds snapshots.
+- Typefully: social set 273686 (dralexkoh). Drafts only.
+- Charts and articles that cannot be attached automatically land in the Cowork session's output files, folder `newsroom-layer2-<date>` or `newsroom-layer3-<date>`.
+
+## How a reviewer checks a draft in two minutes
+
+1. Open the draft in Typefully. The scratchpad at the bottom is the evidence chain: the claim rows used, the gates passed, the FCA verdict, the character counts, and any note for marketing (charts to attach, a stock named, an overlap with another layer).
+2. If you want to re-check by machine: export the day's editions (see `fixtures/README.md`), save the draft's posts as a payload JSON (see `fixtures/drafts/`), then run `tools/verify_numbers.py` and `tools/check_lengths.py`. Both exit 0 when clean.
+3. Send one Layer 1 or Layer 2 draft about the same story on the same day, not both. The scratchpad says when they overlap.
+
+## What this repo never does
+
+- Never publishes, schedules or plans a post.
+- Never writes to the Newsroom's `editions`, `desk`, `notes` or `os` collections.
+- Never touches the dashboard repo, the members' Supabase project, or the Research repo.
+- Never quotes a number that is not in a claim row at `ok` or `sec`.

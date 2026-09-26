@@ -1,0 +1,11 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-23-2230",
+  "rejected": {
+    "k1": {
+      "at": "2026-09-24T19:46:15Z",
+      "reason": "dedupe: same story as 2026-09-23-2030/k1 (Wed 23 Sep rates jump, 10y 5.11%); mortgage angle kept, Treasury-table angle dropped",
+      "run": "shakedown-by-hand"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-23T17:52:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k1",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#1",
+      "story": 0,
+      "title": "The first five-year Treasury sold above 5% — and buyers still asked for less of it",
+      "why": "Every number comes from Treasury's own auction data, the 5% level is a first, and the weakest cover in six months is a supply story a family investor can actually see.",
+      "window": "2 H WINDOW"
+    },
+    {
+      "created_at": "2026-09-23T17:52:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k2",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#2",
+      "story": 1,
+      "title": "The fear gauge just left the calm band — what the ladder actually does next",
+      "why": "First move above 15 this week, which is the BuyTrigger ladder's own boundary, so it teaches the system rather than the news.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-23-1830"
+}

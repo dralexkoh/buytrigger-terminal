@@ -1,0 +1,30 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-25T09:47:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k1",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#1",
+      "story": 0,
+      "title": "Why a cheaper barrel of oil lifts some of your shares and sinks others",
+      "why": "A clean, dated, fully sourced example of a market moving on input costs rather than earnings — the exact distinction family investors miss when they read 'stocks up'.",
+      "window": "2 H WINDOW"
+    },
+    {
+      "created_at": "2026-09-25T09:47:00Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k2",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#2",
+      "story": 2,
+      "title": "Four record prices in a row, all of them set while America slept",
+      "why": "Anti-FOMO with receipts: Micron has printed a new high before the US open in four straight editions and not one has survived a full session — a plain lesson in what a thin pre-market quote is worth.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-25-1030"
+}

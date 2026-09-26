@@ -1,0 +1,640 @@
+{
+  "as_of": "2026-09-25T17:45:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 18:30",
+  "catalysts": [
+    {
+      "what": "US close: does Micron close under Thursday's $1,080.53 and does the oil-led bid hold?",
+      "when": "FRI 25 SEP · 21:00 UK"
+    },
+    {
+      "what": "treasury.gov publishes the 25 September yield row: does the 10-year hold 5.18%?",
+      "when": "FRI 25 SEP · AFTER 20:30 UK"
+    },
+    {
+      "what": "August PCE inflation and the third estimate of Q2 GDP (bea.gov)",
+      "when": "WED 30 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron fiscal Q4 results and call, company-confirmed",
+      "when": "WED 30 SEP · 21:30 UK"
+    },
+    {
+      "what": "August construction spending (census.gov)",
+      "when": "THU 1 OCT · 15:00 UK"
+    },
+    {
+      "what": "University of Michigan preliminary October consumer sentiment",
+      "when": "FRI 9 OCT"
+    },
+    {
+      "what": "New Mexico air-quality permit deadline for the Project Jupiter fuel cells",
+      "when": "MON 23 NOV"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T17:45:00Z",
+    "changed": 12,
+    "dropped": 0,
+    "refetched": 15
+  },
+  "edition_id": "2026-09-25-1830",
+  "markets": [
+    {
+      "chg": "-4.27%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.00"
+    },
+    {
+      "chg": "+0.47%",
+      "dir": "up",
+      "sym": "S&P 500",
+      "val": "7,740.34"
+    },
+    {
+      "chg": "+0.78%",
+      "dir": "up",
+      "sym": "DOW",
+      "val": "51,749.25"
+    },
+    {
+      "chg": "+0.54%",
+      "dir": "up",
+      "sym": "NASDAQ",
+      "val": "27,083.91"
+    },
+    {
+      "chg": "+0.21%",
+      "dir": "up",
+      "sym": "RUSSELL 2000",
+      "val": "2,841.60"
+    },
+    {
+      "chg": "-2.57%",
+      "dir": "dn",
+      "sym": "WTI",
+      "val": "$92.18"
+    },
+    {
+      "chg": "-2.38%",
+      "dir": "dn",
+      "sym": "BRENT",
+      "val": "$104.06"
+    },
+    {
+      "chg": "24 SEP",
+      "dir": "nt",
+      "sym": "US 10Y",
+      "val": "5.18%"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 18:30, Friday 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "YAHOO · 17:31Z",
+      "callouts": [
+        {
+          "l": "WTI crude, per barrel",
+          "v": "$92.18"
+        },
+        {
+          "l": "WTI on the day",
+          "v": "-2.57%"
+        },
+        {
+          "l": "S&P 500",
+          "v": "+0.47%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 17:31:45Z",
+          "claim": "S&P 500 level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,740.34"
+        },
+        {
+          "asof": "25 SEP 17:31:45Z",
+          "claim": "S&P 500, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.47%"
+        },
+        {
+          "asof": "25 SEP 17:33:41Z",
+          "claim": "Dow Jones Industrial Average",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "51,749.25 / +0.78%"
+        },
+        {
+          "asof": "25 SEP 17:33:35Z",
+          "claim": "Nasdaq Composite",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "27,083.91 / +0.54%"
+        },
+        {
+          "asof": "25 SEP 17:18:00Z",
+          "claim": "Russell 2000, two-source agreement (2,840.79 on Yahoo live blog)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2,841.60 / +0.21%"
+        },
+        {
+          "asof": "25 SEP 17:23:53Z",
+          "claim": "WTI crude front month, two-source agreement (tradingeconomics $92.05)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.18 / -2.57%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Brent crude",
+          "source": "tradingeconomics.com",
+          "status": "single",
+          "value": "$104.06 / -2.38%"
+        },
+        {
+          "asof": "25 SEP 15:25:21Z",
+          "claim": "WTI two hours earlier, at the 16:30 edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.51%"
+        },
+        {
+          "asof": "25 SEP 12:36",
+          "claim": "US-Iran phased deal talks in New York, sourced to people close to the talks",
+          "source": "investing.com",
+          "status": "sec",
+          "value": "REUTERS"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "US 10-year Treasury yield, latest published row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        }
+      ],
+      "conf": "VERIFIED · TWO SOURCE",
+      "dek": "Oil fell hard again this afternoon and the whole American market went up with it. West Texas crude is $92.18 a barrel, down 2.57% on the day, after being down only 0.51% two hours ago. Reuters reports that American and Iranian negotiators in New York are exploring a phased deal in which Iran reopens the Strait of Hormuz and Washington lifts its blockade — that is sourced to people close to the talks, not to either government, so treat it as a report, not a fact. Cheaper fuel cuts costs almost everywhere, which is why all four US indexes are green together for the first time today.",
+      "headline": "Oil tumbles on US-Iran talks and every US index turns green",
+      "level": "ok",
+      "rank": "01",
+      "short": "Oil slides, all four US indexes green",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "finance.yahoo.com · tradingeconomics.com · investing.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE VIA YAHOO · 17:20Z",
+      "callouts": [
+        {
+          "l": "VIX level",
+          "v": "15.00"
+        },
+        {
+          "l": "VIX session low",
+          "v": "14.86"
+        },
+        {
+          "l": "VIX on the day",
+          "v": "-4.27%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 17:20:16Z",
+          "claim": "VIX level, two-source agreement (15.02 on Yahoo live blog, 0.13% apart)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.00"
+        },
+        {
+          "asof": "25 SEP 17:20:16Z",
+          "claim": "VIX, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-4.27%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "VIX session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.86"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Thursday's VIX close, the day's comparison base",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.67"
+        },
+        {
+          "asof": "25 SEP 17:20:16Z",
+          "claim": "Distance to the 30 ladder band, calculated (30 - 15.00)",
+          "source": "calculated",
+          "status": "sec",
+          "value": "15.0"
+        }
+      ],
+      "conf": "VERIFIED · TWO SOURCE",
+      "dek": "The VIX, the market's fear gauge, is 15.00, down 4.27% today, and it touched 14.86 earlier — its first look under 15 all day. On the BuyTrigger ladder, under 15 is calm, 15 to 20 is normal, 20 to 30 is nervous, and only above 30 does the system treat fear as its buying window. So the gauge is sitting exactly on the line between calm and normal, a full 15 points below that window. In plain terms, protection got cheaper while shares rose. A quiet market is not a signal to act; it is a signal that nothing is on sale.",
+      "headline": "The fear gauge dips under 15 for the first time today",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge back to 15, touched 14.86",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "YAHOO · 17:33Z",
+      "callouts": [
+        {
+          "l": "Bloom Energy on the day",
+          "v": "+8.77%"
+        },
+        {
+          "l": "Oracle fuel-cell contract",
+          "v": "2.4GW"
+        },
+        {
+          "l": "Bloom Energy share price",
+          "v": "$290.03"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 17:33:45Z",
+          "claim": "Bloom Energy share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$290.03"
+        },
+        {
+          "asof": "25 SEP 17:33:45Z",
+          "claim": "Bloom Energy, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+8.77%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Bloom Energy session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$292.44"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Bloom says Oracle remains committed to the fuel-cell contract",
+          "source": "247wallst.com",
+          "status": "sec",
+          "value": "2.4GW"
+        },
+        {
+          "asof": "25 SEP 17:33:45Z",
+          "claim": "Gain on top of the 16:30 edition mark of $284.71, calculated",
+          "source": "calculated",
+          "status": "sec",
+          "value": "+1.87%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Oracle force majeure notice over Project Jupiter, reported",
+          "source": "techcrunch.com",
+          "status": "sec",
+          "value": "24 SEP"
+        }
+      ],
+      "conf": "VERIFIED · COMPANY STATEMENT VIA WIRE",
+      "dek": "Bloom Energy makes fuel cells — generators that produce electricity on site when the grid or a gas pipeline cannot. Its shares are $290.03, up 8.77% today, after Bloom said it had spoken to Oracle and that Oracle remains committed to their 2.4 gigawatt contract at the Project Jupiter data centre in New Mexico, on the original timeline. That matters because Oracle sent a force majeure notice over the same site on Thursday, after the gas pipeline slipped to February 2027. For anyone holding AI-infrastructure shares for years, the question is whether these power contracts are firm; today's answer, from the supplier, is yes. Watch for an actual SEC filing from either company.",
+      "element": "level: members",
+      "headline": "Bloom Energy jumps 9% after Oracle sticks with its big power deal",
+      "level": "ok",
+      "rank": "03",
+      "short": "Bloom Energy +9% on Oracle commitment",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · 247wallst.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "YAHOO · 17:34Z",
+      "callouts": [
+        {
+          "l": "Oracle on the day",
+          "v": "-1.15%"
+        },
+        {
+          "l": "Oracle share price",
+          "v": "$137.93"
+        },
+        {
+          "l": "Bloom Energy, same news",
+          "v": "+8.77%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 17:34:01Z",
+          "claim": "Oracle share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$137.93"
+        },
+        {
+          "asof": "25 SEP 17:34:01Z",
+          "claim": "Oracle, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.15%"
+        },
+        {
+          "asof": "25 SEP 15:33:58Z",
+          "claim": "Oracle at the 16:30 edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.85%"
+        },
+        {
+          "asof": "25 SEP 17:33:45Z",
+          "claim": "Bloom Energy, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+8.77%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle statement that the project remains on its planned schedule",
+          "source": "247wallst.com",
+          "status": "sec",
+          "value": "CNBC"
+        }
+      ],
+      "conf": "VERIFIED · COMPANY STATEMENT VIA WIRE",
+      "dek": "One piece of news pushed two companies in opposite directions. Oracle is $137.93, down 1.15%, worse than the 0.85% fall two hours ago, while its power supplier Bloom Energy is up 8.77%. The market is charging Oracle for the delay at its New Mexico data centre and paying Bloom for bridging the gap with fuel cells. That is worth noticing if you own AI-infrastructure shares: the money does not all move together. When a big project slips, the customer carries the cost and whoever solves the problem collects. Neither company has filed anything with the SEC, so this still rests on statements rather than documents.",
+      "element": "level: members",
+      "headline": "Oracle falls while its power supplier soars on the same news",
+      "level": "ok",
+      "rank": "04",
+      "short": "Oracle down as Bloom soars on same news",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · 247wallst.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "YAHOO · 17:33Z",
+      "callouts": [
+        {
+          "l": "Nvidia share price",
+          "v": "$224.95"
+        },
+        {
+          "l": "Nvidia on the day",
+          "v": "+0.16%"
+        },
+        {
+          "l": "Swing since 16:30",
+          "v": "$0.69"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 17:33:57Z",
+          "claim": "Nvidia share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.95"
+        },
+        {
+          "asof": "25 SEP 17:33:57Z",
+          "claim": "Nvidia, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.16%"
+        },
+        {
+          "asof": "25 SEP 15:35:16Z",
+          "claim": "Nvidia at the 16:30 edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.26 / -0.14%"
+        },
+        {
+          "asof": "25 SEP 17:33:57Z",
+          "claim": "Swing since the 16:30 edition, calculated (224.95 - 224.26)",
+          "source": "calculated",
+          "status": "sec",
+          "value": "$0.69"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "US nondefense capital goods orders ex-aircraft, August (CB 26-149, read at the primary release earlier today, not re-fetched this run)",
+          "source": "census.gov",
+          "status": "sec",
+          "value": "+1.6%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Nvidia is $224.95, up 0.16%, after being down 0.14% at my last edition — a 69-cent swing with no company news behind it. The context is this morning's American factory orders report, where the line covering business equipment spending rose 1.6% in August against the 0.5% economists expected. That is the spending that ends up buying Nvidia chips, and yet the shares have gone almost nowhere all day. For someone holding for years, a flat day on good news is not a worry, but it does say the AI trade is no longer moving on capital-spending headlines alone. The next test is the 9pm UK close.",
+      "element": "level: members",
+      "headline": "Nvidia turns positive again after a day of going nowhere",
+      "level": "ok",
+      "rank": "05",
+      "short": "Nvidia back positive, +0.16%",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · census.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "YAHOO · 17:33Z",
+      "callouts": [
+        {
+          "l": "Micron session low",
+          "v": "$1,073.00"
+        },
+        {
+          "l": "Micron on the day",
+          "v": "+0.13%"
+        },
+        {
+          "l": "Low below Thursday's high",
+          "v": "$8.04"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 17:33:40Z",
+          "claim": "Micron share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,081.89"
+        },
+        {
+          "asof": "25 SEP 17:33:40Z",
+          "claim": "Micron, change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.13%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Micron session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,073.00"
+        },
+        {
+          "asof": "25 SEP 17:33:40Z",
+          "claim": "Session low below Thursday's session high of $1,081.04, calculated",
+          "source": "calculated",
+          "status": "sec",
+          "value": "$8.04"
+        },
+        {
+          "asof": "25 SEP 17:33:40Z",
+          "claim": "New low below the 16:30 low of $1,074.51, calculated",
+          "source": "calculated",
+          "status": "sec",
+          "value": "$1.51"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Micron, which makes the memory chips inside AI servers, is $1,081.89, up 0.13%. The number that matters is the low: $1,073.00, which is $8.04 below yesterday's best price and $1.51 under the low it set two hours ago. This is the seventh time this week the shares have been marked higher before the opening bell and then failed to hold it during the day. A pattern like that says buyers are not chasing the price, whatever the headlines say about AI demand. The real test is Wednesday 30 September at 21:30 UK, when Micron reports its fiscal fourth-quarter results.",
+      "element": "level: members",
+      "headline": "Micron sets a new low for the day before clawing back",
+      "level": "ok",
+      "rank": "06",
+      "short": "Micron new day low $1,073, still green",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "UMICH · SEP FINAL",
+      "callouts": [
+        {
+          "l": "Michigan sentiment, Sep final",
+          "v": "48.1"
+        },
+        {
+          "l": "August reading",
+          "v": "51.7"
+        },
+        {
+          "l": "Year-ahead inflation expected",
+          "v": "4.6%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "SEP 2026",
+          "claim": "Index of Consumer Sentiment, September 2026 final",
+          "source": "sca.isr.umich.edu",
+          "status": "ok",
+          "value": "48.1"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "Index of Consumer Sentiment, August 2026",
+          "source": "sca.isr.umich.edu",
+          "status": "ok",
+          "value": "51.7"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Year-ahead inflation expectations",
+          "source": "sca.isr.umich.edu",
+          "status": "ok",
+          "value": "4.6%"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Index of Consumer Expectations, September 2026",
+          "source": "sca.isr.umich.edu",
+          "status": "ok",
+          "value": "46.3"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Fall from August, calculated (51.7 - 48.1)",
+          "source": "calculated",
+          "status": "ok",
+          "value": "3.6 points"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The University of Michigan's final reading of American consumer mood for September came in at 48.1, down from 51.7 in August and the lowest in four months. Households now expect prices to rise 4.6% over the next year. This is the part of today that rising share prices are ignoring: shoppers say they feel worse while the market goes up. It matters over years rather than days, because consumer spending is roughly two-thirds of the American economy and weak sentiment eventually shows up in what companies sell. The next reading, the preliminary October one, is due on Friday 9 October.",
+      "headline": "US consumer mood sinks to its lowest in four months",
+      "level": "ok",
+      "rank": "07",
+      "short": "US consumer mood at four-month low",
+      "slot": "WHAT CHANGED",
+      "sources": "sca.isr.umich.edu",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "YAHOO · EUROPE CLOSE",
+      "callouts": [
+        {
+          "l": "DAX close",
+          "v": "+0.56%"
+        },
+        {
+          "l": "FTSE 100 close",
+          "v": "+0.14%"
+        },
+        {
+          "l": "CAC 40 close",
+          "v": "-0.04%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 16:00:00Z",
+          "claim": "DAX close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "25,408.64 / +0.56%"
+        },
+        {
+          "asof": "25 SEP 15:35:30Z",
+          "claim": "FTSE 100 close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "10,695.25 / +0.14%"
+        },
+        {
+          "asof": "25 SEP 16:05:02Z",
+          "claim": "CAC 40 close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "8,077.80 / -0.04%"
+        }
+      ],
+      "conf": "VERIFIED · SETTLED CLOSES",
+      "dek": "Europe has closed for the week. Germany's DAX finished at 25,408.64, up 0.56%; Britain's FTSE 100 at 10,695.25, up 0.14%; France's CAC 40 at 8,077.80, down 0.04%. These are settled closing prices, which matters because my 16:30 edition could only give marks taken before the closing bell and said so. The pattern is the one that has run all week: Germany leads, Britain drifts, France lags. For anyone holding European funds, a week ending modestly higher while American shares rally harder is the ordinary shape of this market, not a warning sign.",
+      "headline": "German shares end the week higher, French shares end flat",
+      "level": "ok",
+      "rank": "08",
+      "short": "DAX +0.56%, FTSE +0.14%, CAC flat",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    }
+  ],
+  "title": "Delta 18:30"
+}

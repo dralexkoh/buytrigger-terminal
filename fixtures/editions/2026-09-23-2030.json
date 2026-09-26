@@ -1,0 +1,535 @@
+{
+  "as_of": "2026-09-23T19:36:00Z",
+  "as_of_label": "Wed 23 Sep 2026 · 20:30",
+  "catalysts": [
+    {
+      "what": "US closing bell; the VIX closing level sets the ladder band",
+      "when": "TODAY · 21:00 UK"
+    },
+    {
+      "what": "Trump-Xi meeting in Washington; Costco ($COST) results after the close; 7-year Treasury auction",
+      "when": "THU 24 SEP"
+    },
+    {
+      "what": "US new home sales",
+      "when": "FRI 25 SEP"
+    },
+    {
+      "what": "Micron ($MU) results; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-23T19:40:00Z",
+    "changed": 9,
+    "dropped": 1,
+    "refetched": 13
+  },
+  "edition_id": "2026-09-23-2030",
+  "markets": [
+    {
+      "chg": "-0.73%",
+      "dir": "dn",
+      "sym": "S&P 500",
+      "val": "7,707.82"
+    },
+    {
+      "chg": "-1.08%",
+      "dir": "dn",
+      "sym": "NASDAQ",
+      "val": "26,949.13"
+    },
+    {
+      "chg": "-0.59%",
+      "dir": "dn",
+      "sym": "DOW",
+      "val": "51,556.02"
+    },
+    {
+      "chg": "-1.55%",
+      "dir": "dn",
+      "sym": "RUSSELL 2000",
+      "val": "2,845.16"
+    },
+    {
+      "chg": "+5.97%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.06"
+    },
+    {
+      "chg": "+2.94%",
+      "dir": "up",
+      "sym": "US 10Y",
+      "val": "5.11"
+    },
+    {
+      "chg": "+2.23%",
+      "dir": "up",
+      "sym": "WTI",
+      "val": "92.54"
+    },
+    {
+      "chg": "+3.13%",
+      "dir": "up",
+      "sym": "BRENT",
+      "val": "98.40"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 20:30, 23 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "LIVE · 23 SEP 20:36 UK",
+      "callouts": [
+        {
+          "l": "S&P 500",
+          "v": "7,707.82"
+        },
+        {
+          "l": "US 10-year borrowing rate",
+          "v": "5.11"
+        },
+        {
+          "l": "Brent crude",
+          "v": "$98.40"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 15:32 ET",
+          "claim": "S&P 500 level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,707.82"
+        },
+        {
+          "asof": "23 SEP 15:32 ET",
+          "claim": "S&P 500 change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.73%"
+        },
+        {
+          "asof": "23 SEP 15:33 ET",
+          "claim": "Nasdaq Composite change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.08%"
+        },
+        {
+          "asof": "23 SEP 14:59 CDT",
+          "claim": "US 10-year Treasury yield index",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "5.11"
+        },
+        {
+          "asof": "22 SEP CLOSE",
+          "claim": "US 10-year Treasury yield index, Tuesday close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "4.97"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "S&P Global US flash composite PMI, September",
+          "source": "pmi.spglobal.com",
+          "status": "sec",
+          "value": "58.4"
+        },
+        {
+          "asof": "23 SEP 15:18 ET",
+          "claim": "Brent crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$98.40"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "With about half an hour of trading left the S&P 500 is 7,707.82, down 0.73%, and the Nasdaq is down 1.08%. Two things did it. The interest rate the US government pays to borrow for ten years reached 5.11%, up from 4.97% on Tuesday, after this morning's business survey came in far stronger than expected at 58.4 — which makes a rate cut less likely, not more. And oil jumped again, Brent at $98.40. For someone holding good businesses for years, higher rates mostly cut the price people will pay for future profits rather than the profits themselves. The closing bell is next.",
+      "headline": "Higher borrowing costs and dearer oil pull American shares lower",
+      "level": "ok",
+      "rank": "01",
+      "short": "Rates and oil push US shares lower into the close",
+      "slot": "WHY THE MARKET IS DOWN",
+      "sources": "finance.yahoo.com · pmi.spglobal.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "LIVE · 23 SEP 14:19 CDT",
+      "callouts": [
+        {
+          "l": "Fear gauge (VIX)",
+          "v": "15.06"
+        },
+        {
+          "l": "Change today",
+          "v": "+5.97%"
+        },
+        {
+          "l": "Today's range",
+          "v": "14.12-15.45"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 14:19 CDT",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.06"
+        },
+        {
+          "asof": "23 SEP 14:19 CDT",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+5.97%"
+        },
+        {
+          "asof": "22 SEP CLOSE",
+          "claim": "VIX previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.21"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "VIX day range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.12-15.45"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "The VIX, the market's fear gauge, is 15.06, up 5.97% on Tuesday's 14.21 close. It has spent this whole week under 15, which the BuyTrigger ladder calls the calm band; 15 to 20 is the normal band, the second rung. It touched 15.45 earlier and has faded back since, so it is sitting almost exactly on the line. For a family investor the gauge matters only as a signal of when shares go on sale, and the system's buy window does not open until 30. The closing print, not this one, sets tonight's band.",
+      "headline": "The fear gauge nudges above 15 for the first time this week",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge sits just above 15, out of the calm band",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "LIVE · 23 SEP 15:23 ET",
+      "callouts": [
+        {
+          "l": "US crude",
+          "v": "$92.54"
+        },
+        {
+          "l": "Brent crude",
+          "v": "$98.40"
+        },
+        {
+          "l": "Gap between the two grades",
+          "v": "$5.86"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 15:23 ET",
+          "claim": "WTI crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.54"
+        },
+        {
+          "asof": "23 SEP 15:23 ET",
+          "claim": "WTI change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+2.23%"
+        },
+        {
+          "asof": "23 SEP 15:18 ET",
+          "claim": "Brent crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$98.40"
+        },
+        {
+          "asof": "23 SEP 15:18 ET",
+          "claim": "Brent change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+3.13%"
+        },
+        {
+          "asof": "23 SEP 20:36 UK",
+          "claim": "Brent minus WTI spread now (calculated from the two prices)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$5.86"
+        },
+        {
+          "asof": "23 SEP 18:30 UK",
+          "claim": "Brent minus WTI spread at 18:30 UK (calculated from the two prices)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$6.26"
+        },
+        {
+          "asof": "23 SEP 15:18 ET",
+          "claim": "Brent distance below $100 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1.60"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "Oil ran a second time this afternoon. US crude is $92.54, up 2.23%, and Brent, the international grade, is $98.40, up 3.13% and $1.60 short of $100. Two hours ago US crude was up only 0.72% against Brent's 2.12%, and I read that gap as evidence the problem was seaborne — Libya's shut pipeline and tight diesel. That reading did not hold: the gap between the two grades has closed to $5.86 from $6.26, so the buying is in both. For long-term holders, dearer oil feeds back into the inflation figures that set interest rates. Tonight's settlement is the test.",
+      "headline": "Oil jumps again and American crude finally catches up with Brent",
+      "level": "ok",
+      "rank": "03",
+      "short": "Oil runs again; US crude closes the gap to Brent",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "COMMODITY"
+    },
+    {
+      "asof": "MND · 23 SEP",
+      "callouts": [
+        {
+          "l": "US 30-year mortgage",
+          "v": "7.26%"
+        },
+        {
+          "l": "Change today",
+          "v": "+9bp"
+        },
+        {
+          "l": "Last time it was higher",
+          "v": "MAY 2024"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP",
+          "claim": "US 30-year fixed mortgage rate",
+          "source": "mortgagenewsdaily.com",
+          "status": "sec",
+          "value": "7.26%"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "Daily change in the mortgage rate",
+          "source": "mortgagenewsdaily.com",
+          "status": "sec",
+          "value": "+9bp"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "Last date the rate was higher",
+          "source": "mortgagenewsdaily.com",
+          "status": "sec",
+          "value": "MAY 2024"
+        },
+        {
+          "asof": "23 SEP 14:59 CDT",
+          "claim": "US 10-year Treasury yield index",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "5.11"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "The US 30-year fixed mortgage rate rose 9 basis points today to 7.26%, matching the high set in early 2025 and the highest since May 2024. This is the same move that took the government's ten-year borrowing rate to 5.11%, arriving at a kitchen table rather than on a screen — mortgage rates track that yield closely. For a family investor it is the clearest read on what tighter money actually costs households, and it works through homebuilders, banks and consumer spending over months rather than days. Watch whether it holds above 7.25% into next week.",
+      "headline": "American mortgage rates hit their highest level since May 2024",
+      "level": "ok",
+      "rank": "04",
+      "short": "US mortgage rate 7.26%, highest since May 2024",
+      "slot": "WHAT CHANGED",
+      "sources": "mortgagenewsdaily.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "LIVE · 23 SEP 15:34 ET",
+      "callouts": [
+        {
+          "l": "Share price",
+          "v": "$123.95"
+        },
+        {
+          "l": "Change today",
+          "v": "-0.24%"
+        },
+        {
+          "l": "Today's low",
+          "v": "$122.55"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 15:34 ET",
+          "claim": "HOOD share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$123.95"
+        },
+        {
+          "asof": "23 SEP 15:34 ET",
+          "claim": "HOOD change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.24%"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "HOOD day low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.55"
+        },
+        {
+          "asof": "22 SEP CLOSE",
+          "claim": "HOOD previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$124.25"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "Robinhood is $123.95, down 0.24%, having been up 0.53% two hours ago and up 1.40% at lunchtime. It had been the one watchlist name holding green on a falling market through two straight editions, and it has now turned — with no company news behind it in either direction. Its low today was $122.55, so it faded rather than broke. For someone holding for years the point is that nothing about the business changed today, only the price and the mood around it. The closing print is worth noting either way.",
+      "element": "level: members",
+      "headline": "Robinhood ($HOOD) gives way late after holding up all afternoon",
+      "level": "ok",
+      "rank": "05",
+      "short": "Robinhood turns red late with no company news",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 23 SEP 15:27 ET",
+      "callouts": [
+        {
+          "l": "Share price",
+          "v": "$315.79"
+        },
+        {
+          "l": "Change today",
+          "v": "-3.94%"
+        },
+        {
+          "l": "Recovered from the low",
+          "v": "$11.02"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 15:27 ET",
+          "claim": "APP share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$315.79"
+        },
+        {
+          "asof": "23 SEP 15:27 ET",
+          "claim": "APP change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.94%"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "APP day low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$304.77"
+        },
+        {
+          "asof": "23 SEP 15:27 ET",
+          "claim": "Recovery from the day low (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$11.02"
+        },
+        {
+          "asof": "23 SEP",
+          "claim": "Edgewater Research channel-check note on stalled market-share growth",
+          "source": "investing.com",
+          "status": "sec",
+          "value": "NO RATING"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "AppLovin is $315.79, down 3.94%, after trading as low as $304.77 — it has recovered $11.02 from that low, against $6.08 two hours ago. The whole two-day fall traces to a single research note from Edgewater arguing its market-share growth has stalled, and no firm has actually changed a rating on the stock. Its ad-tech peers fell alongside it earlier today. For a family investor this is a live example of a sector repricing on an opinion rather than on anything the company disclosed. Watch for a real rating action after the close.",
+      "element": "level: members",
+      "headline": "AppLovin ($APP) claws back losses with still no analyst downgrade",
+      "level": "ok",
+      "rank": "06",
+      "short": "AppLovin recovers $11 off its low, still unrated",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · investing.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 23 SEP 15:34 ET",
+      "callouts": [
+        {
+          "l": "Nvidia",
+          "v": "$225.31"
+        },
+        {
+          "l": "Change today",
+          "v": "-1.56%"
+        },
+        {
+          "l": "Nasdaq gap to the S&P 500",
+          "v": "0.35pp"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 15:34 ET",
+          "claim": "NVDA share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$225.31"
+        },
+        {
+          "asof": "23 SEP 15:34 ET",
+          "claim": "NVDA change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.56%"
+        },
+        {
+          "asof": "23 SEP 20:36 UK",
+          "claim": "Nasdaq underperformance versus the S&P 500 (calculated from the two percentages)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.35pp"
+        },
+        {
+          "asof": "23 SEP 18:30 UK",
+          "claim": "Same gap at the 18:30 UK edition (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.49pp"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR DATA",
+      "dek": "Nvidia is $225.31, down 1.56%, having been down 1.85% two hours ago. Across the market the Nasdaq now trails the S&P 500 by 0.35 percentage points, narrowed from 0.49 at 18:30. That gap is the clearest single measure of how much rising interest rates are hurting technology in particular: the more of a company's worth sits in profits far in the future, the more a higher borrowing rate takes off it today. It narrowed this afternoon even while oil ran, which is not what a pure rate shock looks like. The close settles it.",
+      "element": "level: members",
+      "headline": "Technology shares claw back ground in the final hour of trading",
+      "level": "ok",
+      "rank": "07",
+      "short": "Tech recovers late; Nasdaq gap to S&P narrows",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    }
+  ],
+  "title": "Delta 20:30"
+}

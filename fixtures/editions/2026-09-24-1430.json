@@ -1,0 +1,613 @@
+{
+  "as_of": "2026-09-24T13:43:00Z",
+  "as_of_label": "Thu 24 Sep 2026 · 14:30",
+  "catalysts": [
+    {
+      "what": "US new residential sales, August (census.gov); Trump-Xi meeting in Washington",
+      "when": "THU 24 SEP · 15:00 UK"
+    },
+    {
+      "what": "Fed Senior Credit Officer Opinion Survey on dealer financing terms",
+      "when": "THU 24 SEP · 19:00 UK"
+    },
+    {
+      "what": "Costco ($COST) fiscal Q4 results; treasury.gov posts its 24 September yield row",
+      "when": "THU 24 SEP · AFTER US CLOSE"
+    },
+    {
+      "what": "US advance durable goods orders, August (census.gov)",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-24T13:36:00Z",
+    "changed": 11,
+    "dropped": 1,
+    "refetched": 11
+  },
+  "edition_id": "2026-09-24-1430",
+  "markets": [
+    {
+      "chg": "+4.41%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.85"
+    },
+    {
+      "chg": "-0.39%",
+      "dir": "dn",
+      "sym": "S&P 500",
+      "val": "7,675.76"
+    },
+    {
+      "chg": "-0.69%",
+      "dir": "dn",
+      "sym": "NASDAQ",
+      "val": "26,750.09"
+    },
+    {
+      "chg": "-0.12%",
+      "dir": "dn",
+      "sym": "DOW",
+      "val": "51,447.23"
+    },
+    {
+      "chg": "+0.18%",
+      "dir": "up",
+      "sym": "10Y NOTE",
+      "val": "105.21875"
+    },
+    {
+      "chg": "-0.15%",
+      "dir": "dn",
+      "sym": "GOLD",
+      "val": "4,312.10"
+    },
+    {
+      "chg": "+1.89%",
+      "dir": "up",
+      "sym": "WTI",
+      "val": "93.90"
+    },
+    {
+      "chg": "+0.73% vs 12:30 UK",
+      "dir": "up",
+      "sym": "BTC",
+      "val": "84,066.85"
+    },
+    {
+      "chg": "-2.28%",
+      "dir": "dn",
+      "sym": "MU",
+      "val": "1,047.43"
+    },
+    {
+      "chg": "-1.63%",
+      "dir": "dn",
+      "sym": "NVDA",
+      "val": "221.84"
+    },
+    {
+      "chg": "-0.44%",
+      "dir": "dn",
+      "sym": "HOOD",
+      "val": "122.16"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 14:30 (US cash open), 24 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "S&P GLOBAL · 23 SEP",
+      "callouts": [
+        {
+          "l": "US business survey, September",
+          "v": "58.4"
+        },
+        {
+          "l": "10-year Treasury yield, 23 Sep",
+          "v": "5.11%"
+        },
+        {
+          "l": "Nasdaq Composite today",
+          "v": "-0.69%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "23 SEP 2026",
+          "claim": "S&P Global US flash composite PMI, September",
+          "source": "fxstreet.com",
+          "status": "sec",
+          "value": "58.4"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "S&P Global US composite PMI, August",
+          "source": "fxstreet.com",
+          "status": "sec",
+          "value": "56.0"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "S&P Global US flash services PMI, September (from 54.6)",
+          "source": "fxstreet.com",
+          "status": "sec",
+          "value": "58.7"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "10-year Treasury constant-maturity yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.11%"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "10-year Treasury yield, prior day",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.96%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "10-year yield one-day change (calculated, 5.11 - 4.96)",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "+15bp"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "2-year Treasury yield change (calculated, 4.85 - 4.71)",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "+14bp"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "30-year Treasury yield change (calculated, 5.40 - 5.29)",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "+11bp"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "S&P 500 level and change at the open",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,675.76 / -0.39%"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Nasdaq Composite level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "26,750.09 / -0.69%"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Dow Jones Industrial Average level and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "51,447.23 / -0.12%"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Nasdaq falling this many times as fast as the Dow (calculated from the two percentage moves)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "5.5x"
+        },
+        {
+          "asof": "24 SEP 14:24 UK",
+          "claim": "10-year Treasury note future, above today's 104.875 low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "105.21875 / +0.18%"
+        },
+        {
+          "asof": "24 SEP 14:24 UK",
+          "claim": "Gold futures",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$4,312.10 / -0.15%"
+        },
+        {
+          "asof": "24 SEP 14:24 UK",
+          "claim": "WTI crude futures",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$93.90 / +1.89%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "US shares opened lower again: the S&P 500 down 0.39%, the Nasdaq down 0.69%, the Dow down only 0.12%. The cause is now named, and it is good news. A survey of US companies by S&P Global on 23 September put business activity at 58.4 against August's 56.0, the fastest growth in over five years. Growth that fast reads as inflation, so rates rose: the government's ten-year borrowing cost hit 5.11% on the Treasury's own table from 4.96%. Higher rates hurt expensive, fast-growing companies most, which is why the Nasdaq is falling five and a half times as fast as the Dow. Oil rose and gold fell, so this is not fear. Watch whether that Dow-Nasdaq gap narrows.",
+      "headline": "Booming US business survey, not a scare, is pulling shares down",
+      "level": "ok",
+      "rank": "01",
+      "short": "A booming economy, not fear, is selling shares",
+      "slot": "WHY THE MARKET IS DOWN",
+      "sources": "treasury.gov · spglobal.com via fxstreet.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE · 24 SEP 14:19 UK",
+      "callouts": [
+        {
+          "l": "VIX level now",
+          "v": "15.85"
+        },
+        {
+          "l": "VIX change on the day",
+          "v": "+4.41%"
+        },
+        {
+          "l": "VIX at 12:30 UK",
+          "v": "16.07"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 14:19 UK",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.85"
+        },
+        {
+          "asof": "24 SEP 14:19 UK",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.67 / +4.41%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "VIX previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.18"
+        },
+        {
+          "asof": "24 SEP 12:19 UK",
+          "claim": "VIX at the previous edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "16.07"
+        }
+      ],
+      "conf": "VERIFIED · DATA VENDOR",
+      "dek": "The VIX, the market's fear gauge, is at 15.85, up 0.67 on Wednesday's close of 15.18. That sounds like rising fear, but it is lower than the 16.07 it showed at 12:30 UK, so the morning's climb has stalled. The BuyTrigger ladder reads 15 to 20 as normal: under 15 is calm, 20 to 30 is nervous, and over 30 is where the system's buy window opens. At 15.85 the gauge has spent a whole session inside normal without reaching 20. For someone holding good businesses for years, this is an ordinary day. Watch whether it breaks 20 into the US afternoon.",
+      "headline": "The fear gauge is calmer than it was two hours ago",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge eases to 15.85, still normal",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "DOL · 24 SEP",
+      "callouts": [
+        {
+          "l": "New jobless claims, week to 19 Sep",
+          "v": "197,000"
+        },
+        {
+          "l": "What economists expected",
+          "v": "201,000"
+        },
+        {
+          "l": "Four-week average",
+          "v": "202,250"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Seasonally adjusted initial jobless claims, week ending 19 September",
+          "source": "dol.gov",
+          "status": "ok",
+          "value": "197,000"
+        },
+        {
+          "asof": "12 SEP 2026",
+          "claim": "Prior week's revised initial claims",
+          "source": "dol.gov",
+          "status": "ok",
+          "value": "198,000"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Change on the week",
+          "source": "dol.gov",
+          "status": "ok",
+          "value": "-1,000"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Four-week moving average",
+          "source": "dol.gov",
+          "status": "ok",
+          "value": "202,250"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Economists' expectation for initial claims",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "201,000"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The US Labor Department said 197,000 people filed new claims for unemployment pay in the week to 19 September, down 1,000 on a prior week revised up to 198,000, and below the 201,000 economists expected. The four-week average is 202,250. These are historically low numbers: a job market this tight is a sign of strength, not trouble. But it also removes the main reason for the Federal Reserve to cut interest rates soon, which is exactly what the bond market concluded on Wednesday. For long-term holders, the read is that rates stay higher for longer, and that shapes what expensive shares are worth. Next data point: new home sales at 15:00 UK.",
+      "headline": "Fewer Americans claimed jobless pay than Wall Street expected",
+      "level": "ok",
+      "rank": "03",
+      "short": "Jobless claims 197,000, lower than expected",
+      "slot": "WHAT CHANGED",
+      "sources": "dol.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 14:34 UK",
+      "callouts": [
+        {
+          "l": "Micron share price at the open",
+          "v": "$1,047.43"
+        },
+        {
+          "l": "Change on the day",
+          "v": "-2.28%"
+        },
+        {
+          "l": "Fiscal Q4 results date",
+          "v": "30 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Micron share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,047.43"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Micron change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-$24.45 / -2.28%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Micron previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,071.88"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Micron two-day fall (calculated from $1,096.16)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-4.45%"
+        },
+        {
+          "asof": "30 SEP 2026",
+          "claim": "Micron fiscal fourth-quarter results date",
+          "source": "micron.com",
+          "status": "ok",
+          "value": "30 SEP 2026"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + DATA VENDOR",
+      "dek": "Micron, the memory-chip maker, opened at $1,047.43, down 2.28% on Wednesday's $1,071.88 close and down 4.45% over two days. It is the worst performer in the AI supply chain again, and no company news explains it: this is the highest-rated part of the chain being marked down as interest rates rise, because the further into the future a company's profits sit, the more a higher rate reduces what they are worth today. Micron reports its fiscal fourth quarter on 30 September, confirmed on its own investor site, so those results will land with the discount already applied. The BuyTrigger element here is: level: members.",
+      "element": "level: members",
+      "headline": "Micron ($MU) is the hardest hit as borrowing costs rise",
+      "level": "ok",
+      "rank": "04",
+      "short": "Micron down 2.3%, worst of the AI chain",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · micron.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 14:34 UK",
+      "callouts": [
+        {
+          "l": "Robinhood at the open",
+          "v": "$122.16"
+        },
+        {
+          "l": "Gain since 12:30 UK",
+          "v": "+1.35%"
+        },
+        {
+          "l": "Bitcoin, Coinbase",
+          "v": "$84,066.85"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Robinhood share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.16"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Robinhood change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-$0.54 / -0.44%"
+        },
+        {
+          "asof": "24 SEP 12:30 UK",
+          "claim": "Robinhood pre-market price at the previous edition",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$120.53"
+        },
+        {
+          "asof": "24 SEP 14:34 UK",
+          "claim": "Robinhood gain since the previous edition (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.35%"
+        },
+        {
+          "asof": "24 SEP 13:35 UTC",
+          "claim": "Bitcoin price, exchange ticker timestamped this run",
+          "source": "api.exchange.coinbase.com",
+          "status": "ok",
+          "value": "$84,066.85"
+        },
+        {
+          "asof": "24 SEP 13:35 UTC",
+          "claim": "Bitcoin gain since the previous edition (calculated from $83,461.42)",
+          "source": "api.exchange.coinbase.com",
+          "status": "ok",
+          "value": "+0.73%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + DATA VENDOR",
+      "dek": "Robinhood opened at $122.16, down just 0.44% on the day, but 1.35% above the $120.53 it was trading at before the market opened. Bitcoin did the same thing, at $84,066.85 on Coinbase, 0.73% higher than two hours earlier. That link keeps holding: Robinhood earns a meaningful part of its money from crypto trading, so it moves with Bitcoin in both directions, which is why it fell hardest this morning and has recovered fastest. For a long-term holder the point is that some of this share's daily movement is a crypto price, not a business result. The BuyTrigger element here is: level: members.",
+      "element": "level: members",
+      "headline": "Robinhood ($HOOD) climbs back off its low as Bitcoin recovers",
+      "level": "ok",
+      "rank": "05",
+      "short": "Robinhood rebounds with Bitcoin at the open",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · api.exchange.coinbase.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 14:35 UK",
+      "callouts": [
+        {
+          "l": "Nvidia at the open",
+          "v": "$221.84"
+        },
+        {
+          "l": "Change on the day",
+          "v": "-1.63%"
+        },
+        {
+          "l": "Fall since 12:30 UK",
+          "v": "-0.62%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 14:35 UK",
+          "claim": "Nvidia share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$221.84"
+        },
+        {
+          "asof": "24 SEP 14:35 UK",
+          "claim": "Nvidia change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-$3.67 / -1.63%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Nvidia previous close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$225.51"
+        },
+        {
+          "asof": "24 SEP 14:35 UK",
+          "claim": "Nvidia fall since the previous edition (calculated from $223.23)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.62%"
+        }
+      ],
+      "conf": "VERIFIED · DATA VENDOR",
+      "dek": "Nvidia opened at $221.84, down 1.63% on Wednesday's $225.51, and 0.62% below where it traded at 12:30 UK. So the two AI names are still falling while Robinhood has turned higher. That split matters: it says the selling is about the cost of money rather than anything about artificial intelligence demand, because a rate move hits the companies whose value sits furthest in the future, and leaves the rest alone. Nothing has been announced by Nvidia today. For a long-term holder, the question is whether earnings change, and nothing here says they have. The BuyTrigger element here is: level: members.",
+      "element": "level: members",
+      "headline": "Nvidia ($NVDA) keeps slipping while Robinhood turns up",
+      "level": "ok",
+      "rank": "06",
+      "short": "Nvidia falls further as the AI chain splits",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "US TREASURY · 24 SEP",
+      "callouts": [
+        {
+          "l": "New truce expiry date",
+          "v": "10 JAN"
+        },
+        {
+          "l": "Length of the extension",
+          "v": "2 MONTHS"
+        },
+        {
+          "l": "Trump-Xi meeting today",
+          "v": "15:00 UK"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "US-China trade truce extended to this date, per Treasury Secretary Bessent",
+          "source": "nbcnews.com",
+          "status": "sec",
+          "value": "10 JAN 2027"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Length of the extension",
+          "source": "nbcnews.com",
+          "status": "sec",
+          "value": "2 months"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Trump-Xi meeting time",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15:00 UK"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Agenda items named",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "AI, Iran, critical minerals"
+        }
+      ],
+      "conf": "VERIFIED · WIRE",
+      "dek": "Treasury Secretary Scott Bessent said the United States and China have extended their trade truce by two months, to 10 January, as President Xi began a state visit to Washington. The truce is what keeps tariffs from stepping back up, so an extension removes a deadline that had been hanging over trade-exposed companies since the summer. Shares fell anyway, which tells you interest rates are setting the price this week, not trade. Trump and Xi meet at 15:00 UK with artificial intelligence, Iran and critical minerals on the agenda; anything concrete on chip exports would matter to the AI supply chain.",
+      "headline": "US and China push their trade truce back to January",
+      "level": "ok",
+      "rank": "07",
+      "short": "US-China trade truce extended to 10 January",
+      "slot": "WHAT CHANGED",
+      "sources": "nbcnews.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    }
+  ],
+  "title": "Delta 14:30"
+}

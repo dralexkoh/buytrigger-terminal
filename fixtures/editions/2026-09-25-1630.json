@@ -1,0 +1,682 @@
+{
+  "as_of": "2026-09-25T15:43:11Z",
+  "as_of_label": "Fri 25 Sep 2026 · 16:30",
+  "catalysts": [
+    {
+      "what": "US close: does the Dow keep carrying it, and does Micron close under Thursday's $1,080.53?",
+      "when": "FRI 25 SEP · 21:00"
+    },
+    {
+      "what": "Treasury publishes the 25 September yield curve: does the 10-year hold 5.18%?",
+      "when": "FRI 25 SEP · after 20:30"
+    },
+    {
+      "what": "August PCE inflation and the third estimate of Q2 GDP (bea.gov)",
+      "when": "WED 30 SEP · 13:30"
+    },
+    {
+      "what": "Micron fiscal Q4 results call, company-confirmed",
+      "when": "WED 30 SEP · 21:30"
+    },
+    {
+      "what": "August US construction spending (census.gov)",
+      "when": "THU 1 OCT · 15:00"
+    },
+    {
+      "what": "New Mexico air-quality permit deadline for Project Jupiter's fuel cells",
+      "when": "MON 23 NOV"
+    },
+    {
+      "what": "Revised in-service date for the gas pipeline serving Project Jupiter",
+      "when": "MON 1 FEB 2027"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T16:01:00Z",
+    "changed": 14,
+    "dropped": 1,
+    "refetched": 16
+  },
+  "edition_id": "2026-09-25-1630",
+  "markets": [
+    {
+      "chg": "+0.28%",
+      "dir": "up",
+      "sym": "S&P 500",
+      "val": "7,725.43"
+    },
+    {
+      "chg": "+0.40%",
+      "dir": "up",
+      "sym": "DOW",
+      "val": "51,554.97"
+    },
+    {
+      "chg": "+0.23%",
+      "dir": "up",
+      "sym": "NASDAQ",
+      "val": "27,002.05"
+    },
+    {
+      "chg": "+0.03%",
+      "dir": "up",
+      "sym": "MU",
+      "val": "1,080.82"
+    },
+    {
+      "chg": "-0.14%",
+      "dir": "dn",
+      "sym": "NVDA",
+      "val": "224.26"
+    },
+    {
+      "chg": "-0.85%",
+      "dir": "dn",
+      "sym": "ORCL",
+      "val": "138.35"
+    },
+    {
+      "chg": "+6.77%",
+      "dir": "up",
+      "sym": "BE",
+      "val": "284.71"
+    },
+    {
+      "chg": "-1.77%",
+      "dir": "dn",
+      "sym": "HOOD",
+      "val": "118.68"
+    },
+    {
+      "chg": "-0.94%",
+      "dir": "dn",
+      "sym": "USD/JPY",
+      "val": "157.28"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 16:30, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "LIVE · 25 SEP 16:34",
+      "callouts": [
+        {
+          "l": "S&P 500, +0.28%",
+          "v": "7,725.43"
+        },
+        {
+          "l": "Dow, today's leader",
+          "v": "+0.40%"
+        },
+        {
+          "l": "S&P intraday low, below Thursday",
+          "v": "7,693.08"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "S&P 500 level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,725.43"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "S&P 500 change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.28%"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "S&P 500 session low, below Thursday's close of 7,704.13",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,693.08"
+        },
+        {
+          "asof": "25 SEP 15:35Z",
+          "claim": "Dow Jones Industrial Average change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.40%"
+        },
+        {
+          "asof": "25 SEP 15:35Z",
+          "claim": "Nasdaq Composite change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.23%"
+        },
+        {
+          "asof": "25 SEP 15:25Z",
+          "claim": "WTI crude front month, cross-checked against tradingeconomics at $93.85 (0.30% apart)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$94.13"
+        },
+        {
+          "asof": "25 SEP 15:25Z",
+          "claim": "WTI change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.51%"
+        },
+        {
+          "asof": "25 SEP 15:19Z",
+          "claim": "Russell 2000 change on the day, two-source agreement",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.06%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY + VENDOR",
+      "dek": "The S&P 500 is at 7,725.43, up 0.28%, but it dipped to 7,693.08 — below where it finished on Thursday — before recovering. Both reasons it was up earlier have gone. Cheaper oil has faded: US crude is $94.13, down only 0.51%, against a 1.41% fall two hours ago. And this morning's strong US factory-investment figures have been handed back by the technology shares they were meant to lift. What holds the index up now is the Dow, up 0.40%, while the tech-heavy Nasdaq has slipped to +0.23% and smaller companies are negative. The market is up on which shares are working, not on fresh news. Watch whether the Dow carries it into the 21:00 UK close.",
+      "headline": "Old-economy Dow holds the market up as the AI trade fades",
+      "level": "ok",
+      "rank": "01",
+      "short": "Dow carries the market as the AI trade gives it back",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "finance.yahoo.com · home.treasury.gov",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE VIA VENDOR · 15:19Z",
+      "callouts": [
+        {
+          "l": "VIX level (feed 34 min behind)",
+          "v": "15.39"
+        },
+        {
+          "l": "Desk view: ladder band, 15-20",
+          "v": "NORMAL"
+        },
+        {
+          "l": "Day's high, up from 15.64",
+          "v": "15.94"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 15:19Z",
+          "claim": "VIX level, feed stamp 34 minutes behind the fetch; two reads agreed to 0.195%",
+          "source": "finance.yahoo.com",
+          "status": "stale",
+          "value": "15.39"
+        },
+        {
+          "asof": "25 SEP 15:19Z",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "stale",
+          "value": "-1.79%"
+        },
+        {
+          "asof": "25 SEP 15:19Z",
+          "claim": "VIX session high, extended from 15.64 at the 14:30 edition",
+          "source": "finance.yahoo.com",
+          "status": "stale",
+          "value": "15.94"
+        },
+        {
+          "asof": "25 SEP 15:19Z",
+          "claim": "Distance from 15.39 to the ladder's 30 buy window (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "stale",
+          "value": "14.61"
+        }
+      ],
+      "conf": "STALE FEED · BAND STILL SAFE",
+      "dek": "The VIX — the market's fear gauge, which measures how much protection against a fall costs — reads 15.39, down 1.79% on the day. Our feed was 34 minutes behind when we checked, so that is not a confirmed live level; two readings minutes apart agreed to within 0.2%, enough to trust the band but not the decimal. The band is what matters: under 15 calm, 15 to 20 normal, 20 to 30 nervous, above 30 the BuyTrigger ladder's buy window. At 15.4 the market is normal, about 14.6 points below that window. The day's high has stretched to 15.94 from 15.64: shares higher and protection dearer at once.",
+      "headline": "The fear gauge is creeping up even though shares are higher",
+      "level": "mid",
+      "rank": "02",
+      "short": "Fear gauge edges up even with shares higher",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "STALE FEED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "LIVE · 25 SEP 15:34Z",
+      "callouts": [
+        {
+          "l": "Micron, +0.03%",
+          "v": "$1,080.82"
+        },
+        {
+          "l": "Given back since 14:30",
+          "v": "1.56%"
+        },
+        {
+          "l": "Session low, under Thursday's high",
+          "v": "$1,074.51"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Micron share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,080.82"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Micron change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.03%"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Fall from the $1,097.99 filed at 14:30 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "1.56%"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Micron session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,074.51"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Session low below Thursday's session high of $1,081.04 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$6.53"
+        },
+        {
+          "asof": "26 AUG 2026",
+          "claim": "Micron fiscal Q4 earnings call, company-confirmed",
+          "source": "globenewswire.com",
+          "status": "sec",
+          "value": "30 SEP 21:30 UK"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR QUOTE",
+      "dek": "Micron ($MU) is $1,080.82, up 0.03%, after being up 1.62% two hours ago — a 1.56% give-back in a single session. The memory-chip maker had jumped on strong American factory-investment data, and at 14:30 its worst price of the day still sat above Thursday's best. That has reversed: its session low of $1,074.51 is $6.53 below Thursday's high. This is the sixth time this week an overnight gain in Micron has failed to survive a full trading session. For someone holding for years, the thing to weigh is not the wobble but the earnings: Micron reports its fiscal fourth quarter on Wednesday 30 September at 21:30 UK, and that print, not today's tape, is what changes the business.",
+      "element": "level: members",
+      "headline": "Micron gives back its whole morning jump before New York lunchtime",
+      "level": "ok",
+      "rank": "03",
+      "short": "Micron hands back its whole morning gain",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · globenewswire.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "WIRE · 24 SEP",
+      "callouts": [
+        {
+          "l": "Project Jupiter value",
+          "v": "$165bn"
+        },
+        {
+          "l": "Power the campus needs",
+          "v": "2.45GW"
+        },
+        {
+          "l": "New pipeline date",
+          "v": "1 FEB 2027"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Oracle sent a force majeure notice to Blue Owl's Stack Infrastructure unit over Project Jupiter; first reported by Bloomberg",
+          "source": "techcrunch.com",
+          "status": "sec",
+          "value": "24 SEP 2026"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Project Jupiter total value",
+          "source": "investing.com",
+          "status": "sec",
+          "value": "$165bn"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Power required by the campus",
+          "source": "investing.com",
+          "status": "sec",
+          "value": "2.45GW"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Revised gas pipeline in-service date after permit refusals",
+          "source": "techcrunch.com",
+          "status": "sec",
+          "value": "1 FEB 2027"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Fuel-cell air-quality permit deadline",
+          "source": "techcrunch.com",
+          "status": "sec",
+          "value": "23 NOV 2026"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Oracle share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$138.35"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Oracle change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.85%"
+        },
+        {
+          "asof": "25 SEP 15:45Z",
+          "claim": "Oracle's most recent SEC filing date; no 8-K on the notice",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "23 SEP 2026"
+        },
+        {
+          "asof": "25 SEP 15:45Z",
+          "claim": "Blue Owl's most recent SEC filing date; no 8-K on the notice",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "14 SEP 2026"
+        }
+      ],
+      "conf": "VERIFIED · WIRE, NO FILING",
+      "dek": "Oracle has sent a force majeure notice — a legal warning that something outside its control may stop it meeting a contract — to Blue Owl Capital's Stack Infrastructure unit over Project Jupiter, a $165 billion AI data centre campus in southern New Mexico needing 2.45 gigawatts of power. The gas pipeline meant to power it slipped to 1 February 2027 after regulators repeatedly refused permits. Oracle says the project 'remains on our planned schedule'; Blue Owl says its commitments are unchanged. Neither has filed an 8-K. Oracle shares are $138.35, down 0.85%. For long-term holders the lesson is that AI capacity is now limited by power and permits, not chips. Next date: a fuel-cell permit decision by 23 November.",
+      "element": "level: members",
+      "headline": "Oracle warns it may delay rent on a huge New Mexico data centre",
+      "level": "ok",
+      "rank": "04",
+      "short": "Oracle may delay rent on a big data centre",
+      "slot": "WHAT CHANGED",
+      "sources": "techcrunch.com · investing.com · datacenterdynamics.com · data.sec.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 25 SEP 15:34Z",
+      "callouts": [
+        {
+          "l": "Bloom Energy, +6.77%",
+          "v": "$284.71"
+        },
+        {
+          "l": "Biggest watchlist mover today",
+          "v": "+6.77%"
+        },
+        {
+          "l": "Thursday's fall on the same news",
+          "v": "-6%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Bloom Energy share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$284.71"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Bloom Energy change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+6.77%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Bloom Energy's fall on Thursday when the force majeure notice was reported",
+          "source": "investing.com",
+          "status": "sec",
+          "value": "-6%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Fuel-cell air-quality permit deadline for Project Jupiter",
+          "source": "techcrunch.com",
+          "status": "sec",
+          "value": "23 NOV 2026"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR QUOTE",
+      "dek": "Bloom Energy ($BE) is $284.71, up 6.77% — the biggest move on our watchlist today — after falling about 6% on Thursday when Oracle's force majeure notice became public. Bloom makes the fuel cells that would generate power on site at Project Jupiter while the delayed gas pipeline is missing. Thursday's reaction treated the delay as bad news for everyone involved; today's reaction says the market has thought again and decided the company bridging the gap is the one that gains from it. For a long-term holder this is the useful shape of the AI build-out: when power becomes the bottleneck, value moves to whoever supplies power. The permit decision due by 23 November is the next real test.",
+      "element": "level: members",
+      "headline": "Bloom Energy jumps as investors bet on fuel cells over the pipeline",
+      "level": "ok",
+      "rank": "05",
+      "short": "Bloom Energy jumps on the fuel-cell bet",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · investing.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 25 SEP 15:35Z",
+      "callouts": [
+        {
+          "l": "Nvidia, -0.14%",
+          "v": "$224.26"
+        },
+        {
+          "l": "Session low, under Thursday's close",
+          "v": "$223.13"
+        },
+        {
+          "l": "Aug core capital goods orders",
+          "v": "+1.6%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 15:35Z",
+          "claim": "Nvidia share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$224.26"
+        },
+        {
+          "asof": "25 SEP 15:35Z",
+          "claim": "Nvidia change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.14%"
+        },
+        {
+          "asof": "25 SEP 15:35Z",
+          "claim": "Nvidia session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$223.13"
+        },
+        {
+          "asof": "25 SEP 15:35Z",
+          "claim": "Session low below Thursday's close of $224.58 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1.45"
+        },
+        {
+          "asof": "AUG 2026",
+          "claim": "Nondefense capital goods excluding aircraft, August new orders, vs +0.5% expected (release CB 26-149)",
+          "source": "census.gov",
+          "status": "ok",
+          "value": "+1.6%"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR QUOTE",
+      "dek": "Nvidia ($NVDA) is $224.26, down 0.14%, having opened up 0.90% this morning. Its lowest price today, $223.13, is $1.45 below where it closed on Thursday. That matters because this morning's American data showed business spending on equipment — the line that pays for AI hardware — rising 1.6% in August against the 0.5% expected, the strongest such reading this year. Nvidia has taken none of it. Earlier today the memory maker Micron took the news and Nvidia did not; by the afternoon neither is holding a gain. For a long-term holder the point is not the 0.14%, it is that a genuinely strong spending number moved neither of the two names it should have moved most.",
+      "element": "level: members",
+      "headline": "Nvidia turns negative and takes nothing from the factory numbers",
+      "level": "ok",
+      "rank": "06",
+      "short": "Nvidia turns negative on a strong factory print",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · census.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 25 SEP 15:34Z",
+      "callouts": [
+        {
+          "l": "Robinhood, -1.77%",
+          "v": "$118.68"
+        },
+        {
+          "l": "Below its 12:30 mark",
+          "v": "3.24%"
+        },
+        {
+          "l": "Latest SEC filing, nothing since",
+          "v": "24 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Robinhood share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$118.68"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Robinhood change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.77%"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Fall from the $122.65 filed at 12:30 (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "3.24%"
+        },
+        {
+          "asof": "25 SEP 15:34Z",
+          "claim": "Robinhood session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$117.53"
+        },
+        {
+          "asof": "25 SEP 15:46Z",
+          "claim": "Most recent Robinhood SEC filing date, accepted 2026-09-24T20:33:07Z",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "24 SEP"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR QUOTE",
+      "dek": "Robinhood ($HOOD) is $118.68, down 1.77%, with a low of $117.53. This is its third leg down today: it was up 1.51% at 12:30, down 0.43% at 14:30, and is now 3.24% below that 12:30 mark. Nothing explains it from the company — its most recent filing with the US regulator is dated 24 September and there has been nothing since, which we re-checked this run rather than carrying the claim forward. A share that swings three percent in four hours on no company news is usually being moved by who is trading it rather than by what the business is worth. The next thing that would actually change the business is its own quarterly results, not today's tape.",
+      "element": "level: members",
+      "headline": "Robinhood falls for a third time today with no news behind it",
+      "level": "ok",
+      "rank": "07",
+      "short": "Robinhood's third fall today, no news behind it",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · data.sec.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "TREASURY · 24 SEP",
+      "callouts": [
+        {
+          "l": "US 10-year yield, 24 Sep",
+          "v": "5.18%"
+        },
+        {
+          "l": "Rise since Monday's 4.96%",
+          "v": "22bp"
+        },
+        {
+          "l": "DAX, down from +0.89%",
+          "v": "+0.48%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 2026",
+          "claim": "US 10-year Treasury par yield",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        },
+        {
+          "asof": "22 SEP 2026",
+          "claim": "US 10-year Treasury par yield on 22 September",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "4.96%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Rise in the 10-year yield since Monday (calculated)",
+          "source": "home.treasury.gov",
+          "status": "ok",
+          "value": "22bp"
+        },
+        {
+          "asof": "SEP 2026",
+          "claim": "Highest 10-year yield since 2007",
+          "source": "cnbc.com",
+          "status": "sec",
+          "value": "2007"
+        },
+        {
+          "asof": "25 SEP 15:18Z",
+          "claim": "DAX level, final-hour mark stamped before the bell",
+          "source": "finance.yahoo.com",
+          "status": "single",
+          "value": "25,386.64"
+        },
+        {
+          "asof": "25 SEP 15:18Z",
+          "claim": "DAX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "single",
+          "value": "+0.48%"
+        },
+        {
+          "asof": "25 SEP 15:19Z",
+          "claim": "FTSE 100 change on the day, final-hour mark",
+          "source": "finance.yahoo.com",
+          "status": "single",
+          "value": "+0.07%"
+        },
+        {
+          "asof": "25 SEP 15:18Z",
+          "claim": "CAC 40 change on the day, final-hour mark",
+          "source": "finance.yahoo.com",
+          "status": "single",
+          "value": "-0.14%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "Europe gave away its gains all day: Germany's DAX finished around 25,386.64, up 0.48% after being up 0.89% this morning; London's FTSE 100 added 0.07% and Paris's CAC 40 lost 0.14%. These are final-hour marks rather than confirmed closing prints, because our feed stamped them about twelve minutes before the bell. Behind it all, the US 10-year Treasury yield — the government's cost of borrowing for a decade, and the benchmark most other borrowing is priced off — sits at 5.18%, its highest since 2007 and 22 basis points above Monday's 4.96%. No new reading is published until after 20:30 UK. Higher for longer here makes every future profit worth a little less today.",
+      "headline": "Europe drifts to a flat finish while US borrowing costs stay high",
+      "level": "ok",
+      "rank": "08",
+      "short": "Europe flat; US borrowing costs stay high",
+      "slot": "WHAT CHANGED",
+      "sources": "home.treasury.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    }
+  ],
+  "title": "Delta 16:30"
+}

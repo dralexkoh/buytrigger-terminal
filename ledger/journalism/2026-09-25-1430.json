@@ -1,0 +1,20 @@
+{
+  "drafted": {
+    "k1": {
+      "angle": "flat headline, AI capex beat 3x one line down (Census core capex, story 3)",
+      "at": "2026-09-25T15:31:55Z",
+      "fca": "5 green, 0 amber, 0 red",
+      "layer": 1,
+      "note": "MU/NVDA split from the card's why line left out: those figures sit on stories 4 and 5, not this card's story",
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "run": "2026-09-25T15:26:00Z",
+      "stock_named": false,
+      "typefully_draft_id": 10926758
+    }
+  },
+  "edition_id": "2026-09-25-1430",
+  "rejected": {}
+}

@@ -1,0 +1,11 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-22-2030",
+  "rejected": {
+    "k1": {
+      "at": "2026-09-24T19:40:00Z",
+      "reason": "window: under 1 hour left at run time",
+      "run": "shakedown-by-hand"
+    }
+  }
+}

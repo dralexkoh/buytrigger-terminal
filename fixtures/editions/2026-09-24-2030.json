@@ -1,0 +1,677 @@
+{
+  "as_of": "2026-09-24T19:38:00Z",
+  "as_of_label": "Thu 24 Sep 2026 · 20:30",
+  "catalysts": [
+    {
+      "what": "US close; treasury.gov's 24 September yield row posts after it",
+      "when": "THU 24 SEP · 21:00 UK"
+    },
+    {
+      "what": "Costco ($COST) fiscal Q4 results",
+      "when": "THU 24 SEP · AFTER THE CLOSE"
+    },
+    {
+      "what": "US advance durable goods orders, August (census.gov)",
+      "when": "FRI 25 SEP · 13:30 UK"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results; quarter-end",
+      "when": "WED 30 SEP"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-24T19:36:00Z",
+    "changed": 13,
+    "dropped": 0,
+    "refetched": 14
+  },
+  "edition_id": "2026-09-24-2030",
+  "markets": [
+    {
+      "chg": "+0.00%",
+      "dir": "nt",
+      "sym": "S&P 500",
+      "val": "7,706.23"
+    },
+    {
+      "chg": "-0.02%",
+      "dir": "dn",
+      "sym": "NASDAQ",
+      "val": "26,930.57"
+    },
+    {
+      "chg": "-0.26%",
+      "dir": "dn",
+      "sym": "DOW",
+      "val": "51,378.75"
+    },
+    {
+      "chg": "-0.20%",
+      "dir": "dn",
+      "sym": "RUSSELL 2000",
+      "val": "2,832.88"
+    },
+    {
+      "chg": "+2.57%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.57"
+    },
+    {
+      "chg": "+3.46%",
+      "dir": "up",
+      "sym": "WTI CRUDE",
+      "val": "95.35"
+    },
+    {
+      "chg": "-0.18%",
+      "dir": "dn",
+      "sym": "GOLD",
+      "val": "4,310.50"
+    },
+    {
+      "chg": "+0.33%",
+      "dir": "up",
+      "sym": "BITCOIN",
+      "val": "84,543.65"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 20:30, 24 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "NYSE · 24 SEP 15:35 ET",
+      "callouts": [
+        {
+          "l": "S&P 500, 15:35 ET",
+          "v": "7,706.23"
+        },
+        {
+          "l": "Dow, the day's laggard",
+          "v": "-0.26%"
+        },
+        {
+          "l": "Nasdaq's fall vs the Dow's",
+          "v": "0.08x"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:34 ET",
+          "claim": "S&P 500 level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,706.23"
+        },
+        {
+          "asof": "24 SEP 15:34 ET",
+          "claim": "S&P 500 change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.00%"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Dow Jones Industrial Average change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.26%"
+        },
+        {
+          "asof": "24 SEP 15:34 ET",
+          "claim": "Nasdaq Composite change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.02%"
+        },
+        {
+          "asof": "24 SEP 15:19 ET",
+          "claim": "Russell 2000 change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.20%"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Nasdaq falls this many times as fast as the Dow (calculated from both indices' percentage moves)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.08x"
+        },
+        {
+          "asof": "24 SEP 15:25 ET",
+          "claim": "WTI crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$95.35"
+        },
+        {
+          "asof": "24 SEP 15:23 ET",
+          "claim": "10-year note future, new day low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "104.703125"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "10-year Treasury yield, latest published row (Wednesday)",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.11%"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR & PRIMARY",
+      "dek": "With half an hour of US trading left the S&P 500 sat at 7,706.23, level with Wednesday, while the Dow was down 0.26% and the Nasdaq only 0.02%. Two hours earlier I put the recovery down to oil coming off its high; oil has since turned back up to $95.35, and interest rates got worse too, with the 10-year note future cutting to a new low for the day. Neither explains a flat index. What is actually happening is narrow: one data-centre payment dispute is repricing the companies inside it while the rest of the market carries on. For a long-term holder that is the reassuring version of a bad headline — the problem has an address.",
+      "headline": "Oracle's payment dispute hits its landlord, not the wider market",
+      "level": "ok",
+      "rank": "01",
+      "short": "Oracle dispute hits its landlord, not the market",
+      "slot": "WHY THE MARKET IS FLAT",
+      "sources": "finance.yahoo.com · treasury.gov",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CBOE · 24 SEP 15:19 ET",
+      "callouts": [
+        {
+          "l": "VIX level",
+          "v": "15.57"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+0.39"
+        },
+        {
+          "l": "Below the 30 buy window",
+          "v": "14.43"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:19 ET",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.57"
+        },
+        {
+          "asof": "24 SEP 15:19 ET",
+          "claim": "VIX change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.39"
+        },
+        {
+          "asof": "24 SEP 15:19 ET",
+          "claim": "VIX change in percent",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+2.57%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Wednesday's VIX close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.18"
+        },
+        {
+          "asof": "24 SEP 15:19 ET",
+          "claim": "Distance below the ladder's 30 buy window (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.43"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Blue Owl fall while the VIX was static",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "4.4%"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "The VIX, the market's fear gauge, is at 15.57, up 2.57% on Wednesday's 15.18 and well inside the range it has held all week. It has moved three hundredths of a point in the last two hours, a stretch in which Blue Owl shares fell about 4.4%. That combination is the point: when a single credit story is genuinely contained, the options market does not bid up protection on everything else. On the BuyTrigger ladder 15 to 20 is the normal band, and the system's buy window opens at 30, still 14.43 points above here. Nothing in today's reading changes what the ladder is doing.",
+      "headline": "The fear gauge barely moves as one company takes the hit",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge calm at 15.57 as the damage stays narrow",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "NYSE · 24 SEP 15:35 ET",
+      "callouts": [
+        {
+          "l": "Blue Owl share price",
+          "v": "$9.18"
+        },
+        {
+          "l": "Change on the day",
+          "v": "-4.38%"
+        },
+        {
+          "l": "Two-hour swing vs Oracle",
+          "v": "1.23pp"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Blue Owl share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$9.18"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Blue Owl change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-4.38%"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Blue Owl day's low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$9.02"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Gap to Oracle's move, Blue Owl worse (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.76pp"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Swing in the gap since 18:30 UK (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "1.23pp"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Blue Owl holds both debt and equity stakes in Project Jupiter",
+          "source": "benzinga.com",
+          "status": "sec",
+          "value": "debt and equity"
+        }
+      ],
+      "conf": "VERIFIED · WIRE & VENDOR",
+      "dek": "Blue Owl shares are at $9.18, down 4.38%, after Oracle sent it a force majeure notice over the Project Jupiter data centre in New Mexico. Two hours ago Blue Owl was falling less than Oracle; it is now 0.76 points worse, a swing of 1.23 points between them. The reason is structural: Blue Owl holds both the debt and the equity in the project, so a tenant who defers payments leaves the money with the financier. For anyone holding asset managers for the long run, this is the mechanism to understand — private credit gets marked with the borrower's problem, not beside it. Watch whether the gap widens after the close.",
+      "element": "level: members",
+      "headline": "Blue Owl falls further than Oracle after force majeure letter",
+      "level": "ok",
+      "rank": "03",
+      "short": "Blue Owl now falling harder than Oracle",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · benzinga.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "EDGAR · 23 SEP 23:22 UTC",
+      "callouts": [
+        {
+          "l": "Oracle share price",
+          "v": "$139.33"
+        },
+        {
+          "l": "Of the day's fall recovered",
+          "v": "53%"
+        },
+        {
+          "l": "Newest Oracle SEC filing",
+          "v": "23 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Oracle share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.33"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Oracle change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.62%"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Oracle day's low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$133.48"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Share of the day's fall recovered (calculated from price, low and prior close)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "53%"
+        },
+        {
+          "asof": "23 SEP 23:22 UTC",
+          "claim": "Newest Oracle filing date in EDGAR, re-fetched this run",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "23 SEP"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Project Jupiter campus capacity",
+          "source": "datacenterdynamics.com",
+          "status": "sec",
+          "value": "2.5GW"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Planned launch year the notice refers to",
+          "source": "datacenterdynamics.com",
+          "status": "sec",
+          "value": "2028"
+        }
+      ],
+      "conf": "VERIFIED · FILING & WIRE",
+      "dek": "Oracle is at $139.33, down 3.62%, having been as low as $133.48 earlier — it has recovered 53% of the day's fall. Bloomberg reported that Oracle sent a force majeure notice letting it defer payments if the 2.5 gigawatt New Mexico campus misses its 2028 opening, while Oracle itself says the project \"remains on our planned schedule\". I checked the SEC's filing system again this run: Oracle's newest filings are still dated 23 September, so there is no company document on this yet, only the reported letter. That gap between what a company says publicly and what it writes to its counterparty is the thing to watch, and an 8-K would settle it.",
+      "element": "level: members",
+      "headline": "Oracle claws back half its drop while its landlord keeps falling",
+      "level": "ok",
+      "rank": "04",
+      "short": "Oracle recovers half its fall, Blue Owl does not",
+      "slot": "WHAT CHANGED",
+      "sources": "data.sec.gov · datacenterdynamics.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "FED · 24 SEP",
+      "callouts": [
+        {
+          "l": "Dealers seeing no leverage change",
+          "v": "88.2%"
+        },
+        {
+          "l": "Date the survey closed",
+          "v": "24 AUG"
+        },
+        {
+          "l": "How old the all-clear is",
+          "v": "31 days"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "SEP 2026 SCOOS",
+          "claim": "Dealers reporting no change in hedge fund leverage",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "88.2%"
+        },
+        {
+          "asof": "SEP 2026 SCOOS",
+          "claim": "Price and nonprice terms described as basically unchanged",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "basically unchanged"
+        },
+        {
+          "asof": "11-24 AUG 2026",
+          "claim": "Survey period end date",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "24 AUG"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Days between the survey close and today (calculated)",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "31 days"
+        },
+        {
+          "asof": "SEP 2026 SCOOS",
+          "claim": "Dealers reporting increased demand for funding of equities",
+          "source": "federalreserve.gov",
+          "status": "ok",
+          "value": "more than one-third"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The Federal Reserve published its quarterly survey of the big dealers this evening, and the answer was calm: terms on securities financing were \"basically unchanged\", and 88.2% of dealers reported no change in how much hedge funds were borrowing. The catch is the date. The survey closed on 24 August, exactly 31 days ago, before the private-credit repricing that is moving Blue Owl and Oracle today. So this is a reassuring photograph of a month-old market, not evidence about tonight's. Dealers did flag one thing worth filing: more than a third saw increased demand for funding equities. The next survey is the one that will matter.",
+      "headline": "Fed says lending terms are fine, but it asked a month ago",
+      "level": "ok",
+      "rank": "05",
+      "short": "Fed's all-clear on credit is a month out of date",
+      "slot": "WHAT CHANGED",
+      "sources": "federalreserve.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "NYMEX · 24 SEP 15:25 ET",
+      "callouts": [
+        {
+          "l": "WTI crude, front month",
+          "v": "$95.35"
+        },
+        {
+          "l": "Change on the day",
+          "v": "+3.46%"
+        },
+        {
+          "l": "Fewer ships through Hormuz",
+          "v": "41%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:25 ET",
+          "claim": "WTI crude front month",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$95.35"
+        },
+        {
+          "asof": "24 SEP 15:25 ET",
+          "claim": "WTI change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+3.46%"
+        },
+        {
+          "asof": "24 SEP 15:25 ET",
+          "claim": "WTI day's high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$96.78"
+        },
+        {
+          "asof": "24 SEP 15:25 ET",
+          "claim": "Distance below the day's high (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "1.48%"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Commodity vessels transiting Hormuz on Wednesday",
+          "source": "tradingeconomics.com",
+          "status": "single",
+          "value": "10"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Ten-day moving average of Hormuz transits",
+          "source": "tradingeconomics.com",
+          "status": "single",
+          "value": "17"
+        },
+        {
+          "asof": "23 SEP 2026",
+          "claim": "Shortfall against the ten-day average (calculated)",
+          "source": "tradingeconomics.com",
+          "status": "single",
+          "value": "41%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Houthi strikes on Saudi Arabia's Yanbu terminal named as the cause of the surge",
+          "source": "tradingeconomics.com",
+          "status": "single",
+          "value": "Yanbu"
+        }
+      ],
+      "conf": "PRICE VERIFIED · CAUSE SINGLE SOURCE",
+      "dek": "Oil is at $95.35, up 3.46% on the day and 1.48% below the $96.78 it touched earlier. The move up came on reported Houthi strikes on Saudi Arabia's Yanbu export terminal, and the hard number behind the price is traffic: just 10 commodity vessels went through the Strait of Hormuz on Wednesday against a ten-day average of 17, 41% fewer. I could not find a dated primary source for the Yanbu strikes, so treat the cause as one vendor's account while the price itself is confirmed on two feeds. For long-term holders oil at $95 is an input cost working its way into next quarter's margins, not a market event.",
+      "headline": "Oil holds above $95 as ships keep avoiding the Gulf route",
+      "level": "mid",
+      "rank": "06",
+      "short": "Oil above $95, Gulf ship traffic down 41%",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · tradingeconomics.com",
+      "state": "SINGLE SOURCE",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 15:35 ET",
+      "callouts": [
+        {
+          "l": "Micron share price",
+          "v": "$1,077.61"
+        },
+        {
+          "l": "New session high",
+          "v": "$1,078.00"
+        },
+        {
+          "l": "Day's low",
+          "v": "$1,044.00"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Micron share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,077.61"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Micron change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.53%"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Micron session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,078.00"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Micron session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,044.00"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "Micron is at $1,077.61, up 0.53%, and touched $1,078.00 for a new high for the session after being as low as $1,044.00 this morning. That is a round trip of more than 3% in a day the wider market spent flat, and it kept the memory-chip end of the AI supply chain green while the data-centre financing names were being marked down. Micron reports its fiscal fourth quarter on 30 September, so the market is positioning into a print that will say plainly whether high-bandwidth memory demand is still running ahead of supply. Six days to wait.",
+      "element": "level: members",
+      "headline": "Micron hits a new high for the day before next week's results",
+      "level": "ok",
+      "rank": "07",
+      "short": "Micron at a new session high before its Q4",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "NASDAQ · 24 SEP 15:35 ET",
+      "callouts": [
+        {
+          "l": "Robinhood share price",
+          "v": "$120.91"
+        },
+        {
+          "l": "Nvidia, change on the day",
+          "v": "-0.85%"
+        },
+        {
+          "l": "Bitcoin, 19:35 UTC",
+          "v": "$84,543.65"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Robinhood share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$120.91"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Robinhood change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.46%"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Deterioration since 18:30 UK (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.60pp"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Nvidia share price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$223.60"
+        },
+        {
+          "asof": "24 SEP 15:35 ET",
+          "claim": "Nvidia change on the day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.85%"
+        },
+        {
+          "asof": "24 SEP 19:35 UTC",
+          "claim": "Bitcoin price, response carried its own timestamp",
+          "source": "api.exchange.coinbase.com",
+          "status": "ok",
+          "value": "$84,543.65"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "Robinhood is at $120.91, down 1.46%, having been down only 0.86% two hours ago — it has given back its afternoon recovery and is 0.60 points worse than when I last looked. Nvidia is at $223.60, down 0.85%, barely changed over the same stretch, and Bitcoin is at $84,543.65. There is no company news behind either move, which is the useful part: these are names being sold with the tape on a day when the financing end of the AI trade is under question, not because anything was reported about them. Nvidia's next scheduled event is its quarterly report in November.",
+      "element": "level: members",
+      "headline": "Robinhood gives back its afternoon bounce as Nvidia stays soft",
+      "level": "ok",
+      "rank": "08",
+      "short": "Robinhood slips back, Nvidia still down",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · api.exchange.coinbase.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    }
+  ],
+  "title": "Delta 20:30"
+}

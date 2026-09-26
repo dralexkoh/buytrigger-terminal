@@ -1,0 +1,21 @@
+{
+  "drafted": {
+    "k1": {
+      "at": "2026-09-24T19:46:54Z",
+      "layer": 1,
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "published_at": "2026-09-24T22:38:24Z",
+      "published_by": "Claude on Alex's instruction",
+      "run": "shakedown-by-hand",
+      "threads_error": "Typefully status error twice (retry draft 10915651, arrows removed); no reason given",
+      "threads_url": null,
+      "typefully_draft_id": 10913774,
+      "x_url": "https://x.com/alexkoh/status/2103252691623547299"
+    }
+  },
+  "edition_id": "2026-09-24-1430",
+  "rejected": {}
+}

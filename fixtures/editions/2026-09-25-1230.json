@@ -1,0 +1,595 @@
+{
+  "as_of": "2026-09-25T11:44:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 12:30",
+  "catalysts": [
+    {
+      "what": "August US factory orders (durable goods). Core capital goods is the AI-spending line.",
+      "when": "FRI 25 SEP · 13:30"
+    },
+    {
+      "what": "August US new home sales.",
+      "when": "FRI 25 SEP · 15:00"
+    },
+    {
+      "what": "Treasury publishes Friday's yields: does the 10-year hold 5.18%?",
+      "when": "FRI 25 SEP · AFTER US CLOSE"
+    },
+    {
+      "what": "August PCE inflation and the Q2 GDP third estimate.",
+      "when": "WED 30 SEP · 13:30"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results call, confirmed by the company.",
+      "when": "WED 30 SEP · 21:30"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T11:36:00Z",
+    "changed": 14,
+    "dropped": 2,
+    "refetched": 14
+  },
+  "edition_id": "2026-09-25-1230",
+  "markets": [
+    {
+      "chg": "-3.70%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "15.09"
+    },
+    {
+      "chg": "+0.37%",
+      "dir": "up",
+      "sym": "S&P FUT",
+      "val": "7,795.75"
+    },
+    {
+      "chg": "+0.74%",
+      "dir": "up",
+      "sym": "DAX",
+      "val": "25,452.36"
+    },
+    {
+      "chg": "+0.29%",
+      "dir": "up",
+      "sym": "FTSE 100",
+      "val": "10,710.68"
+    },
+    {
+      "chg": "+0.25%",
+      "dir": "up",
+      "sym": "CAC 40",
+      "val": "8,101.45"
+    },
+    {
+      "chg": "-2.27%",
+      "dir": "dn",
+      "sym": "WTI OIL",
+      "val": "92.46"
+    },
+    {
+      "chg": "-1.61%",
+      "dir": "dn",
+      "sym": "BRENT",
+      "val": "104.89"
+    },
+    {
+      "chg": "-0.72%",
+      "dir": "dn",
+      "sym": "USD/JPY",
+      "val": "157.63"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 12:30, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "LIVE · 25 SEP 11:24Z",
+      "callouts": [
+        {
+          "l": "S&P 500 futures",
+          "v": "+0.37%"
+        },
+        {
+          "l": "US oil, -2.27%",
+          "v": "$92.46"
+        },
+        {
+          "l": "Germany's DAX, from +0.89%",
+          "v": "+0.74%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 11:24Z",
+          "claim": "S&P 500 futures (ES=F), level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,795.75"
+        },
+        {
+          "asof": "25 SEP 11:24Z",
+          "claim": "S&P 500 futures, change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.37%"
+        },
+        {
+          "asof": "25 SEP 11:24Z",
+          "claim": "US crude oil front month (CL=F), level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.46"
+        },
+        {
+          "asof": "25 SEP 11:24Z",
+          "claim": "US crude oil, change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-2.27%"
+        },
+        {
+          "asof": "25 SEP 11:19Z",
+          "claim": "Germany's DAX, change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.74%"
+        },
+        {
+          "asof": "25 SEP 11:18Z",
+          "claim": "FTSE 100, change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.29%"
+        },
+        {
+          "asof": "25 SEP 09:20Z",
+          "claim": "DAX change as filed at 10:30 UK",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.89%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "10-year US Treasury yield, latest published row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY AND VENDOR",
+      "dek": "US stock futures point higher: the S&P 500 future sits at 7,795.75, up 0.37%, better than the 0.29% of two hours ago. Europe has gone the other way. Germany's DAX is up 0.74% having been up 0.89%, and the FTSE 100 up 0.29% from 0.52%. The reason for the good mood is the same as this morning's, working harder: US oil has fallen to $92.46, down 2.27%, while America and Iran talk about reopening Gulf shipping. Cheaper fuel lifts what companies earn without them selling anything more. Borrowing has not got cheaper, though: the US government still pays 5.18% to borrow for ten years. Watch today's US factory orders at 13:30 UK.",
+      "headline": "Cheaper oil lifts US futures as Europe's morning gain leaks away",
+      "level": "ok",
+      "rank": "01",
+      "short": "Cheaper oil lifts US futures, Europe fades",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "finance.yahoo.com · treasury.gov · tradingeconomics.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "LIVE · 25 SEP 11:19Z",
+      "callouts": [
+        {
+          "l": "Fear gauge (VIX)",
+          "v": "15.09"
+        },
+        {
+          "l": "Change on the day",
+          "v": "-3.70%"
+        },
+        {
+          "l": "Above the calm line (calculated)",
+          "v": "0.09"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 11:19Z",
+          "claim": "VIX level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.09"
+        },
+        {
+          "asof": "25 SEP 11:19Z",
+          "claim": "VIX change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.70%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "VIX previous close, Thursday",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.67"
+        },
+        {
+          "asof": "25 SEP 11:19Z",
+          "claim": "VIX day's low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.08"
+        },
+        {
+          "asof": "25 SEP 11:19Z",
+          "claim": "Distance above the calm line, calculated (15.09 - 15.00)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "0.09"
+        },
+        {
+          "asof": "25 SEP 11:19Z",
+          "claim": "Distance below the 30 buy window, calculated (30 - 15.09)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.91"
+        }
+      ],
+      "conf": "VERIFIED · LIVE FEED",
+      "dek": "The VIX, Wall Street's fear gauge, measures how much investors are paying to insure their shares. It has fallen to 15.09, down 0.58 on the day, or 3.70%, and that is the lowest it has been today. Thursday's close was 15.67. On the BuyTrigger ladder, 15 to 20 is the normal band: this sits just 0.09 above the calm line and 14.91 below 30, the level at which the system's buy window opens. In plain terms, almost nobody is paying for protection this morning. What to watch is whether today's US factory orders at 13:30 UK disturbs that.",
+      "headline": "The fear gauge falls to 15.09, almost back into calm",
+      "level": "ok",
+      "rank": "02",
+      "short": "Fear gauge 15.09, just above calm",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "TRADINGECONOMICS · 25 SEP",
+      "callouts": [
+        {
+          "l": "Brent minus US oil (calculated)",
+          "v": "$12.59"
+        },
+        {
+          "l": "Brent front month, -1.61%",
+          "v": "$104.888"
+        },
+        {
+          "l": "Deferred-contract gap (calculated)",
+          "v": "$6.59"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Brent crude front month, level",
+          "source": "tradingeconomics.com",
+          "status": "sec",
+          "value": "$104.888"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Brent crude, change on day",
+          "source": "tradingeconomics.com",
+          "status": "sec",
+          "value": "-1.61%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "WTI crude, level on the same page and minute",
+          "source": "tradingeconomics.com",
+          "status": "sec",
+          "value": "$92.30"
+        },
+        {
+          "asof": "25 SEP 11:36Z",
+          "claim": "Brent minus WTI, calculated (104.888 - 92.30)",
+          "source": "tradingeconomics.com",
+          "status": "sec",
+          "value": "$12.59"
+        },
+        {
+          "asof": "25 SEP 03:48Z",
+          "claim": "Brent minus WTI as reported earlier today by one outlet",
+          "source": "thenationalnews.com",
+          "status": "single",
+          "value": "$12.68"
+        },
+        {
+          "asof": "25 SEP 11:21Z",
+          "claim": "Brent 2 November 2026 contract, level",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$98.30"
+        },
+        {
+          "asof": "25 SEP 11:36Z",
+          "claim": "Front month minus November contract, calculated (104.888 - 98.30)",
+          "source": "tradingeconomics.com",
+          "status": "sec",
+          "value": "$6.59"
+        }
+      ],
+      "conf": "CORROBORATED · ONE CLAIM SINGLE SOURCE",
+      "dek": "American oil now sells for $12.59 a barrel less than the global Brent price: $92.30 against $104.888, both quoted at the same moment. The gap matters because it says the fall in the oil price is a US story, not a worldwide one. Barrels are being kept at home while Gulf shipping risk still props up the global price. One outlet gave the same gap as $12.68 early this morning, and a second, independent source now confirms it. One caution worth stating plainly: a widely used Brent quote shows $98.30, but that is a November contract, $6.59 below the front month. Watch whether Brent follows US oil down next week.",
+      "headline": "Second source confirms US oil is $12.59 cheaper than Brent",
+      "level": "mid",
+      "rank": "03",
+      "short": "US oil $12.59 cheaper than Brent, confirmed",
+      "slot": "WHAT CHANGED",
+      "sources": "tradingeconomics.com · thenationalnews.com · finance.yahoo.com",
+      "state": "CORROBORATED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "MICRON RELEASE · 26 AUG",
+      "callouts": [
+        {
+          "l": "Pre-market, +1.39%",
+          "v": "$1,095.50"
+        },
+        {
+          "l": "Fiscal Q4, company-confirmed",
+          "v": "30 SEP"
+        },
+        {
+          "l": "Above Thu's high (calculated)",
+          "v": "$14.46"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "26 AUG 2026 16:01 ET",
+          "claim": "Micron fiscal Q4 2026 earnings call date",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "30 SEP"
+        },
+        {
+          "asof": "26 AUG 2026 16:01 ET",
+          "claim": "Micron fiscal Q4 call time",
+          "source": "globenewswire.com",
+          "status": "ok",
+          "value": "2:30 p.m. Mountain"
+        },
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "Micron ($MU) pre-market price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,095.50"
+        },
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "Micron pre-market change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.39%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Micron Thursday session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,081.04"
+        },
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "Pre-market above Thursday's high, calculated (1,095.50 - 1,081.04)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$14.46"
+        }
+      ],
+      "conf": "VERIFIED · COMPANY RELEASE",
+      "dek": "Micron has put a firm date and time on its results at last. The memory-chip maker will hold its fiscal fourth-quarter call on Wednesday 30 September at 2:30 p.m. Mountain time, which is 21:30 UK, after the US market shuts. Until now this brief could only quote a data provider's date; this comes from Micron's own announcement, issued on 26 August. Before the opening bell the shares are at $1,095.50, up 1.39%, and $14.46 above Thursday's highest price of the day. That is the fifth night running the shares have marked a new high while New York slept, and not one of those marks has held through a full trading day.",
+      "element": "level: members",
+      "headline": "Micron confirms its results date: Wednesday 30 September, 21:30 UK",
+      "level": "ok",
+      "rank": "04",
+      "short": "Micron earnings: Wed 30 Sep, 21:30 UK",
+      "slot": "WHAT CHANGED",
+      "sources": "globenewswire.com · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "SEC EDGAR · RE-CHECKED 11:41Z",
+      "callouts": [
+        {
+          "l": "Oracle pre-market",
+          "v": "+0.19%"
+        },
+        {
+          "l": "Oracle's newest filing",
+          "v": "23 SEP"
+        },
+        {
+          "l": "Blue Owl's newest filing",
+          "v": "14 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 11:34Z",
+          "claim": "Oracle ($ORCL) pre-market price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$139.78"
+        },
+        {
+          "asof": "25 SEP 11:34Z",
+          "claim": "Oracle pre-market change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.19%"
+        },
+        {
+          "asof": "23 SEP 2026 23:22Z",
+          "claim": "Oracle newest SEC filing date",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "23 SEP"
+        },
+        {
+          "asof": "15 SEP 2026 00:30Z",
+          "claim": "Blue Owl ($OWL) newest SEC filing date",
+          "source": "data.sec.gov",
+          "status": "sec",
+          "value": "14 SEP"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Oracle change, Thursday's close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.47%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Blue Owl change, Thursday's close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-3.65%"
+        }
+      ],
+      "conf": "VERIFIED · FILINGS RE-CHECKED",
+      "dek": "Oracle is barely changed before the US open at $139.78, up 0.19%. That is the third reading today and each has been lower than the last: up 0.52% at 08:30, 0.30% at 10:30, 0.19% now, so the whole overnight gain has been handed back. What makes it awkward is the silence. Oracle fell 3.47% on Thursday and has filed nothing with the US regulator since 23 September. Blue Owl, which finances data-centre projects and fell 3.65% the same day, has filed nothing since 14 September. Both absences were re-checked with fresh requests. Blue Owl's pre-market price is too stale to quote, so the pair still cannot be compared.",
+      "element": "level: members",
+      "headline": "Oracle gives back its overnight gain and has still filed nothing",
+      "level": "ok",
+      "rank": "05",
+      "short": "Oracle hands back overnight gain, no filing",
+      "slot": "WHAT CHANGED",
+      "sources": "data.sec.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "LIVE · 25 SEP 11:35Z",
+      "callouts": [
+        {
+          "l": "Pre-market, +1.51%",
+          "v": "$122.65"
+        },
+        {
+          "l": "Thursday's close",
+          "v": "-1.53%"
+        },
+        {
+          "l": "Newest filing",
+          "v": "24 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "Robinhood ($HOOD) pre-market price",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$122.65"
+        },
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "Robinhood pre-market change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.51%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Robinhood change, Thursday's close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-1.53%"
+        },
+        {
+          "asof": "24 SEP 2026 20:33Z",
+          "claim": "Robinhood newest SEC filing date",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "24 SEP"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY AND VENDOR",
+      "dek": "Robinhood is the strongest riser on the watchlist this morning at $122.65 before the opening bell, up 1.51%, having been up 1.14% two hours ago. The context is that the shares fell 1.53% on Thursday, so this is a bounce rather than a breakout. What is missing is a reason. The company has filed nothing with the US regulator since 24 September and there is no announcement behind the move. Trading before the bell is thin, and a 1.5% move in it can be a handful of orders. For someone holding for years, a bounce with no document behind it is noise until the regular session confirms it.",
+      "element": "level: members",
+      "headline": "Robinhood rises 1.5% before the open with no news behind it",
+      "level": "ok",
+      "rank": "06",
+      "short": "Robinhood up 1.5%, nothing filed",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · data.sec.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "TREASURY.GOV · 24 SEP",
+      "callouts": [
+        {
+          "l": "Yen per dollar, -0.72%",
+          "v": "157.63"
+        },
+        {
+          "l": "10-year Treasury, 24 Sep",
+          "v": "5.18%"
+        },
+        {
+          "l": "30-year Treasury, 24 Sep",
+          "v": "5.47%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "USD/JPY rate",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "157.63"
+        },
+        {
+          "asof": "25 SEP 11:35Z",
+          "claim": "USD/JPY change on day",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.72%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "USD/JPY Thursday close",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "158.77"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "10-year US Treasury yield, latest published row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.18%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "30-year US Treasury yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.47%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "2-year US Treasury yield",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.87%"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY AND VENDOR",
+      "dek": "The Japanese yen has strengthened again: it now takes 157.63 yen to buy a dollar, down 0.72% on the day from 158.77 at Thursday's close, a wider move than the 0.51% of two hours ago. This matters because for years investors have borrowed cheap yen to buy American shares and bonds. When the yen rises, that trade gets more expensive and some of it is unwound. At the same time American borrowing costs have not eased: the US government still pays 5.18% to borrow for ten years, on Thursday's official figures, which are the latest published. Today's yields appear after the US close.",
+      "headline": "The yen firms again while US borrowing costs stay at 5.18%",
+      "level": "ok",
+      "rank": "07",
+      "short": "Yen firms, 10-year still 5.18%",
+      "slot": "WHAT CHANGED",
+      "sources": "treasury.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    }
+  ],
+  "title": "Delta 12:30"
+}

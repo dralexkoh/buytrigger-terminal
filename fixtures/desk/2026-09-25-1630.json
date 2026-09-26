@@ -1,0 +1,30 @@
+{
+  "approvals": {},
+  "cards": [
+    {
+      "created_at": "2026-09-25T15:43:24Z",
+      "formats": "SUBSTACK · YOUTUBE · LIVE SEGMENT",
+      "id": "k1",
+      "klass": "EVERGREEN PACK",
+      "life_s": 172800,
+      "rank": "#1",
+      "story": 3,
+      "title": "The AI build-out's real bottleneck is a gas pipeline, not a chip",
+      "why": "A $165bn data centre stalled by permits is the clearest example yet that power, not silicon, now paces AI capacity — fully sourced and dated.",
+      "window": "48 H WINDOW"
+    },
+    {
+      "created_at": "2026-09-25T15:43:24Z",
+      "formats": "CHART · X THREAD · CLUB EXPLAINER",
+      "id": "k2",
+      "klass": "INTRADAY EXPLAINER",
+      "life_s": 7200,
+      "rank": "#2",
+      "story": 2,
+      "title": "Micron gave back a 1.6% gain in two hours — what a family investor should take from it",
+      "why": "A clean, dated example of why a day's tape is not the thesis, five days before the company's actual earnings.",
+      "window": "2 H WINDOW"
+    }
+  ],
+  "edition_id": "2026-09-25-1630"
+}

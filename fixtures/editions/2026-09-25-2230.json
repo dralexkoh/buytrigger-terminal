@@ -1,0 +1,700 @@
+{
+  "as_of": "2026-09-25T21:40:00Z",
+  "as_of_label": "Fri 25 Sep 2026 · 22:30",
+  "catalysts": [
+    {
+      "what": "Iran's own seven-day clock on reopening the Strait of Hormuz; US acceptance or refusal is the oil trade",
+      "when": "NOW TO ~FRI 2 OCT"
+    },
+    {
+      "what": "August PCE inflation and the Q2 GDP third estimate (bea.gov)",
+      "when": "WED 30 SEP · 13:30"
+    },
+    {
+      "what": "Micron ($MU) fiscal Q4 results and guidance, company-confirmed",
+      "when": "WED 30 SEP · 21:30"
+    },
+    {
+      "what": "August US construction spending (census.gov)",
+      "when": "THU 1 OCT · 15:00"
+    },
+    {
+      "what": "Oracle annual shareholder meeting, per the DEF 14A filed 25 September",
+      "when": "WED 18 NOV"
+    }
+  ],
+  "checked": {
+    "at": "2026-09-25T21:36:00Z",
+    "changed": 0,
+    "dropped": 1,
+    "refetched": 12
+  },
+  "edition_id": "2026-09-25-2230",
+  "markets": [
+    {
+      "chg": "+0.51%",
+      "dir": "up",
+      "sym": "S&P 500",
+      "val": "7,743.41"
+    },
+    {
+      "chg": "+0.93%",
+      "dir": "up",
+      "sym": "DOW",
+      "val": "51,828.62"
+    },
+    {
+      "chg": "+0.48%",
+      "dir": "up",
+      "sym": "NASDAQ",
+      "val": "27,068.72"
+    },
+    {
+      "chg": "+0.07%",
+      "dir": "up",
+      "sym": "RUSSELL 2000",
+      "val": "2,837.55"
+    },
+    {
+      "chg": "-5.11%",
+      "dir": "nt",
+      "sym": "VIX",
+      "val": "14.87"
+    },
+    {
+      "chg": "-2.29%",
+      "dir": "dn",
+      "sym": "WTI",
+      "val": "$92.44"
+    },
+    {
+      "chg": "-1bp",
+      "dir": "dn",
+      "sym": "US 10Y",
+      "val": "5.17%"
+    },
+    {
+      "chg": "+0.16%",
+      "dir": "up",
+      "sym": "MU",
+      "val": "$1,082.28"
+    },
+    {
+      "chg": "+0.22%",
+      "dir": "up",
+      "sym": "NVDA",
+      "val": "$225.07"
+    },
+    {
+      "chg": "-1.75%",
+      "dir": "dn",
+      "sym": "ORCL",
+      "val": "$137.10"
+    },
+    {
+      "chg": "+8.27%",
+      "dir": "up",
+      "sym": "BE",
+      "val": "$288.70"
+    }
+  ],
+  "origin": "BuyTrigger Daily Brief (Claude), Delta 22:30, 25 September 2026",
+  "schema": "bt-newsroom-feed/0.1",
+  "stories": [
+    {
+      "asof": "SEC · 25 SEP",
+      "callouts": [
+        {
+          "l": "The filing I reported as absent",
+          "v": "DEF 14A"
+        },
+        {
+          "l": "SEC acceptance, 25 Sep",
+          "v": "16:05:43Z"
+        },
+        {
+          "l": "Bloom's newest filing, re-proved",
+          "v": "18 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle definitive proxy statement, form type",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "DEF 14A"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle DEF 14A SEC acceptance time",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "16:05:43Z"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle additional proxy material, form type and acceptance",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "DEFA14A, 16:10:06Z"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Bloom Energy newest EDGAR filing date, re-proved this run",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "18 SEP 2026"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Blue Owl Capital newest EDGAR filing date",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "14 SEP 2026"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle filing date previously reported in error at 20:30",
+          "source": "data.sec.gov",
+          "status": "stale",
+          "value": "23 SEP 2026"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "In the 20:30 edition I said Oracle had filed nothing with the SEC since 23 September, and said I had proved that was current. I had not. Oracle lodged its annual shareholder-meeting documents on Friday afternoon, accepted at 16:05:43Z and 16:10:06Z, roughly three and a half hours before I checked. The SEC's own data feed handed back an out-of-date copy and I published it. What still holds matters more for shareholders: neither document is the 8-K that would put the 2.4GW Oracle-Bloom fuel-cell deal on the official record, and Bloom's newest filing is still 18 September. That deal is still only a press statement.",
+      "headline": "Correction: Oracle did file with the SEC on Friday",
+      "level": "ok",
+      "rank": "01",
+      "short": "Correction: Oracle did file on Friday",
+      "slot": "CORRECTION",
+      "sources": "sec.gov · data.sec.gov",
+      "state": "VERIFIED",
+      "tag": "CORRECTION"
+    },
+    {
+      "asof": "CLOSE · 25 SEP",
+      "callouts": [
+        {
+          "l": "S&P 500, Friday close",
+          "v": "+0.51%"
+        },
+        {
+          "l": "US oil, down 2.29%",
+          "v": "$92.44"
+        },
+        {
+          "l": "Official 10-year yield, down 1bp",
+          "v": "5.17%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "S&P 500 close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "7,743.41, +0.51%"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Dow Jones Industrial Average close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "51,828.62, +0.93%"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Nasdaq Composite close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "27,068.72, +0.48%"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Russell 2000 close and point change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2,837.55, +1.98 points"
+        },
+        {
+          "asof": "25 SEP 20:59Z",
+          "claim": "WTI front-month crude, price and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$92.44, -2.29%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "US 10-year Treasury yield, official daily row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.17%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "US 2-year Treasury yield, official daily row (from 4.87% on 24 Sep)",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.81%"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Dow minus Nasdaq daily performance gap (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "45bp"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Iran seven-day Strait of Hormuz proposal",
+          "source": "aljazeera.com",
+          "status": "sec",
+          "value": "seven days"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "American shares finished Friday higher across the board, with the S&P 500 up 0.51% at 7,743.41 and the Dow up 0.93%. Two things carried it. US oil fell again, to $92.44, down 2.29%, after Iran floated a seven-day plan to reopen the Strait of Hormuz; cheaper energy lowers costs for almost every business that is not an oil producer. And the government's official 10-year borrowing cost actually fell, to 5.17% from 5.18%, while the 2-year dropped six basis points, despite a week of bond-selloff headlines. The weak spot was breadth: the Russell 2000 of smaller companies added just 1.98 points.",
+      "headline": "Cheaper oil and easing short-term rates carried shares to a higher close",
+      "level": "ok",
+      "rank": "02",
+      "short": "Cheaper oil and easing rates lift shares",
+      "slot": "WHY THE MARKET IS UP",
+      "sources": "treasury.gov · finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MARKET"
+    },
+    {
+      "asof": "CLOSE · 25 SEP",
+      "callouts": [
+        {
+          "l": "Fear gauge close, down 5.11%",
+          "v": "14.87"
+        },
+        {
+          "l": "Day's low",
+          "v": "14.68"
+        },
+        {
+          "l": "Points below the 30 buy window",
+          "v": "15.13"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "VIX close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.87, -5.11%"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "VIX session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "14.68"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Distance from close to the 30 ladder band (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "15.13"
+        }
+      ],
+      "conf": "VERIFIED · TWO SOURCES",
+      "dek": "The VIX, the market's fear gauge, closed at 14.87, down 5.11% on the day, having touched 14.68 at its low. Anything under 15 is the calm band; 15 to 20 is normal, 20 to 30 is nervous, and above 30 is where the BuyTrigger system treats falling prices as a buying window. At 14.87 that window sits 15.13 points away, which is a long distance. In practical terms, insurance against a fall is cheap right now, and it is cheap going into a weekend with Iran's seven-day clock still running. The system reads a closed window, not an invitation.",
+      "headline": "The fear gauge closed under 15 for a second day running",
+      "level": "ok",
+      "rank": "03",
+      "short": "Fear gauge under 15 for a second day",
+      "slot": "VIX UPDATE",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "VIX"
+    },
+    {
+      "asof": "5-DAY · 25 SEP",
+      "callouts": [
+        {
+          "l": "Nasdaq, the week",
+          "v": "+2.06%"
+        },
+        {
+          "l": "Dow, the week",
+          "v": "+0.28%"
+        },
+        {
+          "l": "Russell 2000, the week",
+          "v": "-0.80%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Nasdaq Composite 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+2.06%"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Dow Jones Industrial Average 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+0.28%"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Russell 2000 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.80%"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "S&P 500 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.21%"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Nasdaq minus Dow weekly spread (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "1.78pp"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR 5-DAY",
+      "dek": "Friday looked like an old-economy day, with the Dow beating the Nasdaq. The week told the opposite story. Over five days the Nasdaq rose 2.06% and the Dow only 0.28%, a gap of 1.78 percentage points, while the Russell 2000 of smaller American companies actually fell 0.80%. For anyone holding for years rather than days, that is the fact worth keeping: the gains are still concentrated in a handful of very large technology businesses, and the broad market is not confirming them. Watch whether smaller companies join in when August inflation figures land on Wednesday.",
+      "headline": "Big tech won the week while smaller companies went backwards",
+      "level": "ok",
+      "rank": "04",
+      "short": "Big tech won the week, small caps fell",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "CLOSE · 25 SEP",
+      "callouts": [
+        {
+          "l": "Micron close, up 0.16%",
+          "v": "$1,082.28"
+        },
+        {
+          "l": "Above Thursday's high (calculated)",
+          "v": "$1.24"
+        },
+        {
+          "l": "Micron, the week",
+          "v": "+6.54%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Micron close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,082.28, +0.16%"
+        },
+        {
+          "asof": "24 SEP",
+          "claim": "Thursday 24 Sep session high",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,081.04"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Friday session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1,073.00"
+        },
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Close minus Thursday session high (calculated)",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$1.24"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Micron 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+6.54%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Micron fiscal Q4 earnings call, company-confirmed",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "30 SEP 21:30 UK"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "Micron, the memory-chip maker that supplies the high-bandwidth memory used in AI servers, closed at $1,082.28, up 0.16%. That is $1.24 above Thursday's highest price of the day, and it got there after falling as low as $1,073.00 earlier on Friday. Seven times this week the shares failed to hold above the previous day's mark; the eighth attempt held, and the shares are up 6.54% over five days. The test comes on Wednesday 30 September at 21:30 UK, when the company reports its fiscal fourth quarter and says what it expects next. Element: level: members.",
+      "element": "level: members",
+      "headline": "Micron finally closed above its Thursday high before next week's results",
+      "level": "ok",
+      "rank": "05",
+      "short": "Micron closes above Thursday's high at last",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "CLOSE · 25 SEP",
+      "callouts": [
+        {
+          "l": "Oracle close, down 1.75%",
+          "v": "$137.10"
+        },
+        {
+          "l": "Day's low, 18 cents lower",
+          "v": "$136.92"
+        },
+        {
+          "l": "Fourth reading, worse each time",
+          "v": "-1.75%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Oracle close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$137.10, -1.75%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Oracle session low",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$136.92"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Successive intraday readings from 16:30 UK onward",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.85%, -1.15%, -1.46%, -1.75%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle DEF 14A filed same afternoon",
+          "source": "sec.gov",
+          "status": "ok",
+          "value": "16:05:43Z"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "Oracle closed at $137.10, down 1.75%, and finished just 18 cents above its lowest price of the day. Each time I have checked the shares since lunchtime they have been worse than the time before: down 0.85%, then 1.15%, then 1.46%, then 1.75% at the bell. The worry is Project Jupiter, Oracle's huge New Mexico data centre, where power, permits and construction have all been reported as running late. Its annual shareholder meeting documents were filed the same afternoon. For a long-term holder the question is not the share price this week but whether the AI capacity Oracle has promised customers arrives on time. Element: level: members.",
+      "element": "level: members",
+      "headline": "Oracle slipped a fourth time running as data centre doubts deepen",
+      "level": "ok",
+      "rank": "06",
+      "short": "Oracle slips a fourth time running",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · sec.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "TREASURY · 25 SEP",
+      "callouts": [
+        {
+          "l": "2-year yield, down 6bp",
+          "v": "4.81%"
+        },
+        {
+          "l": "30-year yield, up 2bp",
+          "v": "5.49%"
+        },
+        {
+          "l": "2s10s gap, from 31bp (calculated)",
+          "v": "36bp"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP 2026",
+          "claim": "US 2-year Treasury yield, official daily row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "4.81%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "US 30-year Treasury yield, official daily row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.49%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "US 10-year Treasury yield, official daily row",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "5.17%"
+        },
+        {
+          "asof": "24 SEP 2026",
+          "claim": "Prior-day official rows, 24 September",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "2yr 4.87%, 10yr 5.18%, 30yr 5.47%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "2s10s spread, 25 Sep against 24 Sep (calculated)",
+          "source": "treasury.gov",
+          "status": "ok",
+          "value": "36bp from 31bp"
+        }
+      ],
+      "conf": "VERIFIED · PRIMARY",
+      "dek": "The US Treasury's official figures for Friday show the 2-year yield down six basis points to 4.81% while the 30-year rose two to 5.49%. The gap between 2-year and 10-year borrowing costs widened to 36 basis points from 31. That shape matters: falling short rates usually mean investors expect the central bank to cut, while rising long rates mean they want more compensation for lending over decades, often because of inflation or government debt. For someone holding shares for years, a steeper curve has historically favoured banks and weighed on anything valued on distant profits. Next read: Wednesday's August inflation figures.",
+      "headline": "Short-term government borrowing costs fell while long-term ones rose",
+      "level": "ok",
+      "rank": "07",
+      "short": "Short rates fell, long rates rose",
+      "slot": "WHAT CHANGED",
+      "sources": "treasury.gov",
+      "state": "VERIFIED",
+      "tag": "MACRO"
+    },
+    {
+      "asof": "CLOSE · 25 SEP",
+      "callouts": [
+        {
+          "l": "Bloom Energy close, up 8.27%",
+          "v": "$288.70"
+        },
+        {
+          "l": "Bloom Energy, the week",
+          "v": "+8.69%"
+        },
+        {
+          "l": "Blue Owl's newest filing",
+          "v": "14 SEP"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Bloom Energy close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$288.70, +8.27%"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Bloom Energy 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+8.69%"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Bloom Energy newest EDGAR filing date, re-proved this run",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "18 SEP 2026"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Blue Owl Capital newest EDGAR filing date",
+          "source": "data.sec.gov",
+          "status": "ok",
+          "value": "14 SEP 2026"
+        },
+        {
+          "asof": "25 SEP 2026",
+          "claim": "Oracle-Bloom fuel-cell arrangement size, as reported",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "2.4GW"
+        }
+      ],
+      "conf": "VERIFIED · NO FILING",
+      "dek": "Bloom Energy, which makes fuel cells that generate power on site, closed at $288.70, up 8.27%, and is up 8.69% over five days. The move rests on Oracle reaffirming a 2.4 gigawatt fuel-cell arrangement for its New Mexico data centre. I checked the SEC record again on Friday evening: Bloom's newest filing is still 18 September and Blue Owl's, the financing partner, 14 September. So a re-rating of this size is standing on statements to reporters rather than a document any company has signed its name to. An 8-K from any of the three would change that. Element: level: members.",
+      "element": "level: members",
+      "headline": "Bloom Energy held its big jump on a press statement alone",
+      "level": "ok",
+      "rank": "08",
+      "short": "Bloom Energy holds its jump, still no filing",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com · data.sec.gov",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    },
+    {
+      "asof": "CLOSE · 25 SEP",
+      "callouts": [
+        {
+          "l": "Nvidia close, up 0.22%",
+          "v": "$225.07"
+        },
+        {
+          "l": "Where it stood at 20:30",
+          "v": "-0.23%"
+        },
+        {
+          "l": "Nvidia, the week",
+          "v": "+1.26%"
+        }
+      ],
+      "claims": [
+        {
+          "asof": "25 SEP CLOSE",
+          "claim": "Nvidia close and change",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$225.07, +0.22%"
+        },
+        {
+          "asof": "25 SEP 19:33Z",
+          "claim": "Nvidia reading at 20:30 UK",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "-0.23%"
+        },
+        {
+          "asof": "25 SEP",
+          "claim": "Nvidia session range",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "$223.13-$226.94"
+        },
+        {
+          "asof": "WEEK TO 25 SEP",
+          "claim": "Nvidia 5-day performance",
+          "source": "finance.yahoo.com",
+          "status": "sec",
+          "value": "+1.26%"
+        }
+      ],
+      "conf": "VERIFIED · VENDOR",
+      "dek": "Nvidia closed at $225.07, up 0.22%, having been down 0.23% when I checked at 20:30 and having crossed between gain and loss four separate times during the day. The whole range was $223.13 to $226.94, well under two percent. There was no company news behind any of it. That is worth naming plainly, because a share that wobbles on nothing invites a story that is not there. Nothing about Nvidia's position in AI data centre spending changed on Friday, and the shares rose 1.26% over the week. The next real information is hyperscaler capital spending guidance in late October. Element: level: members.",
+      "element": "level: members",
+      "headline": "Nvidia ended barely changed after flipping direction four times",
+      "level": "ok",
+      "rank": "09",
+      "short": "Nvidia ends barely changed after four flips",
+      "slot": "WHAT CHANGED",
+      "sources": "finance.yahoo.com",
+      "state": "VERIFIED",
+      "tag": "STOCK"
+    }
+  ],
+  "title": "Delta 22:30"
+}

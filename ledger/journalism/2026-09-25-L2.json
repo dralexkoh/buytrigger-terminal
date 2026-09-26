@@ -1,0 +1,25 @@
+{
+  "drafted": {
+    "angle": "Insider sale: divide, don't read",
+    "at": "2026-09-25T22:19:42Z",
+    "charts": [
+      "newsroom-layer2-2026-09-25/chart1-hood-sold-vs-kept.png",
+      "newsroom-layer2-2026-09-25/chart2-hood-friday-vs-sale-price.png"
+    ],
+    "charts_attached": "delivered as files; attach by hand (upload host refused by network policy)",
+    "editions": [
+      "2026-09-25-0630",
+      "2026-09-25-1230",
+      "2026-09-25-1430",
+      "2026-09-25-1630"
+    ],
+    "fca": "CLEAN 17 green 0 amber 0 red",
+    "layer": 2,
+    "published": false,
+    "scheduled": false,
+    "score": 25,
+    "status": "draft",
+    "story": "Robinhood's boss sold $30m of shares under a year-old plan",
+    "typefully_draft_id": 10931326
+  }
+}
