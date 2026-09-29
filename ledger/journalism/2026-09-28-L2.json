@@ -1,0 +1,58 @@
+{
+  "drafted": {
+    "angle": "the row I waited for",
+    "at": "2026-09-28T22:21:57Z",
+    "charts": [
+      "newsroom-layer2-2026-09-28/chart1-10yr-treasury-rows.png",
+      "newsroom-layer2-2026-09-28/chart2-monday-close.png"
+    ],
+    "charts_attached": "delivered as files; attach by hand (upload host refused by network policy, one attempt, not retried)",
+    "declared_arithmetic": [
+      "5.24 - 5.17 = 0.07 percentage points"
+    ],
+    "editions": [
+      "2026-09-28-1430",
+      "2026-09-28-1630",
+      "2026-09-28-1830",
+      "2026-09-28-2230"
+    ],
+    "fca": "CLEAN 17 green 0 amber 0 red",
+    "l1_drafts_today": [
+      10972147,
+      10972164
+    ],
+    "layer": 2,
+    "numbers_checked": 108,
+    "numbers_unmatched": 0,
+    "overlaps_l1": false,
+    "platforms": [
+      "x",
+      "threads",
+      "substack"
+    ],
+    "published": false,
+    "run": "2026-09-28T22:12:00Z",
+    "runner_up": {
+      "score": 21,
+      "subject": "Meta enterprise platform / MongoDB chief executive move"
+    },
+    "scheduled": false,
+    "score": 42,
+    "score_note": "11 ok x2 + 15 sec + 3 (four editions) + 2 (EVERGREEN PACK card 2230/k2); 25 counting only the two VERIFIED/ok stories; first among non-L1 subjects either way",
+    "status": "draft",
+    "stock_named": false,
+    "story": "US Treasury 10-year yield: the stale 5.18% quoted on Monday morning vs the Treasury's own rows (5.18 / 5.17 / 5.24, 30-year 5.56) and the market close that followed",
+    "story_refs": {
+      "2026-09-28-1430": 5,
+      "2026-09-28-1630": 7,
+      "2026-09-28-1830": 7,
+      "2026-09-28-2230": 1
+    },
+    "tags": [
+      "newsroom",
+      "layer-2"
+    ],
+    "typefully_draft_id": 10977650
+  },
+  "layer": 2
+}

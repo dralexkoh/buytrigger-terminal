@@ -1,0 +1,16 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-28-0630",
+  "layer": 1,
+  "rejected": {
+    "k1": {
+      "at": "2026-09-28T06:32:54Z",
+      "detail": "klass INTRADAY EXPLAINER is not eligible for Layer 1 (EVERGREEN PACK, BREAKING POST or CLOSING RECAP only)",
+      "reason": "class filter",
+      "run": "2026-09-28T06:31:26Z"
+    }
+  },
+  "run_notes": {
+    "2026-09-28T06:31:26Z": "Kill switch l1_autopost=true. Typefully MCP tools were not available in this run (server not connected); no draft could have been created. Outcome unaffected: the only card (k1) failed the class gate."
+  }
+}

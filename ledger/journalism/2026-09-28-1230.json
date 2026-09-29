@@ -1,0 +1,13 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-28-1230",
+  "layer": 1,
+  "rejected": {
+    "k1": {
+      "at": "2026-09-28T15:26:17Z",
+      "detail": "klass INTRADAY EXPLAINER is not eligible for Layer 1",
+      "reason": "class filter",
+      "run": "2026-09-28T15:26:17Z"
+    }
+  }
+}

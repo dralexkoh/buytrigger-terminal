@@ -1,0 +1,51 @@
+{
+  "drafted": {
+    "k1": {
+      "angle": "fear gauge wasn't shut: what assuming cost (own correction, VIX 16.16, story 0)",
+      "at": "2026-09-28T15:31:36Z",
+      "fca": "5 green, 0 amber, 0 red",
+      "held": null,
+      "layer": 1,
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "published_at": "2026-09-28T15:38:08Z",
+      "published_by": "L1 bee under Alex's standing authorisation of 26 Sep 2026, after Colette and Lisa approved",
+      "reviews": {
+        "colette": {
+          "at": "2026-09-28T15:35:00Z",
+          "notes": "Every figure traces to the claim rows (16.16, 1.29 points, 8.68%, 14.87); band levels, clock times and 'eight days' correctly left out. Hard rules hold: X 273/236/211/199, Threads 438, no URL in X, closer exact. Cboe and the VIX named as publisher and gauge, not a stock, so no not-advice line required. Voice right. Optional word offered, not applied: 'the exchange's own calendar' for 'the venue's own calendar'.",
+          "verdict": "APPROVE"
+        },
+        "lisa": {
+          "at": "2026-09-28T15:38:00Z",
+          "notes": "FCA green on every post standalone; Cboe named only as data source; no person named. Dedupe clear (only 48h item is the rates thread; L3 VIX article unpublished; Nvidia draft a different story, space the two L1s). Freshness holds ('Monday morning', past tense). Funnel intact. Brand: public correction is on-brand. Flag for Alex on the edition, not the posts: check the dek's 'from 3am New York / 08:00 UK' against Cboe's published global-trading-hours window.",
+          "verdict": "APPROVE"
+        }
+      },
+      "run": "2026-09-28T15:26:17Z",
+      "stock_named": false,
+      "story": 0,
+      "story_headline": "Correction: the fear gauge did print, and it has left calm",
+      "threads_error": null,
+      "threads_url": "https://www.threads.com/@dralexkoh/post/Dd1hi7um6Sl",
+      "typefully_draft_id": 10972147,
+      "x_error": null,
+      "x_url": "https://x.com/alexkoh/status/2104596490295632080"
+    }
+  },
+  "edition_id": "2026-09-28-0830",
+  "layer": 1,
+  "rejected": {
+    "k2": {
+      "at": "2026-09-28T15:26:17Z",
+      "detail": "klass INTRADAY EXPLAINER is not eligible for Layer 1",
+      "reason": "class filter",
+      "run": "2026-09-28T15:26:17Z"
+    }
+  },
+  "run_notes": {
+    "2026-09-28T15:26:17Z": "Kill switch l1_autopost=true. Typefully connected. Two cards passed the gates and both were published after Colette and Lisa approved; the NVDA post was spaced six minutes after the VIX post per Lisa's note."
+  }
+}

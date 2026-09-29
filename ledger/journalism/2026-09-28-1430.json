@@ -1,0 +1,43 @@
+{
+  "drafted": {
+    "k1": {
+      "angle": "the press said software, the company said $150bn (Nvidia buyback authorisation, story 2)",
+      "at": "2026-09-28T15:31:57Z",
+      "fca": "5 green, 0 amber, 0 red",
+      "held": null,
+      "layer": 1,
+      "platforms": [
+        "x",
+        "threads"
+      ],
+      "published_at": "2026-09-28T15:45:02Z",
+      "published_by": "L1 bee under Alex's standing authorisation of 26 Sep 2026, after Colette and Lisa approved",
+      "reviews": {
+        "colette": {
+          "at": "2026-09-28T15:35:00Z",
+          "fix_applied": true,
+          "notes": "'put the jump down to' had no antecedent, now 'the share price jump'; 'on Monday morning' narrowed to 'on Monday' (claim rows carry no time of day for the release or the blog); 'I know which one I'd want to have read before the open' asserted a pre-open release no claim row supports, cut to 'I know which one I'd rather have read'; 'Reporters write the story' changed to 'Commentators' to match the dek's market blog. Numbers and hard-rule elements unchanged. Bee re-checked the replacement by code (X 274/272/233/256, Threads 436, every number in claim rows, not-advice line in X1 and Threads) and applied it with edit_draft.",
+          "verdict": "FIX"
+        },
+        "lisa": {
+          "at": "2026-09-28T15:38:00Z",
+          "notes": "FCA green on every post standalone (buyback figures sourced to nvidianews, price quote time-stamped, buyback explanation is education, rest is opinion with reasoning). $NVDA first named in X1 which carries the not-advice line; Threads carries it too; no cheap/expensive/undervalued; no person named; market blog unnamed. Dedupe clear (nothing on Nvidia in 48h, nothing scheduled, no L2 draft waiting). Freshness holds. Funnel intact. Closest to the line, kept: 'every share left owns a bigger slice' is mechanism, not a benefit claim; price row is 'sec', acceptable for a stamped quote.",
+          "verdict": "APPROVE"
+        }
+      },
+      "run": "2026-09-28T15:26:17Z",
+      "stock_named": true,
+      "story": 2,
+      "story_headline": "Nvidia adds $150 billion to its buyback and the shares jump",
+      "threads_error": null,
+      "threads_url": "https://www.threads.com/@dralexkoh/post/Dd1iVetG7Q_",
+      "ticker": "NVDA",
+      "typefully_draft_id": 10972164,
+      "x_error": null,
+      "x_url": "https://x.com/alexkoh/status/2104598226007699696"
+    }
+  },
+  "edition_id": "2026-09-28-1430",
+  "layer": 1,
+  "rejected": {}
+}

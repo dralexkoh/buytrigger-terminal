@@ -12,6 +12,8 @@
 | CLAIMS | at least two claim rows at status `ok` or `sec` | `not enough usable claims` |
 | DEDUPE | same angle as a card already drafted today → out. Same story, different angle → at most two per story per day. At most three Layer 1 drafts a day; beyond that keep the card with more `ok` rows, then the fresher one | `dedupe: same angle as …`, `dedupe: story cap`, `daily cap` |
 | FCA | every post passes the fca-check standard standalone; AMBER is rewritten in Alex's voice; RED means no draft | `fca: <what>` |
+| DAILY CEILING | at most 5 posts a day on the whole account (UK day), counting everything published or scheduled from any source; at least 45 minutes after any other post. Cards over the ceiling stay unfinished for the next run (added 29 Sep 2026) | not recorded — the card waits |
+| REVIEW DESK | Colette (copy chief: voice, hook, hard rules, numbers) → APPROVE / FIX once / REJECT; then Lisa (marketing director: FCA standalone, stock bar, dedupe 48h, freshness, brand risk) → APPROVE / HOLD. Both must approve to publish | `held: {by, reason}` |
 
 ## Layer 2 (per subject, one a night)
 

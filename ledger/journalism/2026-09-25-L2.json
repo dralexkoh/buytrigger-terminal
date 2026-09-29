@@ -15,10 +15,40 @@
     ],
     "fca": "CLEAN 17 green 0 amber 0 red",
     "layer": 2,
+    "overlaps_l1": 10926756,
     "published": false,
-    "scheduled": false,
+    "reviewed": {
+      "at": "2026-09-26T06:31:08Z",
+      "by": "newsroom chat",
+      "edits": [
+        "X post 10: not-advice line added",
+        "Threads post 4: 'Not advice.' before the link"
+      ],
+      "note": "Layer 1 draft 10926756 covers the same filing; marketing sends one or the other on the same day",
+      "numbers_checked": 49,
+      "numbers_unmatched": 0
+    },
+    "scheduled": {
+      "at": "2026-09-26T06:43:15Z",
+      "by": "Alex, in the Cowork session",
+      "charts": "not attached at scheduling time; Alex attaching by hand in Typefully before 12:00",
+      "note": "L1 draft 10926756 covers the same filing; queue for 26-27 Sep was empty at scheduling time, so no double post",
+      "platforms": [
+        "x",
+        "threads",
+        "substack"
+      ],
+      "publish_at": "2026-09-26T12:00:00+01:00",
+      "same_day_overlap": {
+        "charts_attached_at_11_22_bst": false,
+        "decided_at": "2026-09-26T10:25:00Z",
+        "decision": "Alex kept L2 at 12:00 on 26 Sep knowing L1 posted the same filing at 08:43 BST",
+        "l1_draft": 10926756,
+        "l1_published_at": "2026-09-26T07:43:04Z"
+      }
+    },
     "score": 25,
-    "status": "draft",
+    "status": "scheduled",
     "story": "Robinhood's boss sold $30m of shares under a year-old plan",
     "typefully_draft_id": 10931326
   }

@@ -2,6 +2,14 @@
 
 Newest first. Times are UK.
 
+## 29 Sep 2026 (Tue) — daily ceiling; repo brought up to date with the live bees
+
+- State found: L1 publishing on its own since Mon 28 Sep after Colette + Lisa approve (2 posts Monday, both live). Tue 07:25 run could not reach Typefully; 4 cards waited for 16:25. L2 drafting nightly; the Lisa draft desk schedules it for 19:30. L3's first article (VIX week) delivered Sun 27 Sep as a draft. The Newsroom now files 13 editions a weekday.
+- Another chat's explainer posts (AMD, Nvidia buyback, Meta) went out alongside; the Nvidia one repeated Monday's L1 story within 24 hours. With the launch post, 5 posts were out or booked for Tuesday before L1's 16:25 run.
+- Alex: "add daily ceiling". L1 prompt now counts every post on the account for the UK day (any source) and publishes nothing once 5 are out or booked; 45-minute gap from any other post; cards over the ceiling wait for the next run. Live on the task at 15:54 UK.
+- Repo: `bees/L1-fast.md`, `bees/L3-article.md` replaced with the live prompts; `bees/lisa-desk.md` added (the other chat's task, for the record); README, SCHEDULE, gates updated; ledger snapshot refreshed (28 documents).
+- Still open: Typefully analytics tools are not exposed to Claude right now, so reach numbers can't be read automatically; charts still can't attach (upload host); GitHub push blocked by the Mac's token scope.
+
 ## 26 Sep 2026 (Sat) — audit, two fixes, the repo package
 
 - Audited the bees' first unattended runs (Fri 25 Sep). Layer 1 made two drafts (10926756 Robinhood Form 4, stock named; 10926758 AI capex). Layer 2 made one (10931326 Robinhood, with two charts as files). Every number in all three checked by script against the `ok`/`sec` claim rows: 14, 11 and 49 numbers, all trace. The 22:30 edition carried no correction touching those stories.

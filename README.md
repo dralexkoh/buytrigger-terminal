@@ -5,7 +5,7 @@ The swarm is the Newsroom's journalism layer: the bees that turn the verified Bu
 **Two rules that make it safe**
 
 1. Everything reads the feed. Nothing re-researches. Every number in every draft traces to a claim row at status `ok` or `sec` on a verified story. No web search, no price fetch, no memory.
-2. Bees draft. Marketing sends. The bees create Typefully drafts and stop. A person on the marketing team reviews and presses send. Nothing in this repo publishes.
+2. Nothing goes out unreviewed. Layer 1 publishes on its own only after two reviewer agents, Colette (copy) and Lisa (marketing and FCA), both approve (Alex, 26 Sep 2026), and never more than 5 posts a day on the account (Alex, 29 Sep 2026). Layer 2 drafts are reviewed and scheduled by the Lisa draft desk. Layer 3 is a draft for Alex. A kill switch (`journalism/config`, `l1_autopost`) turns Layer 1 back into drafts-only.
 
 ## What is in here
 
@@ -24,8 +24,8 @@ The swarm is the Newsroom's journalism layer: the bees that turn the verified Bu
 
 | Layer | Bee | Runs | Output | Where |
 |---|---|---|---|---|
-| 1 FAST | `bees/L1-fast.md` | weekdays 07:25 and 16:25 UK | 3–5 post X thread + one Threads post per qualifying desk card, up to 3 a day | Typefully draft, tags `newsroom` `layer-1` |
-| 2 STORY | `bees/L2-story.md` | weekdays 23:10 UK | one 8–12 post storytelling thread with 1–2 charts; X + Threads + Substack note | Typefully draft, tags `newsroom` `layer-2`; charts as files until the upload host is allowed |
+| 1 FAST | `bees/L1-fast.md` | weekdays 07:25 and 16:25 UK | 3–5 post X thread + one Threads post per qualifying desk card; Colette + Lisa review; published if both approve, within the 5-a-day ceiling | X + Threads, tags `newsroom` `layer-1` |
+| 2 STORY | `bees/L2-story.md` | weekdays 23:10 UK | one 8–12 post storytelling thread with 1–2 charts; X + Threads + Substack note | Typefully draft, tags `newsroom` `layer-2`; the Lisa draft desk (`bees/lisa-desk.md`, daily 09:05 UK) reviews it and schedules it for 19:30 |
 | 3 ARTICLE | `bees/L3-article.md` | Sunday 08:40 UK | 800–1,100 word article draft on the week's recurring subject + 2–3 charts | Markdown file (and a Claude Doc when available); Alex edits and publishes on Substack himself |
 
 ## Where the data lives
@@ -43,7 +43,7 @@ The swarm is the Newsroom's journalism layer: the bees that turn the verified Bu
 
 ## What this repo never does
 
-- Never publishes, schedules or plans a post.
+- Never publishes anything except a Layer 1 post both reviewers approved while the kill switch is on and the daily ceiling allows it.
 - Never writes to the Newsroom's `editions`, `desk`, `notes` or `os` collections.
 - Never touches the dashboard repo, the members' Supabase project, or the Research repo.
 - Never quotes a number that is not in a claim row at `ok` or `sec`.

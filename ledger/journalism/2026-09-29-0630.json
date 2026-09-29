@@ -1,0 +1,22 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-29-0630",
+  "layer": 1,
+  "rejected": {
+    "k1": {
+      "at": "2026-09-29T06:26:32Z",
+      "detail": "klass INTRADAY EXPLAINER is not eligible for Layer 1 (EVERGREEN PACK, BREAKING POST or CLOSING RECAP only)",
+      "reason": "class filter",
+      "run": "2026-09-29T06:26:32Z"
+    },
+    "k2": {
+      "at": "2026-09-29T06:26:32Z",
+      "detail": "Same underlying story: Nvidia's 28 Sep newsroom release ($150bn added, $235bn total authorised; story 5). L1 published 2026-09-28-1430/k1 on that release at 2026-09-28T15:45:02Z (Typefully draft 10972164). The 'no SEC filing yet' angle is a different angle on the same company event, which the 48-hour already-out rule does not allow.",
+      "reason": "dedupe: already out 2026-09-28-1430/k1",
+      "run": "2026-09-29T06:26:32Z"
+    }
+  },
+  "run_notes": {
+    "2026-09-29T06:26:32Z": "Kill switch l1_autopost=true. Typefully MCP tools were not available in this run (connector connected at org level but not enabled for this chat). Nothing drafted, reviewed or published. Across all editions checked, four cards are waiting for the next run: 2026-09-28-1630/k1, 2026-09-28-1830/k1, 2026-09-28-2030/k1, 2026-09-28-2230/k2 (daily cap allows three)."
+  }
+}

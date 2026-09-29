@@ -1,0 +1,16 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-28-2230",
+  "layer": 1,
+  "rejected": {
+    "k1": {
+      "at": "2026-09-29T06:26:32Z",
+      "detail": "Same underlying story: Nvidia's 28 Sep newsroom release adding $150bn to its buyback (story 3). L1 published 2026-09-28-1430/k1 on that release at 2026-09-28T15:45:02Z (Typefully draft 10972164, X 2104598226007699696, Threads Dd1iVetG7Q_).",
+      "reason": "dedupe: already out 2026-09-28-1430/k1",
+      "run": "2026-09-29T06:26:32Z"
+    }
+  },
+  "run_notes": {
+    "2026-09-29T06:26:32Z": "Kill switch l1_autopost=true. Typefully MCP tools were not available in this run (connector connected at org level but not enabled for this chat). k2 (10-year Treasury at 5.24%, story 1) passed CLASS, WINDOW, STORY, CLAIMS and DEDUPE (L2 draft 10977650 on the same subject is an unpublished draft per the 28-L2 ledger; Lisa's note applies) and is deliberately NOT recorded so the next run picks it up. Nothing drafted, reviewed or published."
+  }
+}

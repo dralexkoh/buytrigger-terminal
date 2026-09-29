@@ -1,0 +1,102 @@
+{
+  "drafted": {
+    "at": "2026-09-27T08:05:00Z",
+    "charts": 3,
+    "claude_doc": {
+      "title": "Newsroom article draft — the VIX (fear gauge) — week of 21 September 2026",
+      "url": "https://claude.ai/code/artifact/c116d565-e35e-44d7-ba56-92834eb7fae3"
+    },
+    "editions": [
+      "2026-09-21-1430",
+      "2026-09-21-1513",
+      "2026-09-21-1530",
+      "2026-09-21-1630",
+      "2026-09-21-1830",
+      "2026-09-21-2030",
+      "2026-09-21-2230",
+      "2026-09-22-0630",
+      "2026-09-22-0830",
+      "2026-09-22-1030",
+      "2026-09-22-1430",
+      "2026-09-22-1530",
+      "2026-09-22-1630",
+      "2026-09-22-1830",
+      "2026-09-22-2030",
+      "2026-09-22-2230",
+      "2026-09-23-0630",
+      "2026-09-23-0830",
+      "2026-09-23-1030",
+      "2026-09-23-1230",
+      "2026-09-23-1430",
+      "2026-09-23-1630",
+      "2026-09-23-1830",
+      "2026-09-23-2030",
+      "2026-09-23-2230",
+      "2026-09-24-0630",
+      "2026-09-24-0830",
+      "2026-09-24-1030",
+      "2026-09-24-1230",
+      "2026-09-24-1430",
+      "2026-09-24-1630",
+      "2026-09-24-1830",
+      "2026-09-24-2030",
+      "2026-09-24-2230",
+      "2026-09-25-0630",
+      "2026-09-25-0830",
+      "2026-09-25-1030",
+      "2026-09-25-1230",
+      "2026-09-25-1430",
+      "2026-09-25-1630",
+      "2026-09-25-1830",
+      "2026-09-25-2030",
+      "2026-09-25-2230"
+    ],
+    "editions_read": 43,
+    "fca": "CLEAN 21 green 0 amber 0 red (two lines tightened while drafting: certainty about the window opening, and the plan line made first-person)",
+    "files": [
+      "newsroom-layer3-2026-09-27/ARTICLE_vix-fear-gauge_2026-09-27.md",
+      "newsroom-layer3-2026-09-27/chart1_vix_week_21-25_sep_2026.png",
+      "newsroom-layer3-2026-09-27/chart2_us_treasury_yields_18-25_sep_2026.png",
+      "newsroom-layer3-2026-09-27/chart3_volatility_ladder_week_21-25_sep_2026.png",
+      "newsroom-layer3-2026-09-27/FCA_CHECK.md"
+    ],
+    "layer": 3,
+    "note": "Draft only. Nothing posted, scheduled or sent. Alex edits and publishes himself.",
+    "numbers_checked": 64,
+    "numbers_unmatched": 0,
+    "published": false,
+    "subject": "The VIX (fear gauge), week of 21-25 Sep 2026: left the calm band on the yields spike and walked back to 14.87",
+    "subject_slug": "vix-fear-gauge",
+    "tier": "free",
+    "trend": {
+      "formula": "(days x 3) + editions + ok claims; qualifies at >=3 editions across >=2 days",
+      "runner_up": {
+        "days": 4,
+        "editions": 23,
+        "ok_claims": 172,
+        "score": 207,
+        "subject": "US borrowing costs / Treasury yields"
+      },
+      "third": {
+        "days": 5,
+        "editions": 23,
+        "ok_claims": 159,
+        "score": 197,
+        "subject": "Oil (WTI/Brent/Hormuz)"
+      },
+      "winner": {
+        "days": 5,
+        "editions": 40,
+        "ok_claims": 171,
+        "score": 226,
+        "subject": "VIX (fear gauge)"
+      }
+    },
+    "week": "2026-09-21 to 2026-09-25",
+    "withdrawn_excluded": "2026-09-21-1430 stories 03, 04, 05 (correction in that edition)",
+    "words": {
+      "body_with_headings_and_chart_markers": 1099,
+      "prose": 993
+    }
+  }
+}

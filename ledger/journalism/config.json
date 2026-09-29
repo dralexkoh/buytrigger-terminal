@@ -1,0 +1,11 @@
+{
+  "how_to_stop": "Set l1_autopost to false. The L1 bee reads this doc at the start of every run; false or missing means drafts only, nothing published.",
+  "l1_autopost": true,
+  "l2_autopost": false,
+  "reviewers": [
+    "colette",
+    "lisa"
+  ],
+  "set_at": "2026-09-26T08:05:00Z",
+  "set_by": "Alex, Sat 26 Sep 2026 (Cowork chat): 'L1 needs to be autonomous and make sure colette and lisa agent approves before auto post'"
+}

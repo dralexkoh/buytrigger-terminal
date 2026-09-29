@@ -1,0 +1,16 @@
+{
+  "drafted": {},
+  "edition_id": "2026-09-28-1630",
+  "layer": 1,
+  "rejected": {
+    "k2": {
+      "at": "2026-09-29T06:26:32Z",
+      "detail": "klass INTRADAY EXPLAINER is not eligible for Layer 1 (EVERGREEN PACK, BREAKING POST or CLOSING RECAP only)",
+      "reason": "class filter",
+      "run": "2026-09-29T06:26:32Z"
+    }
+  },
+  "run_notes": {
+    "2026-09-29T06:26:32Z": "Kill switch l1_autopost=true. Typefully MCP tools were not available in this run (connector connected at org level but not enabled for this chat; ToolSearch and RefreshMcpTools found nothing). k1 (Micron, story 2) passed CLASS, WINDOW, STORY, CLAIMS and DEDUPE and is deliberately NOT recorded so the next run picks it up. Nothing drafted, reviewed or published."
+  }
+}
