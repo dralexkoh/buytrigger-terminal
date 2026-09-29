@@ -1,10 +1,10 @@
-# SETUP — getting this package into the `buytrigger-swarm` repo
+# SETUP — getting this package into the `buytrigger-terminal` repo (renamed from buytrigger-swarm on 29 Sep 2026; the rename steps are in docs/RENAME-STEPS.md)
 
 Five minutes on the Mac. Nothing here touches the dashboard repo.
 
 ## 1. Create the empty repo on GitHub
 
-GitHub → New repository → name `buytrigger-swarm` → Private → **do not** add a README, .gitignore or licence (this package has them) → Create.
+GitHub → New repository → name `buytrigger-terminal` → Private → **do not** add a README, .gitignore or licence (this package has them) → Create.
 
 ## 2. Clone it next to the other projects
 
@@ -12,20 +12,20 @@ Terminal:
 
 ```bash
 cd "$HOME/Desktop/GitHub Project"
-git clone https://github.com/dralexkoh/buytrigger-swarm.git
+git clone https://github.com/dralexkoh/buytrigger-terminal.git
 ```
 
-(If the repo is under a different GitHub user or org, use that URL. The folder name should be `buytrigger-swarm`.)
+(If the repo is under a different GitHub user or org, use that URL. The folder name should be `buytrigger-terminal`.)
 
 ## 3. Drop the package in
 
-The archive is in two places: the chat (`buytrigger-swarm-package-2026-09-26.tar.gz`) and the dashboard folder under `Claude outputs/` (same file; it is untracked there, do not commit it to the dashboard repo). It unpacks to a folder called `buytrigger-swarm-package/`. Copy that folder's contents into the clone, so that `README.md`, `bees/`, `tools/` and the rest sit at the top level of `buytrigger-swarm`.
+The archive is in two places: the chat (`buytrigger-terminal-package-2026-09-26.tar.gz`) and the dashboard folder under `Claude outputs/` (same file; it is untracked there, do not commit it to the dashboard repo). It unpacks to a folder called `buytrigger-terminal-package/`. Copy that folder's contents into the clone, so that `README.md`, `bees/`, `tools/` and the rest sit at the top level of `buytrigger-terminal`.
 
 ```bash
 cd "$HOME/Desktop/GitHub Project"
-tar -xzf "buytrigger-dashboard/Claude outputs/buytrigger-swarm-package-2026-09-26.tar.gz"
-cp -R buytrigger-swarm-package/. buytrigger-swarm/
-rm -r buytrigger-swarm-package
+tar -xzf "buytrigger-dashboard/Claude outputs/buytrigger-terminal-package-2026-09-26.tar.gz"
+cp -R buytrigger-terminal-package/. buytrigger-terminal/
+rm -r buytrigger-terminal-package
 ```
 
 (A `.zip` with the same contents is in the chat too, if double-clicking is easier.)
@@ -33,7 +33,7 @@ rm -r buytrigger-swarm-package
 ## 4. First commit
 
 ```bash
-cd "$HOME/Desktop/GitHub Project/buytrigger-swarm"
+cd "$HOME/Desktop/GitHub Project/buytrigger-terminal"
 git add -A
 git commit -m "swarm: bees, rules, tools, schema, ledger snapshots (26 Sep 2026)"
 git push -u origin main
@@ -41,7 +41,7 @@ git push -u origin main
 
 ## 5. Connect the folder in the Claude desktop app
 
-In the Cowork task for the swarm: **Add folder** → choose `Desktop/GitHub Project/buytrigger-swarm`. From then on the swarm chat works in that folder directly: prompt changes, ledger snapshots, tool updates, dated close-outs.
+In the Cowork task for the swarm: **Add folder** → choose `Desktop/GitHub Project/buytrigger-terminal`. From then on the swarm chat works in that folder directly: prompt changes, ledger snapshots, tool updates, dated close-outs.
 
 ## Then, when you have a minute
 

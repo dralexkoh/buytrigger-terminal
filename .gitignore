@@ -17,3 +17,6 @@ __pycache__/
 # scratch output (the committed example output is in charts/examples/output/)
 /output/
 /tmp/
+
+# scratch from the rename
+/_to_delete/

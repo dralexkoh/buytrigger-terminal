@@ -2,6 +2,23 @@
 
 Newest first. Times are UK.
 
+## 29 Sep 2026 (Tue, later) — control room phase 1 on the private Newsroom page
+
+- Built the **CONTROL** view inside the private Newsroom page (artifact `MGGZNGHSGWtAGwo3kZNxZn`, version 10) to `claude/control-room-brief.md`. Read only. No scheduled task touched, no capability or access rule changed, kill switch only read.
+- Checked first what the page can reach: its capability is `db` only, so it reads `editions`, `desk`, `journalism` and `os`, and cannot reach the public feed, Typefully or the task list. Those three show grey lamps with the reason rather than a guess.
+- The ledger alone undercounts posts, because explainer and launch posts are made in other chats and never write to `journalism`. The view instead reads back the count L1 itself makes of the whole account at the start of each run, and shows when it was counted.
+- Finding on the day: L1's 16:36 run counted **8 posts on the account (5 published, 3 scheduled)** against the 5-a-day ceiling. L1 obeyed the ceiling and published nothing; the other chats' posts do not count themselves. This puts a number on the open item "same 5-a-day ceiling for the Lisa draft desk and the explainer posts".
+- Verified: three numbers recounted from the raw documents (7 editions today; 8 posts from L1's own run note; 6 corrections / 43 mid stories / 307 stories over 40 editions); stale cases (Monday 06:30, Saturday 10:00) show amber with the reason, two missing slots show red; NEWS, CONTENT and OS all still render with no console errors.
+- Record: Newsroom project doc `claude/control-room-phase1.md`.
+- Next, on Alex's word: phase 2 heartbeats — every task writes one row to `ops/heartbeats`, watchdog first, writer last, under the two-test-runs change-control rule.
+
+## 29 Sep 2026 (Tue, evening) — the Terminal
+
+- Alex named the whole thing the **BuyTrigger Newsroom Terminal** ("the automatic Walter Bloomberg"): gather (Tim) → publish → broadcast (L1 headlines with story links, L2 threads with graphics, L3 articles, L4 video later, Telegram) → measure (control room + 3.19 CRM & Funnel) → control. Blueprint in the Claude project: `claude/terminal-blueprint.md`.
+- Project moved out of the Dashboard project into its own ("BuyTrigger Newsroom & Automation", renamed to the Terminal the same evening). All 11 Newsroom docs copied across word for word (`docs/project-pack/`), plus `docs/START-HERE.md`.
+- All six scheduled tasks renamed `3.7.15 Terminal · …`; schedules, prompts and models untouched. The Lisa draft desk prompt now counts the same 5-a-day ceiling as L1 and runs on London time (another chat, 29 Sep afternoon).
+- Repo renamed `buytrigger-swarm` → `buytrigger-terminal` (steps in `docs/RENAME-STEPS.md`; Alex does the GitHub and Mac steps). Control-room brief written (`claude/control-room-brief.md`).
+
 ## 29 Sep 2026 (Tue) — daily ceiling; repo brought up to date with the live bees
 
 - State found: L1 publishing on its own since Mon 28 Sep after Colette + Lisa approve (2 posts Monday, both live). Tue 07:25 run could not reach Typefully; 4 cards waited for 16:25. L2 drafting nightly; the Lisa draft desk schedules it for 19:30. L3's first article (VIX week) delivered Sun 27 Sep as a draft. The Newsroom now files 13 editions a weekday.

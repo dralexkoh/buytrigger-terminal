@@ -1,6 +1,8 @@
-# buytrigger-swarm
+# buytrigger-terminal
 
-The swarm is the Newsroom's journalism layer: the bees that turn the verified BuyTrigger Newsroom feed into post drafts for X, Threads and Substack. Same source as the Newsroom, different output, and nothing in here touches the dashboard, the members' app or the Research Department.
+**BuyTrigger Newsroom Terminal** (work item BTRES-3.7.15) — Alex's "mini Bloomberg terminal": one machine that gathers market news once, publishes it to buytrigger.club and the members' Desk, broadcasts it as L1 headlines, L2 threads with graphics, L3 articles (L4 video later) and Telegram, measures what worked, and is controlled from one screen. The blueprint lives in the Claude project (`claude/terminal-blueprint.md`); this repo is the engine: the bee prompts, rules, tools, ledger snapshots and records.
+
+_Renamed from `buytrigger-swarm` on 29 Sep 2026. "Swarm" in older text means the Broadcast part (L1–L3 and the Lisa desk)._
 
 **Two rules that make it safe**
 
