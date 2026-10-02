@@ -33,10 +33,13 @@ Not here: the members' app (`buytrigger-dashboard`, the BuyTrigger Dashboard pro
 |---|---|---|---|
 | writer (Daily Brief) | `trig_01MnsDBLPFNiHguXRQjFPohq` | 06:45, 08:45, 10:45, then hourly 13:45–22:45, weekdays | Opus 5 |
 | watchdog | `trig_016riCgZvbeVLBsUMpC5HoF9` | 50 min after each writer slot | Opus 5 |
-| L1 fast posts | `trig_01KFVJK2ZFogDj93EojbMFMs` | 07:25, 16:25 weekdays | Opus 5.5 |
-| L2 story thread | `trig_01MXnELxXcAqhEg9ffUBqnA8` | 23:10 weekdays | Fable 5.1 |
-| L3 weekly article | `trig_018ybEdaU9BaHRYu2yFDWgRh` | 08:40 Sunday | Fable 5.1 |
-| Lisa draft desk | `trig_01P6oNEgwm31f8LhJJ8PmvFR` | 09:05 daily | Opus 5.5 |
+| **L1 wire** (BREAKING / UPDATE headlines) | `trig_015H5pc8hi8a49npJEmpAA8T` | 30 min after each writer slot, 13 runs weekdays | Fable 5.1 |
+| L1 fast posts (cards → threads) | `trig_01KzwXrQ8gm6nk1bdabZhXXe` | 07:25, 16:25 weekdays | Fable 5.1 |
+| L2 story thread | `trig_01Jts5fS2SfSGMYw2ud4QRLK` | 23:10 weekdays | Fable 5.1 |
+| L3 weekly article | `trig_01EWz1aFEbhX9YpLZNACDF8o` | 08:40 Sunday | Fable 5.1 |
+| Lisa draft desk | `trig_01RFFUjtxUnUxuGoAczQH39z` | 09:05 daily | Fable 5.1 |
+
+Ids changed on 2 Oct when L1, L2, L3 and the Lisa desk were re-created from this project (`claude/terminal-tasks-rehoming.md`); the four old ids are deleted. The writer and the watchdog stay under the Dashboard project because their prompts carry the filing token. **Every cron is London-time** — see `bees/SCHEDULE.md`.
 
 ## Standing rules
 

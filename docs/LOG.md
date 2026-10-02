@@ -2,6 +2,13 @@
 
 Newest first. Times are UK.
 
+## 2 Oct 2026 (Fri, late) — London time put back on three crons; the control room learns the wire
+
+- **Clock-change defect found and fixed.** When L1, L2 and L3 were re-created earlier tonight they lost their `CRON_TZ=Europe/London` prefix (the Lisa desk kept it). They fire at the right UK time today only because BST is UTC+1; from Sunday 25 October they would have run an hour early — L1 06:25/15:25, L2 22:10 (before the 22:45 edition exists), L3 07:40. Alex: "Yeah London time prefix of course". Put back at 23:45 UK with `update_trigger`, schedule only, no prompt sent. Next runs unchanged and verified: L1 Mon 07:25, L2 Mon 23:10, L3 Sun 08:40. `bees/SCHEDULE.md` and `docs/START-HERE.md` updated; the standing rule is now written down — every cron carries the prefix.
+- **Control room (artifact `MGGZNGHSGWtAGwo3kZNxZn`, version 11)** now knows about the wire, which it could not see at all: a wire machine tile with its own 13 slots and a LIVE / DRAFTS ONLY badge; a THE WIRE section listing every headline with its form, full text, Typefully id, who cleared it, and the skip reasons; a fourth number on the top row (wire headlines today, separate from the 5-a-day lane); alerts when a wire run leaves no record, when a headline errors, or when the kill switch and the task's MODE line disagree. `journalism/wire-<date>` is read in its own shape and kept out of the card ledger. Still read-only; no capability or access rule changed.
+- Checked against tonight's real test run: 4 headlines, DRAFTS ONLY, 13 editions seen, backlog note and all 4 skip reasons shown; a faked Monday clock gives amber at one missed wire run and red at three; NEWS, CONTENT and OS all still render with no console errors.
+- `docs/START-HERE.md` carried the four deleted task ids until now; replaced with the live seven, including the wire.
+
 ## 2 Oct 2026 (Fri) — L1, L2, L3 and the Lisa desk re-homed to the Terminal project
 
 - Scheduled tasks stay with the chat that created them and the app would not move them, so L1 and L2 were re-created from a Terminal-project chat with the exact live prompts (verified character-for-character against `bees/`), same crons, push notifications, automatic approval. Then, on Alex's "i just want all the lightning L1/2/3 and schedule moved", L3 and the Lisa draft desk the same way. New ids: L1 `trig_01KzwXrQ8gm6nk1bdabZhXXe`, L2 `trig_01Jts5fS2SfSGMYw2ud4QRLK`, L3 `trig_01EWz1aFEbhX9YpLZNACDF8o`, Lisa desk `trig_01RFFUjtxUnUxuGoAczQH39z`. All four run on Fable 5.1 (old L1 and Lisa were Opus 5.5 — Alex to say if he wants them back on Opus). All four old tasks deleted (22:57 UK).
