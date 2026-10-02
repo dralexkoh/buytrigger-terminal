@@ -4,10 +4,11 @@ Each bee runs as a Claude scheduled task. The prompt files in this folder are th
 
 | Bee | File | Task id | Schedule (UTC cron) | UK time | Status 29 Sep 2026 |
 |---|---|---|---|---|---|
-| `3.7.15 Terminal · L1 fast posts` | `L1-fast.md` | `trig_01KFVJK2ZFogDj93EojbMFMs` | `25 6,15 * * 1-5` | 07:25 and 16:25, Mon–Fri | enabled; auto-publishes after Colette + Lisa since 28 Sep; 5-a-day ceiling added 29 Sep 15:54 UK |
-| `3.7.15 Terminal · L2 story thread` | `L2-story.md` | `trig_01MXnELxXcAqhEg9ffUBqnA8` | `10 22 * * 1-5` | 23:10, Mon–Fri | enabled; prompt as of 26 Sep 07:26 UK |
-| `3.7.15 Terminal · Lisa draft desk` | `lisa-desk.md` | `trig_01P6oNEgwm31f8LhJJ8PmvFR` | `CRON_TZ=Europe/London 5 9 * * *` | 09:05 daily | enabled; reviews L2 drafts, schedules the good ones (weekdays 19:30, weekends 10:00), deletes expired and held L1 drafts. Owned by another chat; copied here for the record |
-| `3.7.15 Terminal · L3 weekly article` | `L3-article.md` | `trig_018ybEdaU9BaHRYu2yFDWgRh` | `40 7 * * 0` | 08:40 Sunday | enabled; first run 27 Sep (VIX article, 3 charts, draft); prompt updated 29 Sep for 13 editions a day |
+| Layer 1 FAST | `L1-fast.md` | `trig_01KzwXrQ8gm6nk1bdabZhXXe` (Terminal project copy, 2 Oct; old `trig_01KFVJK2ZFogDj93EojbMFMs` retired) | `25 6,15 * * 1-5` | 07:25 and 16:25, Mon–Fri | enabled; auto-publishes after Colette + Lisa since 28 Sep; 5-a-day ceiling added 29 Sep 15:54 UK |
+| Layer 1 WIRE | `L1-wire.md` | `trig_015H5pc8hi8a49npJEmpAA8T` | `CRON_TZ=Europe/London 15 7,9,11,14,15,16,17,18,19,20,21,22,23 * * 1-5` | 30 min after each writer slot, 13 runs a weekday | created 2 Oct, DRAFTS ONLY until Alex says go; then replaces Layer 1 FAST. No daily cap; 4 min apart; shelf life by kind of news |
+| Layer 2 STORY | `L2-story.md` | `trig_01Jts5fS2SfSGMYw2ud4QRLK` (Terminal project copy, 2 Oct; old `trig_01MXnELxXcAqhEg9ffUBqnA8` retired) | `10 22 * * 1-5` | 23:10, Mon–Fri | enabled; prompt as of 26 Sep 07:26 UK |
+| Lisa draft desk | `lisa-desk.md` | `trig_01RFFUjtxUnUxuGoAczQH39z` (Terminal project copy, 2 Oct; old `trig_01P6oNEgwm31f8LhJJ8PmvFR` deleted) | `CRON_TZ=Europe/London 5 9 * * *` | 09:05 daily | enabled; reviews L2 drafts, schedules the good ones (weekdays 19:30, weekends 10:00), deletes expired and held L1 drafts. Owned by another chat; copied here for the record |
+| Layer 3 ARTICLE | `L3-article.md` | `trig_01EWz1aFEbhX9YpLZNACDF8o` (Terminal project copy, 2 Oct; old `trig_018ybEdaU9BaHRYu2yFDWgRh` deleted) | `40 7 * * 0` | 08:40 Sunday | enabled; first run 27 Sep (VIX article, 3 charts, draft); prompt updated 29 Sep for 13 editions a day |
 
 UTC crons read as UK time + 1 hour while British Summer Time lasts (until 25 Oct 2026). After the clocks change, the UK times above become 06:25/15:25, 22:10 and 07:40 unless the crons are moved an hour later.
 
@@ -16,8 +17,7 @@ UTC crons read as UK time + 1 hour while British Summer Time lasts (until 25 Oct
 - Layer 1 runs twice a weekday (renamed "2x weekdays" on 26 Sep). It never sees the 16:30–22:30 editions until the next morning; Friday evening's evergreens can expire before Monday. A Saturday 09:25 UK run would close that gap (Alex to decide).
 - Kill switch: `journalism/config` on the Newsroom page, `l1_autopost`. Anything but `true` → drafts only.
 - All three tasks run with automatic approval, which is what lets them finish unattended. They can only create Typefully drafts and write the `journalism` ledger; the prompts forbid everything else.
-- The writer (`3.7.15 Terminal · writer`, `trig_01MnsDBLPFNiHguXRQjFPohq`, 13 runs a weekday) and the watchdog (`trig_016riCgZvbeVLBsUMpC5HoF9`) are the Newsroom part of the Terminal. Never edit them without the change-control rule; both prompts carry the filing token.
-- All tasks were renamed `3.7.15 Terminal · …` on 29 Sep 2026 (names only).
+- The Daily Brief writer (`trig_01MnsDBLPFNiHguXRQjFPohq`, every two hours weekdays) is the Newsroom's, not the swarm's. Never edit it from here; its prompt carries a filing token.
 - Version history of each prompt is this repo's git history. The first versions (24–25 Sep) lived only in the tasks; `docs/LOG.md` records what changed and when.
 
 ## Changing a prompt safely

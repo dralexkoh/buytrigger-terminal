@@ -2,22 +2,14 @@
 
 Newest first. Times are UK.
 
-## 29 Sep 2026 (Tue, later) — control room phase 1 on the private Newsroom page
+## 2 Oct 2026 (Fri) — L1, L2, L3 and the Lisa desk re-homed to the Terminal project
 
-- Built the **CONTROL** view inside the private Newsroom page (artifact `MGGZNGHSGWtAGwo3kZNxZn`, version 10) to `claude/control-room-brief.md`. Read only. No scheduled task touched, no capability or access rule changed, kill switch only read.
-- Checked first what the page can reach: its capability is `db` only, so it reads `editions`, `desk`, `journalism` and `os`, and cannot reach the public feed, Typefully or the task list. Those three show grey lamps with the reason rather than a guess.
-- The ledger alone undercounts posts, because explainer and launch posts are made in other chats and never write to `journalism`. The view instead reads back the count L1 itself makes of the whole account at the start of each run, and shows when it was counted.
-- Finding on the day: L1's 16:36 run counted **8 posts on the account (5 published, 3 scheduled)** against the 5-a-day ceiling. L1 obeyed the ceiling and published nothing; the other chats' posts do not count themselves. This puts a number on the open item "same 5-a-day ceiling for the Lisa draft desk and the explainer posts".
-- Verified: three numbers recounted from the raw documents (7 editions today; 8 posts from L1's own run note; 6 corrections / 43 mid stories / 307 stories over 40 editions); stale cases (Monday 06:30, Saturday 10:00) show amber with the reason, two missing slots show red; NEWS, CONTENT and OS all still render with no console errors.
-- Record: Newsroom project doc `claude/control-room-phase1.md`.
-- Next, on Alex's word: phase 2 heartbeats — every task writes one row to `ops/heartbeats`, watchdog first, writer last, under the two-test-runs change-control rule.
-
-## 29 Sep 2026 (Tue, evening) — the Terminal
-
-- Alex named the whole thing the **BuyTrigger Newsroom Terminal** ("the automatic Walter Bloomberg"): gather (Tim) → publish → broadcast (L1 headlines with story links, L2 threads with graphics, L3 articles, L4 video later, Telegram) → measure (control room + 3.19 CRM & Funnel) → control. Blueprint in the Claude project: `claude/terminal-blueprint.md`.
-- Project moved out of the Dashboard project into its own ("BuyTrigger Newsroom & Automation", renamed to the Terminal the same evening). All 11 Newsroom docs copied across word for word (`docs/project-pack/`), plus `docs/START-HERE.md`.
-- All six scheduled tasks renamed `3.7.15 Terminal · …`; schedules, prompts and models untouched. The Lisa draft desk prompt now counts the same 5-a-day ceiling as L1 and runs on London time (another chat, 29 Sep afternoon).
-- Repo renamed `buytrigger-swarm` → `buytrigger-terminal` (steps in `docs/RENAME-STEPS.md`; Alex does the GitHub and Mac steps). Control-room brief written (`claude/control-room-brief.md`).
+- Scheduled tasks stay with the chat that created them and the app would not move them, so L1 and L2 were re-created from a Terminal-project chat with the exact live prompts (verified character-for-character against `bees/`), same crons, push notifications, automatic approval. Then, on Alex's "i just want all the lightning L1/2/3 and schedule moved", L3 and the Lisa draft desk the same way. New ids: L1 `trig_01KzwXrQ8gm6nk1bdabZhXXe`, L2 `trig_01Jts5fS2SfSGMYw2ud4QRLK`, L3 `trig_01EWz1aFEbhX9YpLZNACDF8o`, Lisa desk `trig_01RFFUjtxUnUxuGoAczQH39z`. All four run on Fable 5.1 (old L1 and Lisa were Opus 5.5 — Alex to say if he wants them back on Opus). All four old tasks deleted (22:57 UK).
+- The watchdog was NOT copied: its prompt carries the filing token, which this chat never prints or moves. It stays live under the Dashboard project. The writer stays there too, same reason.
+- First runs: new L2 tonight 23:10 UK; Lisa desk Sat 09:05 UK; L3 Sun 08:40 UK; L1 Mon 07:25 UK.
+- Still open: `bees/lisa-desk.md` refresh.
+- Evening: the old L1 published almost nothing all week (16 of 28 cards binned by the INTRADAY EXPLAINER class rule, 7 duplicates, 1 approved then blocked by the 5-a-day ceiling). Alex: "turn L1 into breaking news … like Walter Bloomberg", "factual only and no opinion", "no CTA", "why ceiling - if there are 20 that day go for it", "if the headline is stale don't post", "X and Threads only, no Substack". Built `bees/L1-wire.md` as task `trig_015H5pc8hi8a49npJEmpAA8T` (13 runs a weekday, 30 min after each edition, DRAFTS ONLY). Test run 1 at 23:15 UK on the 22:45 edition: 4 headlines cleared by Colette and Lisa (Snowflake $3.75bn convertibles, Eurostat flash inflation, USO and GLD weekly closes), 4 skipped correctly (S&P wrap, VIX, two mid-confidence stories). Goes live on Alex's "go"; the old L1 is then disabled. Record: project doc `claude/newsroom-l1-wire.md`.
+- Folder reconnected as `buytrigger-terminal`. GitHub push still blocked (403 with a fresh fine-grained token — repo name or Contents permission; parked for another day).
 
 ## 29 Sep 2026 (Tue) — daily ceiling; repo brought up to date with the live bees
 
