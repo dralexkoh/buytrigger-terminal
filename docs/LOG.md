@@ -2,6 +2,15 @@
 
 Newest first. Times are UK.
 
+## 3 Oct 2026 (Sat) — stop switches on the control room (phase 3)
+
+- Alex: "approve — i am going out so push as much as you can". Control room (artifact `MGGZNGHSGWtAGwo3kZNxZn`) is now **version 12** with a **SWITCHES** panel under the top row: **The wire** (`journalism/config.wire_autopost`) and **L1 fast posts** (`l1_autopost`), each with a STOP / ALLOW button behind a one-line confirm, plus **STOP ALL PUBLISHING**. Each write stamps `<lane>_set_at` / `<lane>_set_by`. These two fields are the only thing the page writes. **Neither switch was flipped** — `l1_autopost` is still `true`, `wire_autopost` still `false`; the `how_to_stop` note in the document now mentions the page.
+- The wire's second lock is shown honestly: when the switch is on but the task's MODE line is still DRAFTS ONLY the row reads ALLOWED · TASK STILL ON TEST and nothing publishes. STOP always works regardless of MODE. The page reads MODE from the newest wire ledger entry, so it is known at weekends too. Not covered by any switch: the newsroom editions and the Lisa draft desk — the panel says so.
+- Write path proven on the real document at access level `admin` (same-value update, version 2 → 3). Confirm / cancel / STOP ALL tested on a 390 px phone; no-database case shows "NOT SAVED" and changes nothing; Monday clock and Saturday both checked; NEWS, CONTENT and OS unaffected, no console errors. Page pinned to Alex's Claude sidebar.
+- **APPROVE on the CONTENT tab is now WANT THIS.** Checked the code and every bee prompt: it only ever wrote a timestamp on the card and no bee reads it. Label and footer now say so; the data field is unchanged. Making bees prefer wanted cards would be a prompt change — Alex's call.
+- Also: countdown to the next writer and wire slot on the tiles; a five-weekday strip of headlines cleared in THE WIRE section.
+- Records: project `claude/control-room-phase1.md` (now carries a phone how-to and the phase-3 record), `claude/START-HERE.md` rule 5. Push still needs Alex's token.
+
 ## 2 Oct 2026 (Fri, late) — London time put back on three crons; the control room learns the wire
 
 - **Clock-change defect found and fixed.** When L1, L2 and L3 were re-created earlier tonight they lost their `CRON_TZ=Europe/London` prefix (the Lisa desk kept it). They fire at the right UK time today only because BST is UTC+1; from Sunday 25 October they would have run an hour early — L1 06:25/15:25, L2 22:10 (before the 22:45 edition exists), L3 07:40. Alex: "Yeah London time prefix of course". Put back at 23:45 UK with `update_trigger`, schedule only, no prompt sent. Next runs unchanged and verified: L1 Mon 07:25, L2 Mon 23:10, L3 Sun 08:40. `bees/SCHEDULE.md` and `docs/START-HERE.md` updated; the standing rule is now written down — every cron carries the prefix.
