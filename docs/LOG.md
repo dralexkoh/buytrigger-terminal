@@ -2,6 +2,17 @@
 
 Newest first. Times are UK.
 
+## 14 Oct 2026 (Wed) — the hourly wire is paused; a twice-a-day digest replaces it
+
+- Alex, 15:41 UK: "THE SWARM NEWS ON THREADS and X have been noisy. The constant update is killing folks. We just do Lunch time Update on market. Bullet points. Things to know before market opens. Then by 5pm UK time - Market Mid day updates. Twice a day thats all." Discussed first; agreed 15:54 UK: "ok agree get it all applied now". The gatherers (writer, watchdog), buytrigger.club and the Desk are unchanged.
+- 15:56 UK: wire task `trig_015H5pc8hi8a49npJEmpAA8T` disabled and renamed PAUSED (kept, not deleted). Nothing of it was queued in Typefully. It had posted 13 headlines on 14 Oct and 20 on 12 Oct.
+- New prompt `bees/L1-digest.md`: one bullet post on X (≤280, up to 4 bullets) and Threads (≤450, up to 6), facts only, header "BEFORE THE US OPEN" or "US MIDDAY" with the time the prices were taken; Colette then Lisa; `wire_autopost` is its kill switch; ledger `journalism/wire-<date>` entries `digest-1230` / `digest-1715`.
+- Change control: test round 1 (first prompt) — Lisa held 3 of 4 (no price time stamp; "after" implying a cause; counted the digest against the 5-a-day cap and against the paused wire's repeats). Prompt fixed. Round 2 — pre-open replayed at 12:30 UK and midday on the real clock: both cleared by Colette (wording fix) and Lisa, nothing posted. Test tasks, drafts and ledger docs deleted.
+- Live tasks: `trig_01U8W1vUKFRGa84kVuocdsLA` (12:20 UK) and `trig_01GzUpuiPKGQk1j67s3DUt2v` (17:07 UK), weekdays, London-time crons, push on, model Opus 5.5 (the model both test rounds ran on). First live run 14 Oct 17:07 UK.
+- Control room (artifact `MGGZNGHSGWtAGwo3kZNxZn`) version 13: the wire lane reads as the digest (slots 12:20 and 17:07), "THE DIGEST" section; the retired L1 fast-posts box no longer raises a false amber every weekday. Previewed with the day's real data, desktop and 390 px phone, no script errors.
+- `journalism/config`: `wire_note` and `how_to_stop` now describe the digest; `wire_autopost` unchanged (true).
+- Not committed: git on the Mac cannot commit without file-delete permission in this session; files are saved in place.
+
 ## 5 Oct 2026 (Mon) — the wire goes live, posts by itself, loses the not-advice line
 
 - **Live from 10:57 UK** (`wire_autopost: true`, MODE line LIVE) after test run 2 at 07:15. Set by the earlier Broadcast chat on Alex's "why not automatic?".
@@ -74,3 +85,7 @@ Newest first. Times are UK.
 - Five Layer 1 drafts made by hand from the day's cards. Four published through Typefully at Alex's "start shooting them out": 10913777 and 10913771 live on X and Threads; 10913772 and 10913774 live on X, failed on Threads (no reason given); one retry failed. $SCHW draft 10913768 deleted by someone.
 - X refused posts containing a URL or bare domain. Threads refused 494-character posts with arrows and em dashes (cause unconfirmed).
 - Alex: "a lot of failed posts, you didn't do your homework properly" — owned: no end-to-end test before publishing. Fix: one end-to-end test first, then marketing review, always.
+
+## 16 Oct 2026 — cleanup
+- Deleted on Alex's yes: paused L1 wire task (prompt kept in bees/L1-wire.md), wire send-step TEST 1 and 2, closed Command Centre reconciliation, parked Monday letter, failed login check, sale-copy reminder, two Pokémon one-off price tasks. Deleting a task also deletes the chats it opened.
+- Watchdog cut from 13 runs a weekday to 3 (11:35, 18:35, 23:35 UK), schedule and name only; prompt unchanged. Each run still re-posts any stuck edition from today (it reads the newest 6, so each run covers the 3-5 editions since the last one). Trade-off: the "writer missed a slot" alert now only checks 10:45, 17:45 and 22:45.
